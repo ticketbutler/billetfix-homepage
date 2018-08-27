@@ -143,7 +143,7 @@ const Hero = props => (
               />
 
               <Button>
-                <a href={button_link}>{button_text}</a>
+                <a href={props.button_link}>{props.button_text}</a>
               </Button>
             </div>
             <div>
