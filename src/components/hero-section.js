@@ -9,7 +9,7 @@ const spanText = [
   'Integrate for free on your website',
 ]
 
-const Hero = ({}) => (
+const Hero = props => (
   <WindowHelper>
     {window => (
       <section
@@ -37,7 +37,7 @@ const Hero = ({}) => (
         <div>
           <div style={{ marginTop: '0' }}>
             <img
-              src={Img}
+              src={props.image}
               alt="background"
               style={{
                 zIndex: '-1',
@@ -81,7 +81,7 @@ const Hero = ({}) => (
                       }),
               }}
             >
-              It's never been easier to manage events
+              {props.heading}
             </h1>
 
             {spanText.map(span => (
@@ -142,7 +142,9 @@ const Hero = ({}) => (
                 placeholder="Your event title goes here..."
               />
 
-              <Button>start selling </Button>
+              <Button>
+                <a href={button_link}>{button_text}</a>
+              </Button>
             </div>
             <div>
               <Button
@@ -172,7 +174,7 @@ const Hero = ({}) => (
               }}
               href="features"
             >
-              see how easy it is
+              {props.text}
             </a>
           </div>
         </div>
