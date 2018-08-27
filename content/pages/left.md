@@ -1,5 +1,5 @@
 ---
-path: left
+path: /left
 title: left
 meta_description: left
 sections:
