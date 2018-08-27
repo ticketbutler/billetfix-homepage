@@ -148,6 +148,8 @@ const Hero = props => (
                     letterSpacing: '3px',
                     fontSize: '15px',
                     textTransform: 'uppercase',
+                    color: '#fff',
+                    textDecoration: 'none',
                   }}
                   href={props.button_link}
                 >
