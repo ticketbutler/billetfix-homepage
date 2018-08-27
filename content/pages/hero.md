@@ -10,5 +10,11 @@ sections:
     image_alt: lights
     text: see how easy it is
     type: hero_section
+  - button_link: ''' '''
+    button_text: ''' '''
+    heading: partners
+    image_alt: ''' '''
+    text: partners
+    type: partners
 ---
 
