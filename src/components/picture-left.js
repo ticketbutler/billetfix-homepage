@@ -103,7 +103,7 @@ const pictureLeft = props => {
             }}
           >
             {' '}
-            <img src={props.image} />
+            <img src={props.image} alt={props.image_alt} />
           </div>
         </section>
       )}
