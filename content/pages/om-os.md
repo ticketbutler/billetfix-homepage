@@ -11,5 +11,5 @@ sections:
     text: Hvorfor har verden brug for endnu et billetsystem?
     button_link: ""
     button_text: ""
-    type: picutre_left
+    type: picture_left
 ---
