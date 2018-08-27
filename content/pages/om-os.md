@@ -9,7 +9,7 @@ sections:
     image: /img/payment.svg
     image_alt: cms
     text: Hvorfor har verden brug for endnu et billetsystem?
-    button_link: null
-    button_text: null
+    button_link: ""
+    button_text: ""
     type: picutre_left
 ---
