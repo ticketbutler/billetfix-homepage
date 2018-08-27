@@ -1,5 +1,5 @@
 ---
-path: ll
+path: /ll
 title: ll
 meta_description: wqqew
 sections:
