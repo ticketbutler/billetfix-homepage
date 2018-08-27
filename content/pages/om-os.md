@@ -7,6 +7,8 @@ meta_description: >-
 sections:
     heading: Om Ticketbutler
     image: /img/payment.svg
-    image_alt: 'cms'
+    image_alt: cms
     text: Hvorfor har verden brug for endnu et billetsystem?
+    button_link: null
+    button_text: null
 ---
