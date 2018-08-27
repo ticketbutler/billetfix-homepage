@@ -143,7 +143,16 @@ const Hero = props => (
               />
 
               <Button>
-                <a href={props.button_link}>{props.button_text}</a>
+                <a
+                  style={{
+                    letterSpacing: '3px',
+                    fontSize: '15px',
+                    textTransform: 'uppercase',
+                  }}
+                  href={props.button_link}
+                >
+                  {props.button_text}
+                </a>
               </Button>
             </div>
             <div>
