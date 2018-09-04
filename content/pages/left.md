@@ -3,8 +3,8 @@ path: /left
 title: left
 meta_description: left
 sections:
-  - button_link: ''' '''
-    button_text: ''' '''
+  - button_link: ''
+    button_text: ''
     heading: left
     image: /img/payment.svg
     image_alt: left

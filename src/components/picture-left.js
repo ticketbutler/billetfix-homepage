@@ -44,7 +44,7 @@ const pictureLeft = props => {
                     }),
               }}
             >
-              {props.heading}
+              Guests can pay with MobilePay or their credit card
             </h3>
             <p
               style={{
@@ -66,7 +66,7 @@ const pictureLeft = props => {
                     }),
               }}
             >
-              {props.text}
+              50% of our users pay with MobilePay.
             </p>
             <p
               style={{
@@ -103,7 +103,7 @@ const pictureLeft = props => {
             }}
           >
             {' '}
-            <img src={props.image} alt={props.image_alt} />
+            <img src="../img/payment.svg" alt="payment " />
           </div>
         </section>
       )}

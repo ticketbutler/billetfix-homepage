@@ -33,6 +33,11 @@ const components = [
 ]
 const CmsP = ({ pathContext }) => (
   <Layout>
+    <HeroSection />
+    <Partners />
+    <PictureRight />
+    <Features />
+    <PictureLeft />
     <ContactForm />
     <CreateEvent />
   </Layout>

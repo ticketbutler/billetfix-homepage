@@ -3,6 +3,10 @@ import { SmileyHiIcon } from './icons/smileyHiIcon'
 import Logos from './soc-med-icons'
 import { WindowHelper } from '../components/helpers'
 
+let paragraphs = [
+  "Regardsless if it's to the christmas lunch, intro trip or end of semester party, we have made it easy for students.",
+  'Forget about complicated spreadsheets and time consuming sale in the breaks. Just do it online - for free!',
+]
 const Teaser = () => {
   return (
     <WindowHelper>
@@ -60,32 +64,21 @@ const Teaser = () => {
             >
               Are you organizing an event for your fellow students?
             </h3>
-            <p
-              style={{
-                lineHeight: '30px',
-                letterSpacing: '2px',
-                marginTop: 16,
-                fontSize: '16px',
-                color: '#333',
-                fontWeight: '100',
-              }}
-            >
-              Regardsless if it's to the christmas lunch, intro trip or end of
-              semester party, we have made it easy for students.
-            </p>
-            <p
-              style={{
-                lineHeight: '30px',
-                letterSpacing: '2px',
-                marginTop: 16,
-                fontSize: '16px',
-                color: '#333',
-                fontWeight: '100',
-              }}
-            >
-              Forget about complicated spreadsheets and time consuming sale in
-              the breaks. Just do it online - for free!
-            </p>
+
+            {paragraphs.map(paragraph => (
+              <p
+                style={{
+                  lineHeight: '30px',
+                  letterSpacing: '2px',
+                  marginTop: 16,
+                  fontSize: '16px',
+                  color: '#333',
+                  fontWeight: '100',
+                }}
+              >
+                {paragraph}
+              </p>
+            ))}
           </div>
           <div
             className="icon"
