@@ -8,14 +8,16 @@ import CreateEvent from '../components/create-event'
 import { Layout } from '../layouts/index'
 import HeroSection from '../components/hero-section'
 import PictureLeft from '../components/picture-left'
+import PictureLeftSecond from '../components/picture-left-second'
 import ContactForm from '../components/contact'
 import PictureRightSecond from '../components/picture-right-second'
-import PictureRightMockup from '../components/picture-right-mockup'
-import PictureRightMockupSecond from '../components/picture-right-mockup-second'
+import MockupRightFirst from '../components/picture-right-mockup'
+import MockupRightSecond from '../components/picture-right-mockup-second'
 import PricingCards from '../components/ticket-price'
 import Footer from '../components/footer'
+import AppStore from '../components/app-store'
 import SMIcons from '../components/soc-med-icons'
-import Article from '../components/article'
+import About from '../components/about'
 import Languages from '../components/languages'
 import PrivacyPolicy from '../components/privacyPol'
 import QNA from '../components/qna'
@@ -29,12 +31,16 @@ const components = [
   { Component: HeroSection, id: 'hero_section' },
   { Component: PictureLeft, id: 'picture_left' },
   { Component: PictureRightSecond, id: 'picture_righ_second' },
-  { Component: PictureRightMockupSecond, id: 'picture_right_mockup_second' },
+  { Component: PictureLeftSecond, id: 'picture_left_second' },
+  { Component: AppStore, id: 'app' },
+
+  { Component: MockupRightFirst, id: 'mockup_right_first' },
+  { Component: MockupRightSecond, id: 'mockup_right_second' },
   { Component: ContactForm, id: 'contact_form' },
   { Component: PricingCards, id: 'pricing_cards' },
   { Component: SMIcons, id: 'soc_med_icons' },
   { Component: Languages, id: 'languages' },
-  { Component: Article, id: 'article' },
+  { Component: About, id: 'about' },
   { Component: PrivacyPolicy, id: 'privacy_policy' },
   { Component: QNA, id: 'qna' },
   { Component: Footer, id: 'footer' },
@@ -46,12 +52,14 @@ const CmsP = ({ pathContext }) => (
     <PictureRight />
     <Features />
     <PictureLeft />
-    <PictureRightMockup />
-    <PictureRightMockupSecond />
+    <MockupRightFirst />
+    <MockupRightSecond />
     <PictureRightSecond />
-    <Languages />
-    <PricingCards />
     <PictureLeft />
+    <PricingCards />
+    <PictureLeftSecond />
+    <AppStore />
+    <Languages />
   </Layout>
 )
 

@@ -7,7 +7,7 @@ import { WindowHelper } from '../components/helpers'
 
 const ContactP = staticHeader => {
   return (
-    <Layout>
+    <Layout staticHeader={staticHeader}>
       <Contact />
     </Layout>
   )

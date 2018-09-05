@@ -5,7 +5,11 @@ import { Layout } from '../layouts/index'
 import { WindowHelper } from '../components/helpers'
 
 const FAQP = staticHeader => {
-  return <QNA />
+  return (
+    <Layout staticHeader={staticHeader}>
+      <QNA />
+    </Layout>
+  )
 }
 
 export default FAQP

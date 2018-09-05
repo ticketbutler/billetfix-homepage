@@ -5,7 +5,11 @@ import { Layout } from '../layouts/index'
 import { WindowHelper } from '../components/helpers'
 
 const TandCP = staticHeader => {
-  return <TandC />
+  return (
+    <Layout staticHeader={staticHeader}>
+      <TandC />
+    </Layout>
+  )
 }
 
 export default TandCP

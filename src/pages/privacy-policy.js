@@ -5,7 +5,11 @@ import { Layout } from '../layouts/index'
 import { WindowHelper } from '../components/helpers'
 
 const PrivacyPolicyP = staticHeader => {
-  return <PrivacyPolicy />
+  return (
+    <Layout staticHeader={staticHeader}>
+      <PrivacyPolicy />
+    </Layout>
+  )
 }
 
 export default PrivacyPolicyP

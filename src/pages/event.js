@@ -6,7 +6,7 @@ import { WindowHelper } from '../components/helpers'
 
 const CreateEventP = staticHeader => {
   return (
-    <Layout>
+    <Layout staticHeader={staticHeader}>
       <Event />
     </Layout>
   )

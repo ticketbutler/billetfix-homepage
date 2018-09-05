@@ -12,7 +12,7 @@ import ContactForm from '../components/contact'
 import PricingCards from '../components/ticket-price'
 import Footer from '../components/footer'
 import SMIcons from '../components/soc-med-icons'
-import Article from '../components/article'
+import About from '../components/About'
 import PrivacyPolicy from '../components/privacyPol'
 import QNA from '../components/qna'
 
@@ -26,7 +26,7 @@ const components = [
   { Component: ContactForm, id: 'contact_form' },
   { Component: PricingCards, id: 'pricing_cards' },
   { Component: SMIcons, id: 'soc_med_icons' },
-  { Component: Article, id: 'article' },
+  { Component: About, id: 'about' },
   { Component: PrivacyPolicy, id: 'privacy_policy' },
   { Component: QNA, id: 'qna' },
 ]
