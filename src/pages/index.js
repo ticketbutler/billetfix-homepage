@@ -21,7 +21,8 @@ import About from '../components/about'
 import Languages from '../components/languages'
 import PrivacyPolicy from '../components/privacyPol'
 import QNA from '../components/qna'
-import pictureLeft from '../components/picture-left'
+import TandC from '../components/tandc'
+import PictureLeft from '../components/picture-left'
 
 const components = [
   { Component: Partners, id: 'partners' },
@@ -33,7 +34,7 @@ const components = [
   { Component: PictureRightSecond, id: 'picture_righ_second' },
   { Component: PictureLeftSecond, id: 'picture_left_second' },
   { Component: AppStore, id: 'app' },
-
+  { Component: TandC, id: 'tandc' },
   { Component: MockupRightFirst, id: 'mockup_right_first' },
   { Component: MockupRightSecond, id: 'mockup_right_second' },
   { Component: ContactForm, id: 'contact_form' },
