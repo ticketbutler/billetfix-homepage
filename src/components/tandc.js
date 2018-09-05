@@ -2,9 +2,9 @@ import React from 'react'
 import { WindowHelper } from '../components/helpers'
 import { Layout } from '../layouts/index'
 
-import mock from '../__mocks__/terms-conditions'
+import mock from '../__mocks__/tandc'
 
-const PrivacyPolicy = () => {
+const TandC = () => {
   return (
     <Layout>
       <WindowHelper>
@@ -34,4 +34,4 @@ const PrivacyPolicy = () => {
   )
 }
 
-export default PrivacyPolicy
+export default TandC

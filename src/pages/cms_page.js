@@ -13,7 +13,7 @@ import PricingCards from '../components/ticket-price'
 import Footer from '../components/footer'
 import SMIcons from '../components/soc-med-icons'
 import Article from '../components/article'
-import Legal from '../components/legal'
+import PrivacyPolicy from '../components/privacyPol'
 import QNA from '../components/qna'
 
 const components = [
@@ -27,7 +27,7 @@ const components = [
   { Component: PricingCards, id: 'pricing_cards' },
   { Component: SMIcons, id: 'soc_med_icons' },
   { Component: Article, id: 'article' },
-  { Component: Legal, id: 'legal' },
+  { Component: PrivacyPolicy, id: 'privacy_policy' },
   { Component: QNA, id: 'qna' },
 ]
 const CmsPage = ({ pathContext }) => (

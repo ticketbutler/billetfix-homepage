@@ -25,7 +25,7 @@ export default [
   },
   {
     type: 'centerSection',
-    link: '/terms-conditions/',
+    link: '/tandc/',
     text: 'Terms & Conditions',
   },
   {

@@ -87,7 +87,7 @@ export const Layout = ({ children, data, staticHeader }) => (
                       }
                     : {}),
                 }}
-                href="/create-event"
+                href="/event"
               >
                 <Button
                   style={{

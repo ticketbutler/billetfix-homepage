@@ -67,19 +67,19 @@ const query = `query IndexQuery {
 
 // }`
 
-exports.createPages = ({ boundActionCreators }) => {
-  const { createPage } = boundActionCreators
-  let Component = path.resolve('./src/pages/cms_page.js')
-  let pages = require('./pagesData').default
-  pages.forEach(page => {
-    createPage({
-      path: page.path,
-      component: Component,
-      layout: null,
-      context: {
-        sections: page.sections,
-        layout: {},
-      },
-    })
-  })
-}
+// exports.createPages = ({ boundActionCreators }) => {
+//   const { createPage } = boundActionCreators
+//   let Component = path.resolve('./src/pages/cms_page.js')
+//   let pages = require('./pagesData').default
+//   pages.forEach(page => {
+//     createPage({
+//       path: page.path,
+//       component: Component,
+//       layout: null,
+//       context: {
+//         sections: page.sections,
+//         layout: {},
+//       },
+//     })
+//   })
+// }

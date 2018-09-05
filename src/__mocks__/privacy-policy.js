@@ -1,12 +1,12 @@
 export default {
   heading: 'Privacy Policy (Cookie- og privatlivspolitik)',
-  markup: `<section>
+  markup: `<section id="policy" class="component">
   <h1>Privacy Policy (Cookie- og privatlivspolitik)</h1>
   
   
-  <p>Date of enactment 25th May 2018.</p>
+  <p style={{color:'blue'}}>Date of enactment 25th May 2018.</p>
   
-  <p>The ticketing system is provided by:<br>
+  <p">The ticketing system is provided by:<br>
   Ticketbutler IVS<br>
   Porcelænshaven 26, 1., 2000 Frederiksberg<br>
   CVR: 38404687<br>
@@ -19,7 +19,7 @@ export default {
   CVR: 37073911<br>
   Tlf: 89 80 12 80<br>
   Email: info@billetfix.dk<br>
-      Hereafter called “BilletFix”</p>
+    Hereafter called “BilletFix”</p>
   
   
   <h2>WORD LIST</h2>
