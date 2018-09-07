@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import { Button } from '../components/elements/elements'
-
+import { EnglishIcon } from '../components/icons/englishIcon'
+import { DanishIcon } from '../components/icons/danishIcon'
 import Footer from '../components/footer'
 import './index.css'
 import '../layouts/styles/layout-overide.css'
@@ -119,11 +120,39 @@ export const Layout = ({ children, data, staticHeader }) => (
                               marginLeft: '16px',
                               fontSize: '13px',
                               color: '#f7f7f7',
-                              marginLeft: '16px',
+                              marginLeft: '8px',
                               padding: '0 10px',
                             }
                           : {
                               marginLeft: '0',
+                              padding: '15px 20px',
+                              fontSize: '15px',
+                              fontWeight: '600',
+                              color: '#333',
+                              display: 'block',
+                            }),
+                      }}
+                      href={linkData.link}
+                    >
+                      {linkData.caption}
+                    </a>
+                  ) : linkData.type === 'reguralLink' ? (
+                    <a
+                      style={{
+                        textDecoration: 'none',
+                        transition: 'all 0.5s',
+
+                        display: 'inline-block',
+                        ...(window.width > 980
+                          ? {
+                              marginLeft: '16px',
+                              fontSize: '13px',
+                              color: '#f7f7f7',
+                              marginLeft: '8px',
+                              padding: '0 10px',
+                            }
+                          : {
+                              marginLeft: '0px',
                               padding: '15px 20px',
                               fontSize: '15px',
                               fontWeight: '600',
@@ -147,11 +176,11 @@ export const Layout = ({ children, data, staticHeader }) => (
                               marginLeft: '16px',
                               fontSize: '13px',
                               color: '#f7f7f7',
-                              marginLeft: '16px',
+                              marginLeft: '8px',
                               padding: '0 10px',
                             }
                           : {
-                              marginLeft: '0px',
+                              marginLeft: '21px',
                               padding: '15px 20px',
                               fontSize: '15px',
                               fontWeight: '600',
@@ -159,9 +188,13 @@ export const Layout = ({ children, data, staticHeader }) => (
                               display: 'block',
                             }),
                       }}
-                      href={linkData.link}
                     >
-                      {linkData.caption}
+                      EN
+                      <span>
+                        <EnglishIcon
+                          style={{ height: '20px', marginLeft: '-27px' }}
+                        />
+                      </span>
                     </a>
                   )
               )}

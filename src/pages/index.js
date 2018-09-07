@@ -22,7 +22,6 @@ import Languages from '../components/languages'
 import PrivacyPolicy from '../components/privacyPol'
 import QNA from '../components/qna'
 import TandC from '../components/tandc'
-import PictureLeft from '../components/picture-left'
 
 const components = [
   { Component: Partners, id: 'partners' },
