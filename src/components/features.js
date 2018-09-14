@@ -2,9 +2,7 @@ import React from 'react'
 
 import { WindowHelper } from '../components/helpers'
 
-import FeaturesData from '../__mocks__/features'
-
-const Features = () => {
+const Features = ({ features }) => {
   return (
     <WindowHelper>
       {window => (
@@ -26,7 +24,7 @@ const Features = () => {
                 }),
           }}
         >
-          {FeaturesData.map(feature => (
+          {features.map(feature => (
             <div
               style={{
                 margin: '0 auto',
@@ -44,7 +42,7 @@ const Features = () => {
               }}
             >
               <img
-                src={feature.imgSrc}
+                src={feature.image}
                 style={{ width: '7.5em' }}
                 alt="features1"
               />

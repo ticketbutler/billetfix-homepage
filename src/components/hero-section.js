@@ -2,14 +2,9 @@ import React from 'react'
 import { WindowHelper } from '../components/helpers'
 import Img from '../img/lights.jpg'
 import { Button } from '../components/elements/elements'
-const spanText = [
-  'Free to use for the organizer',
-  'Ultra low fees',
-  'Ready to receive payments in seconds',
-  'Integrate for free on your website',
-]
+import data from '../../pagesData'
 
-const Hero = () => (
+const Hero = ({ heading, image, texts = [], button1Text, button2Text }) => (
   <WindowHelper>
     {window => (
       <section
@@ -81,10 +76,10 @@ const Hero = () => (
                       }),
               }}
             >
-              It's never been easier to manage events
+              {heading}
             </h1>
 
-            {spanText.map(span => (
+            {texts.map(text => (
               <span
                 style={{
                   color: 'white',
@@ -109,11 +104,9 @@ const Hero = () => (
                         }),
                 }}
               >
-                {span}
+                {text}
               </span>
             ))}
-
-            {/* CREATE EVENT */}
 
             <div
               style={{
@@ -153,7 +146,7 @@ const Hero = () => (
                   }}
                   href=""
                 >
-                  start selling
+                  {button1Text}
                 </a>
               </Button>
             </div>
@@ -165,7 +158,7 @@ const Hero = () => (
                   marginBottom: '40px',
                 }}
               >
-                see video
+                {button2Text}
               </Button>
             </div>
 

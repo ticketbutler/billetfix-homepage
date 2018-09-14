@@ -4,11 +4,7 @@ import Logos from './soc-med-icons'
 import { WindowHelper } from '../components/helpers'
 import { Button } from '../components/elements/elements'
 
-let paragraphs = [
-  "Regardsless if it's to the christmas lunch, intro trip or end of semester party, we have made it easy for students.",
-  'Forget about complicated spreadsheets and time consuming sale in the breaks. Just do it online - for free!',
-]
-const Teaser = () => {
+const RightMockupSecond = ({ heading, strong_text }) => {
   return (
     <WindowHelper>
       {window => (
@@ -32,7 +28,13 @@ const Teaser = () => {
                 }),
           }}
         >
-          <div style={{ padding: '15px', maxWidth: '45%' }}>
+          <div
+            style={{
+              padding: '15px',
+
+              ...(window.width > 980 ? { maxWidth: '45%' } : {}),
+            }}
+          >
             <h3
               style={{
                 color: '#ff4a6e',
@@ -50,7 +52,7 @@ const Teaser = () => {
                     }),
               }}
             >
-              A unique event link, so you can share it anywhere
+              {heading}
             </h3>
             <p
               style={{
@@ -70,8 +72,7 @@ const Teaser = () => {
                     }),
               }}
             >
-              Paste into your Facebook event, Facebook group, newsletter or a
-              private email.
+              {strong_text}
             </p>
             <div
               style={{
@@ -183,4 +184,4 @@ const Teaser = () => {
     </WindowHelper>
   )
 }
-export default Teaser
+export default RightMockupSecond

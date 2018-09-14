@@ -4,11 +4,7 @@ import Logos from './soc-med-icons'
 import { WindowHelper } from '../components/helpers'
 import { Button } from '../components/elements/elements'
 
-let paragraphs = [
-  "Regardsless if it's to the christmas lunch, intro trip or end of semester party, we have made it easy for students.",
-  'Forget about complicated spreadsheets and time consuming sale in the breaks. Just do it online - for free!',
-]
-const Teaser = () => {
+const RightMockupFirst = ({ heading, strong_text, text, button_text }) => {
   return (
     <WindowHelper>
       {window => (
@@ -32,7 +28,12 @@ const Teaser = () => {
                 }),
           }}
         >
-          <div style={{ padding: '15px', maxWidth: '45%' }}>
+          <div
+            style={{
+              padding: '15px',
+              ...(window.width > 980 ? { maxWidth: '45%' } : {}),
+            }}
+          >
             <h3
               style={{
                 color: '#ff4a6e',
@@ -50,7 +51,7 @@ const Teaser = () => {
                     }),
               }}
             >
-              Sell tickets from your own website
+              {heading}
             </h3>
             <p
               style={{
@@ -70,7 +71,7 @@ const Teaser = () => {
                     }),
               }}
             >
-              Attendees can signup from your own website
+              {strong_text}
             </p>
             <p
               style={{
@@ -91,11 +92,10 @@ const Teaser = () => {
                     }),
               }}
             >
-              It's as easy as copy & paste to start selling tickets on your own
-              website - and it's free!
+              {text}
             </p>
             <Button style={{ padding: '15px 10px', margin: '40px 20%' }}>
-              view the live demo example
+              {button_text}
             </Button>{' '}
           </div>
           <div
@@ -117,4 +117,4 @@ const Teaser = () => {
     </WindowHelper>
   )
 }
-export default Teaser
+export default RightMockupFirst

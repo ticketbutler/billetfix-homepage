@@ -2,9 +2,7 @@ import React from 'react'
 import { WindowHelper } from '../components/helpers'
 import { Layout } from '../layouts/index'
 
-import mock from '../__mocks__/privacy-policy'
-
-const PrivacyPolicy = () => {
+const PrivacyPolicy = ({ heading, content }) => {
   return (
     <WindowHelper>
       {window => (
@@ -23,9 +21,9 @@ const PrivacyPolicy = () => {
               letterSpacing: '1px',
             }}
           >
-            {mock.heading}
+            {heading}
           </h1>
-          <div dangerouslySetInnerHTML={{ __html: mock.markup }} />
+          <div dangerouslySetInnerHTML={{ __html: content }} />
         </section>
       )}
     </WindowHelper>

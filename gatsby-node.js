@@ -1,85 +1,52 @@
+const JSONdata = require('./pagesData')
+const { topNav, footerNav } = require('./navData')
+const { normalizeTranslatedKeys } = require('./src/utils')
 const path = require('path')
 
-const query = `query IndexQuery {
-  Pages: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/pages/"}}) {
-    edges {
-      node {
-        frontmatter {
-          title
-          path
-          sections {
-            type
-            heading
-            text
-            image
-            image_alt
-            button_text
-            button_link
-          } 
-        }
-      }
+let locales = ['da', 'en']
+
+exports.createPages = ({ boundActionCreators }) => {
+  const { createPage } = boundActionCreators
+  locales.forEach(local => {
+    let component = path.resolve('src/pages/cms_page.js')
+    let nav = {
+      topNav: topNav.map(item => {
+        normalizeTranslatedKeys(item, local)
+      }),
+      footerNav: footerNav.map(item => normalizeTranslatedKeys(item, local)),
     }
-  }
-}`
+    JSONdata.forEach(page => {
+      localPage = {
+        ...normalizeTranslatedKeys(page, local),
+        sections: page.sections.map(section => {
+          section = {
+            ...section,
+            ...normalizeTranslatedKeys(section, local),
+          }
+          Object.keys(section).forEach(key => {
+            if (Array.isArray(section[key])) {
+              section = {
+                ...section,
+                [key]: section[key].map(item =>
+                  normalizeTranslatedKeys(item, local)
+                ),
+              }
+            }
+          })
+          return section
+        }),
+      }
 
-// TopMenu: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/top-menu/"}}) {
-//     edges {
-//       node {
-//         frontmatter {
-//           title
-//           path
-//           items {
-//             path
-//             label
-//           }
-//         }
-//       }
-//     }
-//   }
-//   FooterMenu: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/footer-menu/"}}) {
-//     edges {
-//       node {
-//         frontmatter {
-//           title
-//           path
-//           items {
-//             path
-//             label
-//           }
-
-//         }
-//       }
-//     }
-//   }
-//   Contact: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/contact/"}}) {
-//     edges {
-//       node {
-//         frontmatter {
-//           title
-//           path
-//           address
-//           phone
-//           support
-//         }
-//       }
-//     }
-//   }
-
-// }`
-
-// exports.createPages = ({ boundActionCreators }) => {
-//   const { createPage } = boundActionCreators
-//   let Component = path.resolve('./src/pages/cms_page.js')
-//   let pages = require('./pagesData').default
-//   pages.forEach(page => {
-//     createPage({
-//       path: page.path,
-//       component: Component,
-//       layout: null,
-//       context: {
-//         sections: page.sections,
-//         layout: {},
-//       },
-//     })
-//   })
-// }
+      createPage({
+        path: '/' + local + localPage.path,
+        title: localPage.title,
+        component: component,
+        layout: null,
+        context: {
+          nav,
+          sections: localPage.sections,
+        },
+      })
+    })
+  })
+}

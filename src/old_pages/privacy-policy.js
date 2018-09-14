@@ -1,16 +1,17 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import abouts from '../__mocks__/about'
-import Contact from '../components/contact'
+import PrivacyPolicy from '../components/privacyPol'
 import { Layout } from '../layouts/index'
 import { WindowHelper } from '../components/helpers'
 
-const ContactP = staticHeader => {
+const PrivacyPolicyP = staticHeader => {
   return (
     <Layout staticHeader={staticHeader}>
-      <Contact />
+      <PrivacyPolicy
+        
+      />
     </Layout>
   )
 }
 
-export default ContactP
+export default PrivacyPolicyP

@@ -1,7 +1,7 @@
 import React from 'react'
 import { WindowHelper } from '../components/helpers'
 import { CouponIcon } from './icons/coupon'
-const pictureLeftSecond = props => {
+const pictureLeftSecond = ({ heading, text }) => {
   return (
     <WindowHelper>
       {window => (
@@ -44,7 +44,7 @@ const pictureLeftSecond = props => {
                     }),
               }}
             >
-              Give discounts to guests with coupons
+              {heading}
             </h3>
 
             <p
@@ -68,10 +68,7 @@ const pictureLeftSecond = props => {
                     }),
               }}
             >
-              Do you give discounts to particular members of the student
-              organization, or perhaps give a few free tickets out? As an
-              organizer, you can create coupons that provides a discount in the
-              purchasing process.
+              {text}
             </p>
           </div>
           <div

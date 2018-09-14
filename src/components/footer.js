@@ -2,10 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import { WindowHelper } from '../components/helpers'
-import FooterData from '../__mocks__/footer'
+import { footerNav } from '../../navData'
 import { FBIcon } from './icons/fbIcon'
 
-const Footer = () => {
+const Footer = ({ links }) => {
   return (
     <WindowHelper>
       {window => (
@@ -19,7 +19,7 @@ const Footer = () => {
             width: '100%',
           }}
         >
-          {FooterData.filter(({ type }) => type === 'leftSection').map(data => (
+          {links.filter(({ type }) => type === 'leftSection').map(data => (
             <div
               style={{
                 fontWeight: '100',
@@ -49,7 +49,6 @@ const Footer = () => {
               <span> {data.cvr}</span>
             </div>
           ))}
-
           <div
             style={{
               fontWeight: '700',
@@ -76,8 +75,9 @@ const Footer = () => {
               }}
               className="middle-column"
             >
-              {FooterData.filter(({ type }) => type === 'centerSection').map(
-                data => (
+              {links
+                .filter(({ type }) => type === 'centerSection')
+                .map(data => (
                   <li>
                     <a
                       style={{
@@ -86,12 +86,11 @@ const Footer = () => {
                       }}
                       href={data.link}
                     >
-                      {data.text}
+                      {data.caption}
                     </a>
                   </li>
-                )
-              )}
-              {FooterData.filter(({ type }) => type === 'icon').map(data => (
+                ))}
+              {links.filter(({ type }) => type === 'icon').map(data => (
                 <li>
                   <FBIcon />
                   <a
@@ -101,13 +100,12 @@ const Footer = () => {
                     }}
                     href={data.link}
                   >
-                    {data.linkText}
+                    {data.caption}
                   </a>
                 </li>
               ))}
             </ul>
           </div>
-
           <div
             style={{
               textAlign: 'right',
@@ -125,24 +123,23 @@ const Footer = () => {
             }}
             className="right-column"
           >
-            {FooterData.filter(({ type }) => type === 'rightSection').map(
-              data => (
-                <p
-                  style={{
-                    margin: '0',
-                    fontWeight: '100',
-                    lineHeight: '20px',
-                    fontSize: '13px',
-                    letterSpacing: '1px',
-                  }}
-                >
-                  {data.text}
-                </p>
-              )
-            )}
+            {links.filter(({ type }) => type === 'rightSection').map(data => (
+              <p
+                style={{
+                  margin: '0',
+                  fontWeight: '100',
+                  lineHeight: '20px',
+                  fontSize: '13px',
+                  letterSpacing: '1px',
+                }}
+              >
+                {data.text}
+              </p>
+            ))}
 
-            {FooterData.filter(({ type }) => type === 'rightSectionMail').map(
-              data => (
+            {links
+              .filter(({ type }) => type === 'rightSectionMail')
+              .map(data => (
                 <p
                   style={{
                     margin: '0',
@@ -156,8 +153,7 @@ const Footer = () => {
                     {data.text}
                   </a>
                 </p>
-              )
-            )}
+              ))}
           </div>
         </footer>
       )}

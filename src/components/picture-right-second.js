@@ -7,7 +7,7 @@ let paragraphs = [
   "Regardsless if it's to the christmas lunch, intro trip or end of semester party, we have made it easy for students.",
   'Forget about complicated spreadsheets and time consuming sale in the breaks. Just do it online - for free!',
 ]
-const Teaser = () => {
+const PictureRightSecond = ({ heading, strong_text, text }) => {
   return (
     <WindowHelper>
       {window => (
@@ -63,7 +63,7 @@ const Teaser = () => {
                       }),
               }}
             >
-              Custom information about the attendee
+              {heading}
             </h3>
 
             <p
@@ -84,7 +84,7 @@ const Teaser = () => {
                     }),
               }}
             >
-              Do you want to know something during signup?
+              {strong_text}
             </p>
             <p
               style={{
@@ -105,9 +105,7 @@ const Teaser = () => {
                     }),
               }}
             >
-              Get all the information you would like with custom fields. What
-              field of study? What year are you on? Is it the first time you
-              attend? Just contact us here for help!
+              {text}
             </p>
           </div>
           <div
@@ -130,4 +128,4 @@ const Teaser = () => {
     </WindowHelper>
   )
 }
-export default Teaser
+export default PictureRightSecond

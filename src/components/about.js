@@ -1,10 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import abouts from '../__mocks__/about'
 import { Layout } from '../layouts/index'
 import { WindowHelper } from '../components/helpers'
 
-const Article = () => {
+const About = ({ heading, texts, staticHeader }) => {
   return (
     <WindowHelper>
       {window => (
@@ -15,7 +14,7 @@ const Article = () => {
               background: '#fff',
               color: '#333',
 
-              ...(window.widt > 980
+              ...(window.width > 980
                 ? {
                     padding: '125px 6%',
                   }
@@ -46,10 +45,10 @@ const Article = () => {
                       }),
                 }}
               >
-                About
+                {heading}
               </h1>
               <div>
-                {abouts.map(paragraph => (
+                {texts.map(text => (
                   <p
                     style={{
                       lineHeight: '32px',
@@ -59,7 +58,7 @@ const Article = () => {
                       fontWeight: '100',
                     }}
                   >
-                    {paragraph.paragraph}
+                    {text}
                   </p>
                 ))}
               </div>
@@ -71,4 +70,4 @@ const Article = () => {
   )
 }
 
-export default Article
+export default About

@@ -45,3 +45,8 @@ right: 250px!important;
     
 
 }
+
+.visible{
+    visibility: visible !important;
+    opacity: 1 !important;
+}

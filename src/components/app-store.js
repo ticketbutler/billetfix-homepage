@@ -4,7 +4,7 @@ import AppMockup from '../img/mobile-mockup.png'
 import { Layout } from '../layouts/index'
 import { WindowHelper } from '../components/helpers'
 
-const Article = () => {
+const Article = ({ heading, text }) => {
   return (
     <WindowHelper>
       {window => (
@@ -59,7 +59,7 @@ const Article = () => {
                       }),
               }}
             >
-              Download your new best friend
+              {heading}
             </h3>
 
             <p
@@ -72,8 +72,7 @@ const Article = () => {
                 fontWeight: '100',
               }}
             >
-              Follow the ticket sales and scan tickets at the event through the
-              BilletFix app.
+              {text}
             </p>
             <img
               style={{ height: '60px' }}

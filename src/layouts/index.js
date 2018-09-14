@@ -10,7 +10,8 @@ import './index.css'
 import '../layouts/styles/layout-overide.css'
 import { WindowHelper } from '../components/helpers'
 import Logo from '../img/logox400.png'
-import LinksData from '../__mocks__/nav-links'
+
+import { topNav } from '../../navData'
 
 const styles = {
   hamburger: {
@@ -22,7 +23,7 @@ const styles = {
   },
 }
 
-export const Layout = ({ children, data, staticHeader }) => (
+export const Layout = ({ children, data, staticHeader, nav }) => (
   <div>
     <div>
       <WindowHelper>
@@ -43,7 +44,7 @@ export const Layout = ({ children, data, staticHeader }) => (
               padding: '15px 5%',
             }}
           >
-            <a href="/">
+            <a href="/da">
               <img
                 src={Logo}
                 alt="Logo"
@@ -106,7 +107,7 @@ export const Layout = ({ children, data, staticHeader }) => (
                 </Button>
               </a>
 
-              {LinksData.map(
+              {nav.topNav.map(
                 linkData =>
                   linkData.type === 'gatsbyLink' ? (
                     <a
@@ -117,6 +118,7 @@ export const Layout = ({ children, data, staticHeader }) => (
 
                         ...(window.width > 980
                           ? {
+                              fontWeight: '500',
                               marginLeft: '16px',
                               fontSize: '13px',
                               color: '#f7f7f7',
@@ -150,6 +152,7 @@ export const Layout = ({ children, data, staticHeader }) => (
                               color: '#f7f7f7',
                               marginLeft: '8px',
                               padding: '0 10px',
+                              fontWeight: '500',
                             }
                           : {
                               marginLeft: '0px',
@@ -165,11 +168,11 @@ export const Layout = ({ children, data, staticHeader }) => (
                       {linkData.caption}
                     </a>
                   ) : (
-                    <a
+                    <li
                       style={{
                         textDecoration: 'none',
                         transition: 'all 0.5s',
-
+                        cursor: 'pointer',
                         display: 'inline-block',
                         ...(window.width > 980
                           ? {
@@ -177,6 +180,7 @@ export const Layout = ({ children, data, staticHeader }) => (
                               fontSize: '13px',
                               color: '#f7f7f7',
                               marginLeft: '8px',
+                              fontWeight: '500',
                               padding: '0 10px',
                             }
                           : {
@@ -189,13 +193,71 @@ export const Layout = ({ children, data, staticHeader }) => (
                             }),
                       }}
                     >
-                      EN
-                      <span>
-                        <EnglishIcon
-                          style={{ height: '20px', marginLeft: '-27px' }}
-                        />
-                      </span>
-                    </a>
+                      <div
+                        onMouseOver={() => {
+                          document
+                            .getElementById('danishDiv')
+                            .classList.toggle('visible')
+                        }}
+                      >
+                        EN
+                        <span>
+                          <EnglishIcon
+                            style={{ height: '20px', marginLeft: '-27px' }}
+                          />
+                        </span>
+                      </div>
+                      <div
+                        id="danishDiv"
+                        style={{
+                          cursor: 'pointer',
+                          ...(window.width > 980
+                            ? {
+                                opacity: '0',
+                                visibility: 'hidden',
+                                position: ' absolute',
+                                display: 'inline-block',
+                                padding: '3px 15px',
+                                transform: 'translate(-50%)',
+                                cursor: 'pointer',
+                                boxShadow: ' 0 1px 7px 2px rgba(0,0,0,.2)',
+                                top: '65px',
+                                right: '4.8%',
+                                background: '#fff',
+                                transition: 'all .25s',
+                              }
+                            : {
+                                marginLeft: '-33px',
+                                padding: '15px 20px',
+                                fontSize: '15px',
+                                fontWeight: '600',
+                                color: '#333',
+                                display: 'block',
+                                marginTop: '10px',
+                              }),
+                        }}
+                      >
+                        <span
+                          style={{
+                            whiteSpace: 'nowrap',
+                            display: 'block',
+                            padding: '5px 0',
+                          }}
+                        >
+                          <span style={{ color: 'black', marginRight: '6px' }}>
+                            DA
+                          </span>
+                          <DanishIcon
+                            style={{
+                              display: 'inline-block',
+
+                              width: '30px',
+                              height: '20px',
+                            }}
+                          />
+                        </span>
+                      </div>
+                    </li>
                   )
               )}
             </div>
@@ -237,7 +299,7 @@ export const Layout = ({ children, data, staticHeader }) => (
     </div>
     {children}
 
-    <Footer />
+    <Footer links={nav.footerNav} />
   </div>
 )
 

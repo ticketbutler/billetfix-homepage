@@ -3,11 +3,7 @@ import { SmileyHiIcon } from './icons/smileyHiIcon'
 import Logos from './soc-med-icons'
 import { WindowHelper } from '../components/helpers'
 
-let paragraphs = [
-  "Regardsless if it's to the christmas lunch, intro trip or end of semester party, we have made it easy for students.",
-  'Forget about complicated spreadsheets and time consuming sale in the breaks. Just do it online - for free!',
-]
-const Teaser = () => {
+const PictureRight = ({ heading, texts }) => {
   return (
     <WindowHelper>
       {window => (
@@ -62,10 +58,10 @@ const Teaser = () => {
                       }),
               }}
             >
-              Are you organizing an event for your fellow students?
+              {heading}
             </h3>
 
-            {paragraphs.map(paragraph => (
+            {texts.map(text => (
               <p
                 style={{
                   lineHeight: '30px',
@@ -76,7 +72,7 @@ const Teaser = () => {
                   fontWeight: '100',
                 }}
               >
-                {paragraph}
+                {text}
               </p>
             ))}
           </div>
@@ -100,4 +96,4 @@ const Teaser = () => {
     </WindowHelper>
   )
 }
-export default Teaser
+export default PictureRight

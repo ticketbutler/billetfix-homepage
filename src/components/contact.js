@@ -3,7 +3,7 @@ import { Layout } from '../layouts/index'
 import { WindowHelper } from '../components/helpers'
 import 'font-awesome/css/font-awesome.min.css'
 
-const Contact = () => (
+const Contact = ({ heading, text1, text2 }) => (
   <WindowHelper>
     {window => {
       let style = {
@@ -77,7 +77,7 @@ const Contact = () => (
                       }),
                 }}
               >
-                Contact
+                {heading}
               </h1>
               <label
                 for="send-address"
@@ -89,7 +89,7 @@ const Contact = () => (
                   color: '#333',
                 }}
               >
-                Your email please
+                {text1}
               </label>
               <input
                 required
@@ -119,7 +119,7 @@ const Contact = () => (
                   color: '#333',
                 }}
               >
-                Message
+                {text2}
               </label>
               <textarea
                 required

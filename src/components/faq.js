@@ -1,6 +1,6 @@
 import React from 'react'
 import { WindowHelper } from '../components/helpers'
-import faqs from '../__mocks__/faq'
+
 import { Layout } from '../layouts/index'
 const styles = {
   caption: {
@@ -13,7 +13,7 @@ const styles = {
   },
 }
 
-const faq = () => {
+const faq = ({ heading, faqs }) => {
   return (
     <WindowHelper>
       {window => (
@@ -55,7 +55,7 @@ const faq = () => {
                     }),
               }}
             >
-              FAQ
+              {heading}
             </h1>
             <h3 style={styles.caption}>Organizer</h3>
             <ul

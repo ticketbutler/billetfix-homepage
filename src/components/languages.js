@@ -8,7 +8,7 @@ let paragraphs = [
   "Regardsless if it's to the christmas lunch, intro trip or end of semester party, we have made it easy for students.",
   'Forget about complicated spreadsheets and time consuming sale in the breaks. Just do it online - for free!',
 ]
-const Teaser = () => {
+const Languages = ({ heading, strong_text }) => {
   return (
     <WindowHelper>
       {window => (
@@ -42,7 +42,7 @@ const Teaser = () => {
                     }),
               }}
             >
-              Language support
+              {heading}
             </h3>
 
             <p
@@ -63,7 +63,7 @@ const Teaser = () => {
                     }),
               }}
             >
-              Everything is in both English and Danish.
+              {strong_text}
             </p>
           </div>
           <div
@@ -99,4 +99,4 @@ const Teaser = () => {
     </WindowHelper>
   )
 }
-export default Teaser
+export default Languages

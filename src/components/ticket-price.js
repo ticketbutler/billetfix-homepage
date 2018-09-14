@@ -1,8 +1,17 @@
 import React from 'react'
-import prices from '../__mocks__/ticket-price'
+
 import { WindowHelper } from '../components/helpers'
 
-const TicketPrice = () => (
+const TicketPrice = ({
+  heading,
+  prices,
+  ticketHeading,
+  ticketText1,
+  ticketText2,
+  ticketText3,
+  serviceFee,
+  buttonText,
+}) => (
   <WindowHelper>
     {window => (
       <section style={{ padding: '7em 0' }}>
@@ -22,7 +31,7 @@ const TicketPrice = () => (
                 }),
           }}
         >
-          The cheapest signup system in the market!
+          {heading}
         </h3>
         <div
           style={{
@@ -65,7 +74,7 @@ const TicketPrice = () => (
                     letterSpacing: '3px',
                   }}
                 >
-                  Attendee price
+                  {ticketHeading}
                 </span>
                 <h3
                   style={{
@@ -79,7 +88,7 @@ const TicketPrice = () => (
                     textAlign: 'center',
                   }}
                 >
-                  {price.AttendeePrice}
+                  {price.attendeePrice}
                 </h3>
                 <span
                   style={{
@@ -106,9 +115,8 @@ const TicketPrice = () => (
                     letterSpacing: '2px',
                     fontSize: '1.2em',
                   }}
-                >
-                  <strong>Free </strong>to host
-                </span>
+                  dangerouslySetInnerHTML={{ __html: ticketText1 }}
+                />
                 <span
                   style={{
                     fontWeight: '100',
@@ -117,9 +125,8 @@ const TicketPrice = () => (
                     letterSpacing: '2px',
                     fontSize: '1.2em',
                   }}
-                >
-                  <strong>Free</strong> website integration
-                </span>
+                  dangerouslySetInnerHTML={{ __html: ticketText2 }}
+                />
                 <span
                   style={{
                     fontWeight: '100',
@@ -129,9 +136,8 @@ const TicketPrice = () => (
 
                     fontSize: '1.2em',
                   }}
-                >
-                  <strong>Free </strong>support
-                </span>
+                  dangerouslySetInnerHTML={{ __html: ticketText3 }}
+                />
 
                 <div
                   className="price"
@@ -158,16 +164,16 @@ const TicketPrice = () => (
                       letterSpacing: '2px',
                     }}
                   >
-                    {price.TicketPrice}
+                    {price.ticketPrice}
                   </span>
-                  <sub style={{ fontSize: '16px' }}>{price.Percentage}</sub>
+                  <sub style={{ fontSize: '16px' }}>{price.percentage}</sub>
                   <span
                     style={{
                       display: 'block',
                       letterSpacing: '2px',
                     }}
                   >
-                    Service fee per attendee
+                    {serviceFee}
                   </span>
                 </div>
                 <a href="../create-event/" style={{ textDecoration: 'none' }}>
@@ -186,7 +192,7 @@ const TicketPrice = () => (
                       transition: 'all .15s',
                     }}
                   >
-                    Create Event
+                    {buttonText}
                   </button>
                 </a>
               </div>

@@ -1,15 +1,16 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import PrivacyPolicy from '../components/privacyPol'
+
+import Contact from '../components/contact'
 import { Layout } from '../layouts/index'
 import { WindowHelper } from '../components/helpers'
 
-const PrivacyPolicyP = staticHeader => {
+const ContactP = staticHeader => {
   return (
     <Layout staticHeader={staticHeader}>
-      <PrivacyPolicy />
+      <Contact />
     </Layout>
   )
 }
 
-export default PrivacyPolicyP
+export default ContactP
