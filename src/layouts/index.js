@@ -3,8 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import { Button } from '../components/elements/elements'
-import { EnglishIcon } from '../components/icons/englishIcon'
-import { DanishIcon } from '../components/icons/danishIcon'
+
 import Footer from '../components/footer'
 import './index.css'
 import '../layouts/styles/layout-overide.css'
@@ -12,6 +11,7 @@ import { WindowHelper } from '../components/helpers'
 import Logo from '../img/logox400.png'
 
 import { topNav } from '../../navData'
+import LanguageLink from '../components/languageLink'
 
 const styles = {
   hamburger: {
@@ -23,7 +23,14 @@ const styles = {
   },
 }
 
-export const Layout = ({ children, data, staticHeader, nav }) => (
+export const Layout = ({
+  children,
+  data,
+  staticHeader,
+  nav,
+  currentLocal,
+  locales,
+}) => (
   <div>
     <div>
       <WindowHelper>
@@ -44,7 +51,7 @@ export const Layout = ({ children, data, staticHeader, nav }) => (
               padding: '15px 5%',
             }}
           >
-            <a href="/da">
+            <a href={'/' + currentLocal.id}>
               <img
                 src={Logo}
                 alt="Logo"
@@ -106,160 +113,44 @@ export const Layout = ({ children, data, staticHeader, nav }) => (
                   create event
                 </Button>
               </a>
+              {nav.topNav.map(linkData => {
+                return (
+                  <a
+                    style={{
+                      textDecoration: 'none',
 
-              {nav.topNav.map(
-                linkData =>
-                  linkData.type === 'gatsbyLink' ? (
-                    <a
-                      style={{
-                        textDecoration: 'none',
+                      transition: 'all 0.5s',
 
-                        transition: 'all 0.5s',
-
-                        ...(window.width > 980
-                          ? {
-                              fontWeight: '500',
-                              marginLeft: '16px',
-                              fontSize: '13px',
-                              color: '#f7f7f7',
-                              marginLeft: '8px',
-                              padding: '0 10px',
-                            }
-                          : {
-                              marginLeft: '0',
-                              padding: '15px 20px',
-                              fontSize: '15px',
-                              fontWeight: '600',
-                              color: '#333',
-                              display: 'block',
-                            }),
-                      }}
-                      href={linkData.link}
-                    >
-                      {linkData.caption}
-                    </a>
-                  ) : linkData.type === 'reguralLink' ? (
-                    <a
-                      style={{
-                        textDecoration: 'none',
-                        transition: 'all 0.5s',
-
-                        display: 'inline-block',
-                        ...(window.width > 980
-                          ? {
-                              marginLeft: '16px',
-                              fontSize: '13px',
-                              color: '#f7f7f7',
-                              marginLeft: '8px',
-                              padding: '0 10px',
-                              fontWeight: '500',
-                            }
-                          : {
-                              marginLeft: '0px',
-                              padding: '15px 20px',
-                              fontSize: '15px',
-                              fontWeight: '600',
-                              color: '#333',
-                              display: 'block',
-                            }),
-                      }}
-                      href={linkData.link}
-                    >
-                      {linkData.caption}
-                    </a>
-                  ) : (
-                    <li
-                      style={{
-                        textDecoration: 'none',
-                        transition: 'all 0.5s',
-                        cursor: 'pointer',
-                        display: 'inline-block',
-                        ...(window.width > 980
-                          ? {
-                              marginLeft: '16px',
-                              fontSize: '13px',
-                              color: '#f7f7f7',
-                              marginLeft: '8px',
-                              fontWeight: '500',
-                              padding: '0 10px',
-                            }
-                          : {
-                              marginLeft: '21px',
-                              padding: '15px 20px',
-                              fontSize: '15px',
-                              fontWeight: '600',
-                              color: '#333',
-                              display: 'block',
-                            }),
-                      }}
-                    >
-                      <div
-                        onMouseOver={() => {
-                          document
-                            .getElementById('danishDiv')
-                            .classList.toggle('visible')
-                        }}
-                      >
-                        EN
-                        <span>
-                          <EnglishIcon
-                            style={{ height: '20px', marginLeft: '-27px' }}
-                          />
-                        </span>
-                      </div>
-                      <div
-                        id="danishDiv"
-                        style={{
-                          cursor: 'pointer',
-                          ...(window.width > 980
-                            ? {
-                                opacity: '0',
-                                visibility: 'hidden',
-                                position: ' absolute',
-                                display: 'inline-block',
-                                padding: '3px 15px',
-                                transform: 'translate(-50%)',
-                                cursor: 'pointer',
-                                boxShadow: ' 0 1px 7px 2px rgba(0,0,0,.2)',
-                                top: '65px',
-                                right: '4.8%',
-                                background: '#fff',
-                                transition: 'all .25s',
-                              }
-                            : {
-                                marginLeft: '-33px',
-                                padding: '15px 20px',
-                                fontSize: '15px',
-                                fontWeight: '600',
-                                color: '#333',
-                                display: 'block',
-                                marginTop: '10px',
-                              }),
-                        }}
-                      >
-                        <span
-                          style={{
-                            whiteSpace: 'nowrap',
+                      ...(window.width > 980
+                        ? {
+                            fontWeight: '500',
+                            marginLeft: '16px',
+                            fontSize: '13px',
+                            color: '#f7f7f7',
+                            marginLeft: '8px',
+                            padding: '0 10px',
+                          }
+                        : {
+                            marginLeft: '0',
+                            padding: '15px 20px',
+                            fontSize: '15px',
+                            fontWeight: '600',
+                            color: '#333',
                             display: 'block',
-                            padding: '5px 0',
-                          }}
-                        >
-                          <span style={{ color: 'black', marginRight: '6px' }}>
-                            DA
-                          </span>
-                          <DanishIcon
-                            style={{
-                              display: 'inline-block',
-
-                              width: '30px',
-                              height: '20px',
-                            }}
-                          />
-                        </span>
-                      </div>
-                    </li>
-                  )
-              )}
+                          }),
+                    }}
+                    href={linkData.link}
+                  >
+                    {linkData.caption}
+                  </a>
+                )
+              })}
+              <LanguageLink
+                currentLanguage={currentLocal}
+                otherLanguages={locales.filter(local => {
+                  return local.id !== currentLocal.id
+                })}
+              />
             </div>
             <div
               style={{
@@ -299,7 +190,7 @@ export const Layout = ({ children, data, staticHeader, nav }) => (
     </div>
     {children}
 
-    <Footer links={nav.footerNav} />
+    <Footer links={nav.footerNav}>{console.log(nav.footerNav)}</Footer>
   </div>
 )
 

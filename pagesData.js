@@ -216,8 +216,8 @@ module.exports = [
     ],
   },
   {
-    path_en: '/about',
-    path_da: '/om-os/',
+    path_en: '/en/about',
+    path_da: '/da/om-os/',
     title_en: 'About us | BilletFix',
     title_da: 'Om os | BilletFix',
     sections: [
@@ -247,8 +247,8 @@ module.exports = [
     ],
   },
   {
-    path_en: '/faq',
-    path_da: '/faq',
+    path_en: '/en/faq',
+    path_da: '/da/faq',
     title: 'FAQ',
     sections: [
       {
@@ -455,8 +455,8 @@ module.exports = [
     ],
   },
   {
-    path_en: '/privacy-policy',
-    path_da: '/privacy-policy',
+    path_en: '/en/privacy-policy',
+    path_da: '/da/privatpolitik',
     title: 'Privacy policy',
     sections: [
       {
@@ -469,8 +469,8 @@ module.exports = [
     ],
   },
   {
-    path_en: '/tandc',
-    path_da: '/tandc',
+    path_en: '/en/tandc',
+    path_da: '/da/tandc',
     title: 'Terms & Conditions',
     sections: [
       {
@@ -483,8 +483,8 @@ module.exports = [
   },
 
   {
-    path: '/contact',
-    path: '/contact',
+    path_en: '/en/contact',
+    path_da: '/da/kontakt',
 
     title_en: 'Contact',
     title_da: 'Kontakt',

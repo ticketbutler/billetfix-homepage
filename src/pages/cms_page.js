@@ -49,7 +49,7 @@ const components = [
   { Component: Footer, id: 'footer' },
 ]
 const CmsPage = ({ pathContext, match }) => (
-  <Layout nav={pathContext.nav} staticHeader={match.path === '/'}>
+  <Layout {...pathContext} staticHeader={match.path === '/'}>
     {pathContext.sections &&
       pathContext.sections.map((section, i) => {
         const c = components.find(({ id }) => id === section.type)

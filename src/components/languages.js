@@ -1,13 +1,6 @@
 import React from 'react'
-import { EnglishIcon } from './icons/englishIcon'
-import { DanishIcon } from './icons/danishIcon'
-import Logos from './soc-med-icons'
 import { WindowHelper } from '../components/helpers'
 
-let paragraphs = [
-  "Regardsless if it's to the christmas lunch, intro trip or end of semester party, we have made it easy for students.",
-  'Forget about complicated spreadsheets and time consuming sale in the breaks. Just do it online - for free!',
-]
 const Languages = ({ heading, strong_text }) => {
   return (
     <WindowHelper>
@@ -83,7 +76,13 @@ const Languages = ({ heading, strong_text }) => {
                   }),
             }}
           >
-            <EnglishIcon />
+            <img
+              src="../img/danishFlag.svg"
+              style={{
+                width: '100px',
+                height: 'auto',
+              }}
+            />
             <span
               style={{
                 margin: '10px',
@@ -92,7 +91,13 @@ const Languages = ({ heading, strong_text }) => {
             >
               /
             </span>
-            <DanishIcon />
+            <img
+              src="../img/danishFlag.svg"
+              style={{
+                width: '100px',
+                height: 'auto',
+              }}
+            />
           </div>
         </section>
       )}

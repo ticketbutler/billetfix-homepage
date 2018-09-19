@@ -32,7 +32,7 @@ const Hero = ({ heading, image, texts = [], button1Text, button2Text }) => (
         <div>
           <div style={{ marginTop: '0' }}>
             <img
-              src="../img/lights.jpg"
+              src="../img/ligs.jpg"
               alt="background"
               style={{
                 zIndex: '-1',
