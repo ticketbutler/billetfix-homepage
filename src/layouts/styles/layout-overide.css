@@ -23,18 +23,13 @@ a:hover {
     color: #ff4a6e !important;
     text-decoration: none
 }
-.scroll-header {
-    background: #f5f5f5 !important;
-    
-}
+
 
 .scroll-header :nth-child(n + 2){
     color: black!important;
 
 }
-.scroll-header a:hover {
-    color: #ff4a6e !important;
-}
+
 svg{
  fill: #ff4a6e;
     display: inline-block;

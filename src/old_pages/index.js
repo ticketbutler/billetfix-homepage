@@ -45,7 +45,7 @@ const components = [
   { Component: QNA, id: 'qna' },
   { Component: Footer, id: 'footer' },
 ]
-const CmsP = ({ pathContext }) => (
+const CmsP = ({ pageContext }) => (
   <Layout>
     <HeroSection />
     <Partners />

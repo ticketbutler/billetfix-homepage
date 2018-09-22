@@ -76,13 +76,16 @@ const Languages = ({ heading, strong_text }) => {
                   }),
             }}
           >
-            <img
-              src="../img/danishFlag.svg"
-              style={{
-                width: '100px',
-                height: 'auto',
-              }}
-            />
+            <a href="/en">
+              <img
+                alt="english-icon"
+                src="../img/englishFlag.svg"
+                style={{
+                  width: '130px',
+                  height: 'auto',
+                }}
+              />
+            </a>
             <span
               style={{
                 margin: '10px',
@@ -91,13 +94,16 @@ const Languages = ({ heading, strong_text }) => {
             >
               /
             </span>
-            <img
-              src="../img/danishFlag.svg"
-              style={{
-                width: '100px',
-                height: 'auto',
-              }}
-            />
+            <a href="/da">
+              <img
+                alt="danish-flag"
+                src="../img/danishFlag.svg"
+                style={{
+                  width: '130px',
+                  height: 'auto',
+                }}
+              />
+            </a>
           </div>
         </section>
       )}

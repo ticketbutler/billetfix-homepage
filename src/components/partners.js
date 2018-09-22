@@ -1,10 +1,4 @@
 import React from 'react'
-// import DtuImg from '../img/dtu.png'
-// import CseImg from '../img/cse.jpg'
-// import FondenImg from '../img/fonden.png'
-// import TicketButlerImg from '../img/ticketbutler.png'
-// import TinyRhinoImg from '../img/tiny-rhino.png'
-import data from '../../pagesData'
 
 const Partners = ({ images }) => (
   <section>
@@ -20,8 +14,9 @@ const Partners = ({ images }) => (
       }}
     >
       {images.map(img => (
-        <a target="_blank" href={img.href}>
+        <a target="_blank" rel="noopener noreferrer" href={img.href}>
           <img
+            alt="partners-logo"
             style={{
               objectFit: 'contain',
               maxHeight: '80px',

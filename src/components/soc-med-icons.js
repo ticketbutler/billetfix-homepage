@@ -18,9 +18,9 @@ const Logos = () => {
         alignItems: 'center',
       }}
     >
-      <img style={styles.logo} src={FbLogo} />
-      <img style={styles.logo} src={TwitterLogo} />
-      <img style={styles.logo} src={GoogleCalLogo} />
+      <img style={styles.logo} alt="fbLogo" src={FbLogo} />
+      <img style={styles.logo} alt="twitterLogo" src={TwitterLogo} />
+      <img style={styles.logo} alt="googleCallLogo" src={GoogleCalLogo} />
     </div>
   )
 }

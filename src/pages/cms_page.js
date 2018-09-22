@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+
 import '../layouts/styles/layout-overide.css'
 import Partners from '../components/partners'
 import PictureRight from '../components/picture-right'
@@ -48,10 +48,14 @@ const components = [
   { Component: FAQ, id: 'faq' },
   { Component: Footer, id: 'footer' },
 ]
-const CmsPage = ({ pathContext, match }) => (
-  <Layout {...pathContext} staticHeader={match.path === '/'}>
-    {pathContext.sections &&
-      pathContext.sections.map((section, i) => {
+const CmsPage = ({ pageContext, location }) => (
+  <Layout
+    {...pageContext}
+    fadeHeader={location.pathname === '/en' || location.pathname === '/da'}
+  >
+    {console.log(location.pathname === '/en' || location.pathname === '/da')}
+    {pageContext.sections &&
+      pageContext.sections.map((section, i) => {
         const c = components.find(({ id }) => id === section.type)
 
         console.error(section)

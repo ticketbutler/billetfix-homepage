@@ -1,16 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
 import { Button } from '../components/elements/elements'
-
 import Footer from '../components/footer'
-import './index.css'
 import '../layouts/styles/layout-overide.css'
 import { WindowHelper } from '../components/helpers'
 import Logo from '../img/logox400.png'
-
-import { topNav } from '../../navData'
 import LanguageLink from '../components/languageLink'
 
 const styles = {
@@ -26,7 +20,7 @@ const styles = {
 export const Layout = ({
   children,
   data,
-  staticHeader,
+  fadeHeader,
   nav,
   currentLocal,
   locales,
@@ -37,9 +31,6 @@ export const Layout = ({
         {window => (
           <nav
             id="nav"
-            className={
-              !staticHeader && window.scrollY <= 10 ? '' : 'scroll-header'
-            }
             style={{
               top: '0',
               width: '100%',
@@ -49,6 +40,17 @@ export const Layout = ({
               zIndex: '999',
               transition: 'all 0.5s',
               padding: '15px 5%',
+              ...(fadeHeader
+                ? window.scrollY >= 10
+                  ? {
+                      backgroundColor: '#f5f5f5',
+                    }
+                  : {
+                      backgroundColor: 'transparent',
+                    }
+                : {
+                    backgroundColor: '#f5f5f5',
+                  }),
             }}
           >
             <a href={'/' + currentLocal.id}>
@@ -96,7 +98,7 @@ export const Layout = ({
                       }
                     : {}),
                 }}
-                href="/event"
+                href="https://billetfix.dk/event/create_event/"
               >
                 <Button
                   style={{
@@ -127,7 +129,7 @@ export const Layout = ({
                             marginLeft: '16px',
                             fontSize: '13px',
                             color: '#f7f7f7',
-                            marginLeft: '8px',
+                            // marginLeft: '8px',
                             padding: '0 10px',
                           }
                         : {
@@ -138,6 +140,17 @@ export const Layout = ({
                             color: '#333',
                             display: 'block',
                           }),
+                      ...(fadeHeader
+                        ? window.scrollY >= 10
+                          ? {
+                              color: 'black',
+                            }
+                          : {
+                              color: 'white',
+                            }
+                        : {
+                            color: 'black',
+                          }),
                     }}
                     href={linkData.link}
                   >
@@ -145,7 +158,9 @@ export const Layout = ({
                   </a>
                 )
               })}
+
               <LanguageLink
+                fadeHeader={fadeHeader}
                 currentLanguage={currentLocal}
                 otherLanguages={locales.filter(local => {
                   return local.id !== currentLocal.id
@@ -197,15 +212,3 @@ export const Layout = ({
 Layout.propTypes = {
   children: PropTypes.func,
 }
-
-export default ({ children }) => children()
-
-export const query = graphql`
-  query SiteTitleQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

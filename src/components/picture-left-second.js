@@ -1,6 +1,6 @@
 import React from 'react'
 import { WindowHelper } from '../components/helpers'
-import { CouponIcon } from './icons/coupon'
+
 const pictureLeftSecond = ({ heading, text }) => {
   return (
     <WindowHelper>

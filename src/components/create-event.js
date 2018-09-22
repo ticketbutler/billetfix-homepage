@@ -2,12 +2,10 @@ import React from 'react'
 import DateTimePicker from 'date-time-picker-react'
 import { Smiley } from '../components/icons/smileyIcon'
 import { CalendarIcon } from '../components/icons/calendarIcon'
-import Calendar from '../img/calendar.png'
-import Ticket from '../img/ticket.png'
-import Trash from '../img/trash.png'
+
 import AddButton from '../img/plus-button.png'
 import NewTicket from '../components/ticket.js'
-import { Layout } from '../layouts/index'
+
 import { WindowHelper } from '../components/helpers'
 import { Button } from '../components/elements/elements'
 import { TicketIcon } from '../components/icons/ticketIcon'
@@ -192,7 +190,7 @@ class CreateEvent extends React.Component {
                       textDecoration: 'none',
                     }}
                     className="add-row"
-                    href="javascript:void(0)"
+                    href=""
                     onClick={() => {
                       this.setState({ tickets: [...this.state.tickets, {}] })
                       console.log('del')

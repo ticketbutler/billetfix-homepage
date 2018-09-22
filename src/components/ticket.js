@@ -1,12 +1,7 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import styled from 'styled-components'
-import Smiley from '../img/smiley.png'
-import Calendar from '../img/calendar.png'
-import Ticket from '../img/ticket.png'
+
 import Trash from '../img/trash.png'
 import { WindowHelper } from '../components/helpers'
-import AddButton from '../img/plus-button.png'
 
 const NewTicket = ({ ticket, i, onRemove }) => (
   <WindowHelper>
@@ -112,7 +107,7 @@ const NewTicket = ({ ticket, i, onRemove }) => (
               <a
                 id="delete-ticket"
                 className="delete-row"
-                href="javascript:void(0)"
+                href=""
                 onClick={() => onRemove(i)}
               >
                 <img
@@ -133,11 +128,5 @@ const NewTicket = ({ ticket, i, onRemove }) => (
     }}
   </WindowHelper>
 )
-
-function deleteTick(e) {
-  {
-    console.log(e.target)
-  }
-}
 
 export default NewTicket

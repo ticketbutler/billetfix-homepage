@@ -1,12 +1,8 @@
 import React from 'react'
 import { Attendee } from './icons/attendeeIcon'
-import Logos from './soc-med-icons'
+
 import { WindowHelper } from '../components/helpers'
 
-let paragraphs = [
-  "Regardsless if it's to the christmas lunch, intro trip or end of semester party, we have made it easy for students.",
-  'Forget about complicated spreadsheets and time consuming sale in the breaks. Just do it online - for free!',
-]
 const PictureRightSecond = ({ heading, strong_text, text }) => {
   return (
     <WindowHelper>

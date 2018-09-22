@@ -1,8 +1,7 @@
 import React from 'react'
-import styled from 'styled-components'
-import Link from 'gatsby-link'
+
 import { WindowHelper } from '../components/helpers'
-import { footerNav } from '../../navData'
+
 import { FBIcon } from './icons/fbIcon'
 
 const Footer = ({ links }) => {
@@ -43,6 +42,7 @@ const Footer = ({ links }) => {
                 style={{ color: '#ff4a6e', textDecoration: 'none' }}
                 href={data.linkTicketbutler}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 {data.linkText}
               </a>
@@ -68,7 +68,7 @@ const Footer = ({ links }) => {
             <ul
               style={{
                 listStyleType: 'none',
-                listStyleType: 'none',
+
                 margin: '0',
                 padding: '25px',
                 minWidth: '300px',
@@ -83,6 +83,7 @@ const Footer = ({ links }) => {
                       style={{
                         color: '#ff4a6e',
                         textDecoration: 'none',
+                        fontSize: '16px',
                       }}
                       href={data.link}
                     >

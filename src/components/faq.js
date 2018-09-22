@@ -1,7 +1,6 @@
 import React from 'react'
 import { WindowHelper } from '../components/helpers'
 
-import { Layout } from '../layouts/index'
 const styles = {
   caption: {
     fontSize: '30px',

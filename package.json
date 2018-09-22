@@ -6,21 +6,12 @@
   "dependencies": {
     "date-fns": "^1.29.0",
     "date-time-picker-react": "^0.2.1",
+    "emailjs-com": "^2.2.4",
     "font-awesome": "^4.7.0",
-    "gatsby": "^1.9.247",
-    "gatsby-cli": "^1.1.58",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-netlify-cms": "^2.0.1",
-    "gatsby-plugin-react-helmet": "^2.0.10",
-    "gatsby-plugin-sass": "^1.0.26",
-    "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.44",
-    "install": "^0.12.1",
-    "netlify-cms": "^1.9.3",
-    "npm": "^6.2.0",
-    "react-helmet": "^5.2.0",
-    "styled-components": "^3.3.3",
-    "styled-jsx": "^2.2.7"
+    "gatsby": "^2.0.6",
+    "gatsby-cli": "next",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
   },
   "keywords": [
     "gatsby"

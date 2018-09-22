@@ -1,6 +1,5 @@
 import React from 'react'
 import { WindowHelper } from '../components/helpers'
-import { Layout } from '../layouts/index'
 
 const PrivacyPolicy = ({ heading, content }) => {
   return (

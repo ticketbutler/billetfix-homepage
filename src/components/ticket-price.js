@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Button } from '../components/elements/elements'
 import { WindowHelper } from '../components/helpers'
 
 const TicketPrice = ({
@@ -176,24 +176,18 @@ const TicketPrice = ({
                     {serviceFee}
                   </span>
                 </div>
-                <a href="../create-event/" style={{ textDecoration: 'none' }}>
-                  <button
+                <a
+                  href="https://billetfix.dk/event/create_event/"
+                  style={{ textDecoration: 'none' }}
+                >
+                  <Button
                     style={{
-                      margin: ' 3px auto 10px',
                       padding: '10px 15px',
-                      letterSpacing: '1px',
-                      background: '#ff4a6e',
-                      color: '#fff',
-                      fontSize: '15px',
-                      letterSpacing: '3px',
-                      borderColor: ' #ff4a6e',
-                      textTransform: 'uppercase',
-                      borderRadius: '2px',
-                      transition: 'all .15s',
                     }}
                   >
+                    {' '}
                     {buttonText}
-                  </button>
+                  </Button>
                 </a>
               </div>
             </div>

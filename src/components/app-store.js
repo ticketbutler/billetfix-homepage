@@ -1,10 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import AppMockup from '../img/mobile-mockup.png'
-import { Layout } from '../layouts/index'
+
 import { WindowHelper } from '../components/helpers'
 
-const Article = ({ heading, text }) => {
+const AppStore = ({ heading, text }) => {
   return (
     <WindowHelper>
       {window => (
@@ -74,16 +72,28 @@ const Article = ({ heading, text }) => {
             >
               {text}
             </p>
-            <img
-              style={{ height: '60px' }}
-              src="../img/app-store.png"
-              alt="app-store-icon"
-            />
-            <img
-              style={{ height: '60px', marginLeft: '5px' }}
-              src="../img/google-play.png"
-              alt="app-store-icon"
-            />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://itunes.apple.com/dk/app/billetfix/id1281261719"
+            >
+              <img
+                style={{ height: '60px' }}
+                src="../img/app-store.png"
+                alt="app-store-icon"
+              />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://play.google.com/store/apps/details?id=com.billetfix"
+            >
+              <img
+                style={{ height: '60px', marginLeft: '5px' }}
+                src="../img/google-play.png"
+                alt="app-store-icon"
+              />
+            </a>
           </div>
           <div
             className="mockup"
@@ -106,4 +116,4 @@ const Article = ({ heading, text }) => {
   )
 }
 
-export default Article
+export default AppStore

@@ -4,8 +4,8 @@ const { normalizeTranslatedKeys } = require('./src/utils')
 const path = require('path')
 const localData = require('./localData')
 
-exports.createPages = ({ boundActionCreators }) => {
-  const { createPage } = boundActionCreators
+exports.createPages = ({ actions }) => {
+  const { createPage } = actions
   localData.forEach(local => {
     let component = path.resolve('src/pages/cms_page.js')
     let nav = {

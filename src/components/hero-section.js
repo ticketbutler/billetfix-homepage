@@ -1,10 +1,17 @@
 import React from 'react'
 import { WindowHelper } from '../components/helpers'
-import Img from '../img/lights.jpg'
-import { Button } from '../components/elements/elements'
-import data from '../../pagesData'
 
-const Hero = ({ heading, image, texts = [], button1Text, button2Text }) => (
+import { Button } from '../components/elements/elements'
+
+const Hero = ({
+  heading,
+  image,
+  texts = [],
+  button1Text,
+  button2Text,
+  buttonLink,
+  inputPlaceholder,
+}) => (
   <WindowHelper>
     {window => (
       <section
@@ -32,7 +39,7 @@ const Hero = ({ heading, image, texts = [], button1Text, button2Text }) => (
         <div>
           <div style={{ marginTop: '0' }}>
             <img
-              src="../img/ligs.jpg"
+              src={image}
               alt="background"
               style={{
                 zIndex: '-1',
@@ -113,6 +120,7 @@ const Hero = ({ heading, image, texts = [], button1Text, button2Text }) => (
                 display: 'flex',
                 justifyContent: 'center',
                 marginTop: '57px',
+                marginBottom: '74px',
               }}
               className="get-started"
             >
@@ -132,25 +140,23 @@ const Hero = ({ heading, image, texts = [], button1Text, button2Text }) => (
                 }}
                 id="event-title"
                 type="text"
-                placeholder="Your event title goes here..."
+                placeholder={inputPlaceholder}
               />
+              <a
+                style={{
+                  letterSpacing: '3px',
+                  fontSize: '15px',
+                  textTransform: 'uppercase',
+                  color: '#fff',
 
-              <Button>
-                <a
-                  style={{
-                    letterSpacing: '3px',
-                    fontSize: '15px',
-                    textTransform: 'uppercase',
-                    color: '#fff',
-                    textDecoration: 'none',
-                  }}
-                  href=""
-                >
-                  {button1Text}
-                </a>
-              </Button>
+                  textDecoration: 'none',
+                }}
+                href={buttonLink}
+              >
+                <Button style={{ padding: '18px 17px' }}>{button1Text}</Button>
+              </a>
             </div>
-            <div>
+            {/* <div>
               <Button
                 style={{
                   padding: '15px 10px',
@@ -160,7 +166,7 @@ const Hero = ({ heading, image, texts = [], button1Text, button2Text }) => (
               >
                 {button2Text}
               </Button>
-            </div>
+            </div> */}
 
             <a
               style={{
@@ -176,7 +182,7 @@ const Hero = ({ heading, image, texts = [], button1Text, button2Text }) => (
                     }
                   : {}),
               }}
-              href="features"
+              href="#features"
             >
               see how easy it is
             </a>

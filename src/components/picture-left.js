@@ -1,6 +1,6 @@
 import React from 'react'
 import { WindowHelper } from '../components/helpers'
-import { MobilePayIcon } from './icons/mobilePayIcon'
+
 const pictureLeft = ({ heading, strong_text, text }) => {
   return (
     <WindowHelper>

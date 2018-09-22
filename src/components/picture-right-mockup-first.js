@@ -1,8 +1,7 @@
 import React from 'react'
-import { SmileyHiIcon } from './icons/smileyHiIcon'
-import Logos from './soc-med-icons'
+
+// import Logos from './soc-med-icons'
 import { WindowHelper } from '../components/helpers'
-import { Button } from '../components/elements/elements'
 
 const RightMockupFirst = ({ heading, strong_text, text, button_text }) => {
   return (
@@ -94,9 +93,11 @@ const RightMockupFirst = ({ heading, strong_text, text, button_text }) => {
             >
               {text}
             </p>
-            <Button style={{ padding: '15px 10px', margin: '40px 20%' }}>
-              {button_text}
-            </Button>{' '}
+            {/* <a href="http://billetfix.github.io/cocktailparty/en/">
+              <Button style={{ padding: '15px 10px', margin: '40px 20%' }}>
+                {button_text}
+              </Button>{' '}
+            </a> */}
           </div>
           <div
             style={{
