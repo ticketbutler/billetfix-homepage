@@ -35,6 +35,7 @@ const PictureRightSecond = ({ heading, strong_text, text }) => {
             className="details"
           >
             <h3
+              itemprop="headline"
               style={{
                 fontSize: '30px',
                 letterSpacing: '3px',

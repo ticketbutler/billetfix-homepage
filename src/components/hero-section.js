@@ -20,11 +20,11 @@ const Hero = ({
           display: 'flex',
           textAlign: 'center',
           paddingBottom: '2%',
-          backgroungImage: 'Img',
+
           justifyContent: 'center',
           alignItems: 'center',
           height: '100vh',
-          background: 'Img',
+
           backgroundSize: 'cover',
           ...(window.width > 980
             ? {
@@ -39,6 +39,7 @@ const Hero = ({
         <div>
           <div style={{ marginTop: '0' }}>
             <img
+              itemprop="image"
               src={image}
               alt="background"
               style={{
@@ -54,6 +55,7 @@ const Hero = ({
             />
 
             <h1
+              itemprop="headline"
               style={{
                 color: '#ff4a6e',
                 textShadow: '1px 1px 2px rgba(0, 0, 0, 0.3)',
@@ -124,24 +126,6 @@ const Hero = ({
               }}
               className="get-started"
             >
-              <input
-                style={{
-                  fontSize: '18px',
-                  padding: '10px',
-                  width: '365px',
-                  height: '56px',
-                  border: '.5px solid #ff4a6e',
-                  borderRadius: '3px',
-                  ...(window.width < 660
-                    ? {
-                        display: 'none',
-                      }
-                    : {}),
-                }}
-                id="event-title"
-                type="text"
-                placeholder={inputPlaceholder}
-              />
               <a
                 style={{
                   letterSpacing: '3px',

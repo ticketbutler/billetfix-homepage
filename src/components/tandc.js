@@ -12,6 +12,7 @@ const TandC = ({ heading, content }) => {
           }}
         >
           <h1
+            itemprop="headline"
             style={{
               fontWeight: '200',
               textAlign: 'center',

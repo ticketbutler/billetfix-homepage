@@ -35,6 +35,7 @@ const RightMockupSecond = ({ heading, strong_text, copyBoxLink }) => {
             }}
           >
             <h3
+              itemprop="headline"
               style={{
                 color: '#ff4a6e',
                 margin: '.25em 0',
@@ -84,14 +85,19 @@ const RightMockupSecond = ({ heading, strong_text, copyBoxLink }) => {
             }}
           >
             <img
+              itemprop="image"
               style={{
-                height: '600px',
-                width: 'auto',
                 ...(window.width > 980
                   ? {
+                      height: '600px',
+                      width: 'auto',
                       marginRight: '-305px',
                     }
-                  : { marginRight: '0' }),
+                  : {
+                      marginRight: '-155px',
+                      height: '300px',
+                      width: 'auto',
+                    }),
 
                 objectFit: 'cover',
               }}

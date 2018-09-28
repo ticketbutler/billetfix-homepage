@@ -26,6 +26,7 @@ const pictureLeft = ({ heading, strong_text, text }) => {
         >
           <div style={{ padding: '15px' }}>
             <h3
+              itemprop="headline"
               style={{
                 color: '#ff4a6e',
                 margin: '.25em 0',
@@ -102,7 +103,7 @@ const pictureLeft = ({ heading, strong_text, text }) => {
             }}
           >
             {' '}
-            <img src="../img/payment.svg" alt="payment " />
+            <img itemprop="image" src="../img/payment.svg" alt="payment " />
           </div>
         </section>
       )}

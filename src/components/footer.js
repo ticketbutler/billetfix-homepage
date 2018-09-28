@@ -20,6 +20,7 @@ const Footer = ({ links }) => {
         >
           {links.filter(({ type }) => type === 'leftSection').map(data => (
             <div
+              itemprop="breadcrumb"
               style={{
                 fontWeight: '100',
                 lineHeight: '20px',
@@ -78,7 +79,7 @@ const Footer = ({ links }) => {
               {links
                 .filter(({ type }) => type === 'centerSection')
                 .map(data => (
-                  <li>
+                  <li itemprop="breadcrumb">
                     <a
                       style={{
                         color: '#ff4a6e',
@@ -92,7 +93,7 @@ const Footer = ({ links }) => {
                   </li>
                 ))}
               {links.filter(({ type }) => type === 'icon').map(data => (
-                <li>
+                <li itemprop="breadcrumb">
                   <FBIcon />
                   <a
                     style={{
@@ -108,6 +109,7 @@ const Footer = ({ links }) => {
             </ul>
           </div>
           <div
+            itemprop="breadcrumb"
             style={{
               textAlign: 'right',
               listStyleType: 'none',

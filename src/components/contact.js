@@ -73,6 +73,7 @@ class Contact extends React.Component {
                 }}
               >
                 <h1
+                  itemprop="headline"
                   style={{
                     fontWeight: '200',
                     color: 'black',

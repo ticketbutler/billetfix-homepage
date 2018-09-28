@@ -29,6 +29,7 @@ const About = ({ heading, texts, staticHeader }) => {
               }}
             >
               <h1
+                itemprop="headline"
                 style={{
                   textAlign: 'center',
                   fontWeight: '300',

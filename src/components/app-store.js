@@ -33,6 +33,7 @@ const AppStore = ({ heading, text }) => {
             className="details"
           >
             <h3
+              itemprop="headline"
               style={{
                 fontSize: '30px',
                 letterSpacing: '3px',
@@ -78,6 +79,7 @@ const AppStore = ({ heading, text }) => {
               href="https://itunes.apple.com/dk/app/billetfix/id1281261719"
             >
               <img
+                itemprop="image"
                 style={{ height: '60px' }}
                 src="../img/app-store.png"
                 alt="app-store-icon"
@@ -89,6 +91,7 @@ const AppStore = ({ heading, text }) => {
               href="https://play.google.com/store/apps/details?id=com.billetfix"
             >
               <img
+                itemprop="image"
                 style={{ height: '60px', marginLeft: '5px' }}
                 src="../img/google-play.png"
                 alt="app-store-icon"
@@ -108,7 +111,11 @@ const AppStore = ({ heading, text }) => {
                   }),
             }}
           >
-            <img src="../img/mobile-mockup.png" alt="mobile-mockup " />
+            <img
+              itemprop="image"
+              src="../img/mobile-mockup.png"
+              alt="mobile-mockup "
+            />
           </div>
         </section>
       )}

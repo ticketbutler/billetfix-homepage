@@ -42,12 +42,14 @@ const Features = ({ features }) => {
               }}
             >
               <img
+                itemprop="image"
                 src={feature.image}
                 style={{ width: '7.5em' }}
                 alt="features1"
               />
 
               <h4
+                itemprop="headline"
                 style={{
                   textTransform: 'uppercase',
 

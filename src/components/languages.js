@@ -7,18 +7,32 @@ const Languages = ({ heading, strong_text }) => {
       {window => (
         <section
           style={{
-            display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
             overflow: 'hidden',
             background: '#f7f7f7',
             padding: '100px 6%',
             position: 'relative',
+            ...(window.width > 980
+              ? {
+                  display: 'flex',
+                }
+              : {}),
           }}
           id="teaser"
         >
-          <div style={{ padding: '15px', maxWidth: '45%' }}>
+          <div
+            style={{
+              padding: '15px',
+              ...(window.width > 980
+                ? {
+                    maxWidth: '45%',
+                  }
+                : {}),
+            }}
+          >
             <h3
+              itemprop="headline"
               style={{
                 color: '#ff4a6e',
                 margin: '.25em 0',
@@ -69,11 +83,11 @@ const Languages = ({ heading, strong_text }) => {
               minWidth: '33%',
               padding: '0 10px',
 
-              ...(window.width > 680
-                ? {}
-                : {
-                    display: 'none',
-                  }),
+              // ...(window.width > 680
+              //   ? {}
+              //   : {
+              //       ,
+              //     }),
             }}
           >
             <a href="/en">
@@ -81,8 +95,14 @@ const Languages = ({ heading, strong_text }) => {
                 alt="english-icon"
                 src="../img/englishFlag.svg"
                 style={{
-                  width: '130px',
                   height: 'auto',
+                  ...(window.width > 980
+                    ? {
+                        width: '130px',
+                      }
+                    : {
+                        width: '70px',
+                      }),
                 }}
               />
             </a>
@@ -90,6 +110,13 @@ const Languages = ({ heading, strong_text }) => {
               style={{
                 margin: '10px',
                 fontSize: '120px',
+                ...(window.width > 980
+                  ? {
+                      fontSize: '120px',
+                    }
+                  : {
+                      fontSize: '70px',
+                    }),
               }}
             >
               /
@@ -99,8 +126,14 @@ const Languages = ({ heading, strong_text }) => {
                 alt="danish-flag"
                 src="../img/danishFlag.svg"
                 style={{
-                  width: '130px',
                   height: 'auto',
+                  ...(window.width > 980
+                    ? {
+                        width: '130px',
+                      }
+                    : {
+                        width: '70px',
+                      }),
                 }}
               />
             </a>

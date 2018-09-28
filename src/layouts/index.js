@@ -30,6 +30,7 @@ export const Layout = ({
       <WindowHelper>
         {window => (
           <nav
+            itemprop="breadcrumb"
             id="nav"
             style={{
               top: '0',
@@ -89,6 +90,7 @@ export const Layout = ({
               }}
             >
               <a
+                itemprop="significantLink"
                 style={{
                   ...(window.width < 980
                     ? {

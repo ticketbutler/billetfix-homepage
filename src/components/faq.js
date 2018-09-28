@@ -36,6 +36,7 @@ const faq = ({ heading, faqs }) => {
             }}
           >
             <h1
+              itemprop="headline"
               style={{
                 textAlign: 'center',
                 fontWeight: '300',
