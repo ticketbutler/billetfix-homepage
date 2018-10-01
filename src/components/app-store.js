@@ -19,6 +19,8 @@ const AppStore = ({ heading, text }) => {
           id="teaser"
         >
           <div
+            itemscope=""
+            itemtype="http://schema.org/WebPage"
             style={{
               padding: '0 10px',
               ...(window.width > 980

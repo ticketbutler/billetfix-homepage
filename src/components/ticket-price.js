@@ -29,6 +29,9 @@ const TicketPrice = ({
               ? { fontSize: '30px' }
               : {
                   fontSize: '23px',
+                  fontWeight: '500',
+                  textAlign: 'left',
+                  paddingLeft: '25px',
                 }),
           }}
         >

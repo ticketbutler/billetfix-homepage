@@ -54,8 +54,9 @@ const PictureRight = ({ heading, texts }) => {
                         lineHeight: '27px',
                       }
                     : {
-                        fontSize: '20px',
-                        lineHeight: '25px',
+                        fontSize: '21px',
+                        lineHeight: '26px',
+                        fontWeight: '500',
                       }),
               }}
             >

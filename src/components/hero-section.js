@@ -81,7 +81,7 @@ const Hero = ({
                         fontSize: '26px',
                         letterSpacing: '2px',
                         lineHeight: '40px',
-                        fontWeight: '400',
+                        fontWeight: '500',
                       }),
               }}
             >

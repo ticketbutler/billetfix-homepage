@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Button } from '../components/elements/elements'
 import Footer from '../components/footer'
 import '../layouts/styles/layout-overide.css'
+import { Helmet } from 'react-helmet'
 import { WindowHelper } from '../components/helpers'
 import Logo from '../img/logox400.png'
 import LanguageLink from '../components/languageLink'
@@ -26,6 +27,32 @@ export const Layout = ({
   locales,
 }) => (
   <div>
+    <Helmet>
+      <body itemscope itemtype="http://schema.org/WebPage" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        rel="icon"
+        href="/static/05fa069f-e321-4561-b432-ea63adbaa78f/img/favicon.png"
+        type="image/png"
+      />
+      <meta
+        property="og:image"
+        content="/static/05fa069f-e321-4561-b432-ea63adbaa78f/img/og_image.png"
+      />
+      <meta property="og:site_name" content="BilletFix" />
+
+      <meta name="theme-color" content="#ef4c6f" />
+      <meta name="msapplication-navbutton-color" content="#ef4c6f" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="#ef4c6f" />
+
+      <title>
+        Free Ticket System - Sell tickets online in seconds | BilletFix
+      </title>
+      <meta
+        name="description"
+        content="Start selling today. Simple and fast ticketing system - BilletFix ticketing handles your tickets and payments."
+      />
+    </Helmet>
     <div>
       <WindowHelper>
         {window => (
@@ -207,7 +234,7 @@ export const Layout = ({
     </div>
     {children}
 
-    <Footer links={nav.footerNav}>{console.log(nav.footerNav)}</Footer>
+    <Footer links={nav.footerNav} />
   </div>
 )
 

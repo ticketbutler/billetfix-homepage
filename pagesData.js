@@ -28,8 +28,6 @@ module.exports = [
         button1Text_en: 'start selling',
         button1Text_da: 'opret billetsalg',
         buttonLink: 'https://billetfix.dk/user/login/',
-        button2Text_en: 'see video',
-        button2Text_da: 'se video',
       },
 
       {
@@ -143,10 +141,10 @@ module.exports = [
           'Del linket på din Facebook begivenhed, Facebook gruppe, i emails eller nyhedsbrev.',
       },
       {
-        type: 'picture_right_second',
+        type: 'picture_righ_second',
         heading_en: 'Custom information about the attendee',
         heading_da: 'Ekstra information om dine tilmeldte',
-        srtong_text_en: 'Do you want to know something during signup?',
+        strong_text_en: 'Do you want to know something during signup?',
         strong_text_da: 'Vil du vide noget specielt om deltageren?',
         text_en:
           'Get all the information you would like with custom fields. What field of study? What year are you on? Is it the first time you attend? Just contact us here for help!',

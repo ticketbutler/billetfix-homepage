@@ -109,7 +109,8 @@ const Footer = ({ links }) => {
             </ul>
           </div>
           <div
-            itemprop="breadcrumb"
+            itemscope
+            itemtype="http://schema.org/Organization"
             style={{
               textAlign: 'right',
               listStyleType: 'none',
@@ -128,6 +129,9 @@ const Footer = ({ links }) => {
           >
             {links.filter(({ type }) => type === 'rightSection').map(data => (
               <p
+                itemprop="address"
+                itemscope
+                itemtype="http://schema.org/PostalAddress"
                 style={{
                   margin: '0',
                   fontWeight: '100',
@@ -152,7 +156,11 @@ const Footer = ({ links }) => {
                     letterSpacing: '1px',
                   }}
                 >
-                  <a style={{ color: '#ff4a6e' }} href={data.href}>
+                  <a
+                    itemprop="email"
+                    style={{ color: '#ff4a6e' }}
+                    href={data.href}
+                  >
                     {data.text}
                   </a>
                 </p>

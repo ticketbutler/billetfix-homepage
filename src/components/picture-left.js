@@ -42,6 +42,7 @@ const pictureLeft = ({ heading, strong_text, text }) => {
                       textAlign: 'left',
                       fontSize: '22px',
                       lineHeight: '27px',
+                      fontWeight: '500',
                     }),
               }}
             >
@@ -103,7 +104,12 @@ const pictureLeft = ({ heading, strong_text, text }) => {
             }}
           >
             {' '}
-            <img itemprop="image" src="../img/payment.svg" alt="payment " />
+            <img
+              style={{ ...(window.width < 450 ? { width: '85%' } : {}) }}
+              itemprop="image"
+              src="../img/payment.svg"
+              alt="payment "
+            />
           </div>
         </section>
       )}

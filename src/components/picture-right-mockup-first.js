@@ -29,8 +29,15 @@ const RightMockupFirst = ({ heading, strong_text, text, button_text }) => {
         >
           <div
             style={{
-              padding: '15px',
-              ...(window.width > 980 ? { maxWidth: '45%' } : {}),
+              ...(window.width > 980
+                ? {
+                    maxWidth: '45%',
+                    padding: '15px',
+                  }
+                : {
+                    textAlign: 'left',
+                    padding: '10px',
+                  }),
             }}
           >
             <h3
@@ -48,6 +55,7 @@ const RightMockupFirst = ({ heading, strong_text, text, button_text }) => {
                   : {
                       fontSize: '22px',
                       lineHeight: '27px',
+                      fontWeight: '500',
                     }),
               }}
             >

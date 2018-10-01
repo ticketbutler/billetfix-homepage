@@ -53,12 +53,9 @@ const CmsPage = ({ pageContext, location }) => (
     {...pageContext}
     fadeHeader={location.pathname === '/en' || location.pathname === '/da'}
   >
-    {console.log(location.pathname === '/en' || location.pathname === '/da')}
     {pageContext.sections &&
       pageContext.sections.map((section, i) => {
         const c = components.find(({ id }) => id === section.type)
-
-        console.error(section)
 
         if (c) {
           return <c.Component key={i} {...section} />

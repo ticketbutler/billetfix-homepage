@@ -31,7 +31,9 @@ const RightMockupSecond = ({ heading, strong_text, copyBoxLink }) => {
             style={{
               padding: '15px',
 
-              ...(window.width > 980 ? { maxWidth: '45%' } : {}),
+              ...(window.width > 980
+                ? { maxWidth: '45%', padding: '15px' }
+                : { padding: '10px', textAlign: 'left' }),
             }}
           >
             <h3
@@ -49,6 +51,7 @@ const RightMockupSecond = ({ heading, strong_text, copyBoxLink }) => {
                   : {
                       fontSize: '22px',
                       lineHeight: '27px',
+                      fontWeight: '500',
                     }),
               }}
             >
