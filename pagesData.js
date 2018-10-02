@@ -5,12 +5,27 @@ module.exports = [
     title_en: 'Free Ticket System - Sell tickets online in seconds | BilletFix',
     title_da:
       'Gratis billetsystem - Sælg billetter online på få sekunder | BilletFix',
+    metadescription_en:
+      'Start selling today. Simple and fast ticketing system - BilletFix ticketing handles your tickets and payments.',
+    metadescription_da:
+      'Start dit billetsalg idag. Simpelt og hurtigt billetsystem - BilletFix håndterer dine billetter og betalinger.',
+    url: 'https://billetfix.dk/',
+    companyName: 'Billetfix',
+    address: 'Esplanaden 7, 2.th',
+    region_en: 'Copenhagen',
+    region_da: 'København',
+    locality_en: 'Copenhagen',
+    locality_da: 'København',
+    country_en: 'Denmark',
+    country_da: 'Danmark',
+    postalCode: '1263',
+
     sections: [
       {
         type: 'hero_section',
         heading_en: "It's never been easier to manage events",
         heading_da: 'Det har aldrig været lettere at håndtere tilmeldinger',
-        image: './img/lights.jpg',
+        image: '../img/lights.jpg',
         inputPlaceholder_en: 'Your event title goes here...',
         inputPlaceholder_da: 'Indtast titel på dit event her...',
         texts_en: [
@@ -483,7 +498,6 @@ module.exports = [
       },
     ],
   },
-
   {
     path_en: '/en/contact',
     path_da: '/da/kontakt',

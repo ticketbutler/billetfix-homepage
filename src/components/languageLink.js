@@ -39,11 +39,12 @@ class LanguageLink extends React.Component {
           >
             <div
               style={{
-                display: 'flex',
-
                 ...(window.width > 980
-                  ? { marginLeft: '0' }
-                  : { marginLeft: '-33px' }),
+                  ? {
+                      marginLeft: '0',
+                      display: 'flex',
+                    }
+                  : { display: 'block', marginLeft: '-33px' }),
                 ...(this.props.fadeHeader
                   ? window.scrollY >= 10
                     ? {
@@ -120,7 +121,12 @@ class LanguageLink extends React.Component {
                       <span
                         style={{
                           whiteSpace: 'nowrap',
-                          display: 'flex',
+                          ...(window.width > 980
+                            ? {
+                                display: 'flex',
+                              }
+                            : {}),
+
                           padding: '9px 0',
                         }}
                       >

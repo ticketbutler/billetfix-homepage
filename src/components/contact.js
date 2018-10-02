@@ -73,7 +73,7 @@ class Contact extends React.Component {
                 }}
               >
                 <h1
-                  itemprop="headline"
+              
                   style={{
                     fontWeight: '200',
                     color: 'black',
@@ -267,9 +267,13 @@ class Contact extends React.Component {
                               margin: '30px auto',
                               width: '340px',
                             }
-                          : {
-                              margin: '0 18px',
-                            }),
+                          : window.width > 450
+                            ? {
+                                margin: '0 60px',
+                              }
+                            : {
+                                margin: '0 18px',
+                              }),
                       }}
                     >
                       <i className="fa fa-map-marker" style={style.icons} />
@@ -290,7 +294,11 @@ class Contact extends React.Component {
                               width: '340px',
                               margin: '50px auto',
                             }
-                          : { margin: '50px 18px' }),
+                          : window.width > 450
+                            ? {
+                                margin: '50px 60px',
+                              }
+                            : { margin: '50px 18px' }),
                       }}
                     >
                       <i className="fa fa-phone" style={style.icons} />
@@ -308,7 +316,11 @@ class Contact extends React.Component {
                               margin: '50px auto',
                               width: '340px',
                             }
-                          : { margin: '50px 18px' }),
+                          : window.width > 450
+                            ? {
+                                margin: '50px 60px',
+                              }
+                            : { margin: '50px 18px' }),
                       }}
                     >
                       <i className="fa fa-envelope" style={style.icons} />

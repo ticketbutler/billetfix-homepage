@@ -120,10 +120,18 @@ const RightMockupFirst = ({ heading, strong_text, text, button_text }) => {
               itemprop="image"
               style={{
                 width: 'auto',
-                marginRight: '-140px',
-                ...(window.width > 980
-                  ? { height: '600px' }
-                  : { height: '300px', marginRight: '-50px' }),
+                height: '600px',
+                ...(window.width > 1180
+                  ? { marginRight: '-140px' }
+                  : window.width > 900
+                    ? {
+                        marginRight: '-240px',
+                      }
+                    : {
+                        height: '300px',
+                        marginRight: '-50px',
+                        marginRight: '-140px',
+                      }),
               }}
               src="../img/madHatter.png"
               alt="madHatter "

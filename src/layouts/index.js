@@ -21,14 +21,71 @@ const styles = {
 export const Layout = ({
   children,
   data,
+  address,
+  city,
+  country,
+  companyName,
+  metadescription,
+  postalCode,
+  region,
   fadeHeader,
-  nav,
+  title,
+  nav = {},
   currentLocal,
   locales,
 }) => (
   <div>
     <Helmet>
-      <body itemscope itemtype="http://schema.org/WebPage" />
+      <script type="application/ld+json">
+        {`
+
+        {
+            "@context": "http://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Billetfix",
+           
+            "image": "https://placeimg.com/640/480/any",
+            "@id": "",
+            "url": "billetfix.dk",
+            "telephone": "89 80 12 80",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Esplanaden 7, København K",
+                "addressLocality": "København",
+                "postalCode": "1263",
+                "addressCountry": "DA"
+            },
+            "sameAs": [
+                "https://www.facebook.com/BilletFix/",
+                "https://www.linkedin.com/company/billetfix/"
+            ], 
+            
+            "founders": [
+            {
+              "@type": "Person",
+              "name": "Mads Kjer",
+              "sameAs": 
+              "https://www.linkedin.com/in/madskjer/"
+          
+          },
+          {
+              "@type": "Person",
+              "name": "Emil Brøgger Kjer",
+              "sameAs": 
+              "https://www.linkedin.com/in/emilkjer/"
+              
+          },
+          {
+              "@type": "Person",
+              "name": "Kyle Thomson",
+              "sameAs":
+              "https://www.linkedin.com/in/kyle-thomson/"
+              
+          }
+          ]
+        }
+        `}
+      </script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link
         rel="icon"
@@ -45,13 +102,16 @@ export const Layout = ({
       <meta name="msapplication-navbutton-color" content="#ef4c6f" />
       <meta name="apple-mobile-web-app-status-bar-style" content="#ef4c6f" />
 
-      <title>
-        Free Ticket System - Sell tickets online in seconds | BilletFix
-      </title>
-      <meta
-        name="description"
-        content="Start selling today. Simple and fast ticketing system - BilletFix ticketing handles your tickets and payments."
-      />
+      <title>{title}</title>
+      <meta name="description" content={metadescription} />
+      <meta property="og:title" content={companyName} />
+      <meta property="og:type" content="business.business" />
+      <meta property="og:url" content="Put your own URL to the object here" />
+      <meta property="business:contact_data:street_address" content={address} />
+      <meta property="business:contact_data:locality" content={city} />
+      <meta property="business:contact_data:region" content={region} />
+      <meta property="business:contact_data:postal_code" content={postalCode} />
+      <meta property="business:contact_data:country_name" content={country} />
     </Helmet>
     <div>
       <WindowHelper>
@@ -237,7 +297,3 @@ export const Layout = ({
     <Footer links={nav.footerNav} />
   </div>
 )
-
-Layout.propTypes = {
-  children: PropTypes.func,
-}

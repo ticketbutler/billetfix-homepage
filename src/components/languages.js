@@ -10,7 +10,7 @@ const Languages = ({ heading, strong_text }) => {
             alignItems: 'center',
             justifyContent: 'space-between',
             overflow: 'hidden',
-            background: '#f7f7f7',
+            background: '#fff',
             padding: '100px 6%',
             position: 'relative',
             ...(window.width > 980

@@ -90,17 +90,21 @@ const RightMockupSecond = ({ heading, strong_text, copyBoxLink }) => {
             <img
               itemprop="image"
               style={{
-                ...(window.width > 980
+                height: '600px',
+                width: 'auto',
+                ...(window.width > 1180
                   ? {
-                      height: '600px',
-                      width: 'auto',
                       marginRight: '-305px',
                     }
-                  : {
-                      marginRight: '-155px',
-                      height: '300px',
-                      width: 'auto',
-                    }),
+                  : window.width > 900
+                    ? {
+                        marginRight: '-440px',
+                      }
+                    : {
+                        marginRight: '-155px',
+                        height: '300px',
+                        width: 'auto',
+                      }),
 
                 objectFit: 'cover',
               }}

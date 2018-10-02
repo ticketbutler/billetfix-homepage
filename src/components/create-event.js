@@ -193,7 +193,7 @@ class CreateEvent extends React.Component {
                     href=""
                     onClick={() => {
                       this.setState({ tickets: [...this.state.tickets, {}] })
-                      console.log('del')
+                 
                     }}
                   >
                     <p

@@ -9,7 +9,7 @@ const pictureLeftSecond = ({ heading, text }) => {
           style={{
             alignItems: 'center',
             boxPack: 'justify',
-            background: '#f7f7f7',
+            background: '#fff',
             padding: '100px 6%',
             ...(window.width > 980
               ? {

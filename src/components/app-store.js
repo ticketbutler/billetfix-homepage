@@ -12,15 +12,13 @@ const AppStore = ({ heading, text }) => {
             alignItems: 'center',
             justifyContent: 'space-between',
             overflow: 'hidden',
-            background: '#fff',
+            background: '#f3f3f3',
             padding: '100px 6%',
             position: 'relative',
           }}
           id="teaser"
         >
           <div
-            itemscope=""
-            itemtype="http://schema.org/WebPage"
             style={{
               padding: '0 10px',
               ...(window.width > 980
@@ -35,7 +33,7 @@ const AppStore = ({ heading, text }) => {
             className="details"
           >
             <h3
-              itemprop="headline"
+        
               style={{
                 fontSize: '30px',
                 letterSpacing: '3px',
@@ -81,7 +79,7 @@ const AppStore = ({ heading, text }) => {
               href="https://itunes.apple.com/dk/app/billetfix/id1281261719"
             >
               <img
-                itemprop="image"
+          
                 style={{ height: '60px' }}
                 src="../img/app-store.png"
                 alt="app-store-icon"
@@ -93,8 +91,11 @@ const AppStore = ({ heading, text }) => {
               href="https://play.google.com/store/apps/details?id=com.billetfix"
             >
               <img
-                itemprop="image"
-                style={{ height: '60px', marginLeft: '5px' }}
+              
+                style={{
+                  height: '61px',
+                  ...(window.width > 980 ? { marginLeft: '5px' } : {}),
+                }}
                 src="../img/google-play.png"
                 alt="app-store-icon"
               />
@@ -114,7 +115,7 @@ const AppStore = ({ heading, text }) => {
             }}
           >
             <img
-              itemprop="image"
+             
               src="../img/mobile-mockup.png"
               alt="mobile-mockup "
             />

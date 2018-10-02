@@ -109,8 +109,6 @@ const Footer = ({ links }) => {
             </ul>
           </div>
           <div
-            itemscope
-            itemtype="http://schema.org/Organization"
             style={{
               textAlign: 'right',
               listStyleType: 'none',
@@ -129,9 +127,6 @@ const Footer = ({ links }) => {
           >
             {links.filter(({ type }) => type === 'rightSection').map(data => (
               <p
-                itemprop="address"
-                itemscope
-                itemtype="http://schema.org/PostalAddress"
                 style={{
                   margin: '0',
                   fontWeight: '100',

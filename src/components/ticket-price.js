@@ -14,7 +14,7 @@ const TicketPrice = ({
 }) => (
   <WindowHelper>
     {window => (
-      <section style={{ padding: '7em 0' }}>
+      <section style={{ padding: '7em 0', background: '#f7f7f7' }}>
         <h3
           itemprop="headline"
           style={{
@@ -30,7 +30,7 @@ const TicketPrice = ({
               : {
                   fontSize: '23px',
                   fontWeight: '500',
-                  textAlign: 'left',
+
                   paddingLeft: '25px',
                 }),
           }}
@@ -52,7 +52,7 @@ const TicketPrice = ({
                 minWidth: '280px',
                 border: '2px solid #ff4a6e',
                 borderRadius: ' 3px',
-                background: '#f7f7f7',
+                background: '#FFFFFF',
                 color: '#333',
                 display: 'block',
               }}
