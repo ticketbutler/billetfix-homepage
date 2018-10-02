@@ -21,49 +21,50 @@ const styles = {
 export const Layout = ({
   children,
   data,
-  address,
-  city,
-  country,
-  companyName,
-  metadescription,
-  postalCode,
-  region,
+  metaData,
   fadeHeader,
-  title1,
-
+  title,
   nav,
   currentLocal,
   locales,
 }) => (
   <div>
     <Helmet>
+      {console.log(metaData)}
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" href="../img/favicon.png" type="image/png" />
       <meta property="og:image" content="../img/logox400.png" />
-      <meta property="og:site_name" content="BilletFix" />
+      <meta property="og:site_name" content={`${metaData.companyName}`} />
 
       <meta name="theme-color" content="#ef4c6f" />
       <meta name="msapplication-navbutton-color" content="#ef4c6f" />
       <meta name="apple-mobile-web-app-status-bar-style" content="#ef4c6f" />
 
-      <title>
-        Gratis billetsystem - Sælg billetter online på få sekunder | BilletFix
-      </title>
-      <meta
-        name="description"
-        content="Start dit billetsalg idag. Simpelt og hurtigt billetsystem - BilletFix håndterer dine billetter og betalinger."
-      />
-      <meta property="og:title" content="Billetfix" />
+      <title>{`${title}`}</title>
+      <meta name="description" content={`${metaData.metadescription}`} />
+
       <meta property="og:type" content="business.business" />
-      <meta property="og:url" content="https://billetfix.dk/" />
+      <meta property="og:url" content={`${metaData.url}`} />
       <meta
         property="business:contact_data:street_address"
-        content="Esplanaden 7, 2.th"
+        content={`${metaData.address}`}
       />
-      <meta property="business:contact_data:locality" content="København" />
-      <meta property="business:contact_data:region" content="København" />
-      <meta property="business:contact_data:postal_code" content="1263" />
-      <meta property="business:contact_data:country_name" content="Danmark" />
+      <meta
+        property="business:contact_data:locality"
+        content={`${metaData.locality}`}
+      />
+      <meta
+        property="business:contact_data:region"
+        content={`${metaData.region}`}
+      />
+      <meta
+        property="business:contact_data:postal_code"
+        content={`${metaData.postalCode}`}
+      />
+      <meta
+        property="business:contact_data:country_name"
+        content={`${metaData.country}`}
+      />
 
       <script type="application/ld+json">
         {`

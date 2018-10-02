@@ -2,24 +2,11 @@ module.exports = [
   {
     path_en: '/en',
     path_da: '/da',
-    title1_en:
-      'Free Ticket System - Sell tickets online in seconds | BilletFix',
-    title1_da:
-      'Gratis billetsystem - Sælg billetter online på få sekunder | BilletFix',
+    title: 'Billetfix',
     metadescription_en:
-      'Start selling today. Simple and fast ticketing system - BilletFix ticketing handles your tickets and payments.',
+      'Billetfix: Free Ticket System - Sell tickets online in seconds | BilletFix',
     metadescription_da:
-      'Start dit billetsalg idag. Simpelt og hurtigt billetsystem - BilletFix håndterer dine billetter og betalinger.',
-    url: 'https://billetfix.dk/',
-    companyName: 'Billetfix',
-    address: 'Esplanaden 7, 2.th',
-    region_en: 'Copenhagen',
-    region_da: 'København',
-    locality_en: 'Copenhagen',
-    locality_da: 'København',
-    country_en: 'Denmark',
-    country_da: 'Danmark',
-    postalCode: '1263',
+      'Billetfix: Gratis billetsystem - Sælg billetter online på få sekunder | BilletFix',
 
     sections: [
       {
@@ -243,6 +230,7 @@ module.exports = [
         type: 'about',
         heading_en: 'About',
         heading_da: 'Om os',
+
         texts_en: [
           'BilletFix offers a ticketing system to students who volunteer a lot of time and energy into organising events for their fellow students. Our stupidly simple ticketing system is designed to provide these volunteering heroes with more time and energy to concentrate on their events awesome - instead of managing the hassle of signups and payments',
 
@@ -268,6 +256,8 @@ module.exports = [
     path_en: '/en/faq',
     path_da: '/da/faq',
     title: 'FAQ',
+    metadescription_en: '',
+    metadescription_da: '',
     sections: [
       {
         type: 'faq',
@@ -476,6 +466,8 @@ module.exports = [
     path_en: '/en/privacy-policy',
     path_da: '/da/privatpolitik',
     title: 'Privacy policy',
+    metadescription_en: '',
+    metadescription_da: '',
     sections: [
       {
         type: 'privacy_policy',
@@ -490,6 +482,8 @@ module.exports = [
     path_en: '/en/tandc',
     path_da: '/da/tandc',
     title: 'Terms & Conditions',
+    metadescription_en: '',
+    metadescription_da: '',
     sections: [
       {
         type: 'terms_and_c',
@@ -506,6 +500,8 @@ module.exports = [
 
     title_en: 'Contact',
     title_da: 'Kontakt',
+    metadescription_en: '',
+    metadescription_da: '',
     sections: [
       {
         type: 'contact',

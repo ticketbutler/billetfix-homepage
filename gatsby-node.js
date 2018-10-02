@@ -1,9 +1,10 @@
-const JSONdata = require('./pagesData')
-const { topNav } = require('./topNavData')
-const { footerNav } = require('./footerNavData')
+const JSONdata = require('./data/pagesData')
+const { topNav } = require('./data/topNavData')
+const { footerNav } = require('./data/footerNavData')
 const { normalizeTranslatedKeys } = require('./src/utils')
 const path = require('path')
-const localData = require('./localData')
+const metaData = require('./data/metaData')
+const localData = require('./data/localData')
 
 exports.createPages = ({ actions }) => {
   const { createPage } = actions
@@ -13,6 +14,7 @@ exports.createPages = ({ actions }) => {
       topNav: topNav.map(item => normalizeTranslatedKeys(item, local.id)),
       footerNav: footerNav.map(item => normalizeTranslatedKeys(item, local.id)),
     }
+    let localMetaData = normalizeTranslatedKeys(metaData, local.id)
     JSONdata.forEach(page => {
       localPage = {
         ...normalizeTranslatedKeys(page, local.id),
@@ -42,6 +44,8 @@ exports.createPages = ({ actions }) => {
         // layout: null,
         context: {
           nav,
+          title: localPage.title,
+          metaData: localMetaData,
           sections: localPage.sections,
           currentLocal: local,
           locales: localData,
