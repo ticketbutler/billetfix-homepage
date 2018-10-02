@@ -2,8 +2,9 @@ module.exports = [
   {
     path_en: '/en',
     path_da: '/da',
-    title_en: 'Free Ticket System - Sell tickets online in seconds | BilletFix',
-    title_da:
+    title1_en:
+      'Free Ticket System - Sell tickets online in seconds | BilletFix',
+    title1_da:
       'Gratis billetsystem - Sælg billetter online på få sekunder | BilletFix',
     metadescription_en:
       'Start selling today. Simple and fast ticketing system - BilletFix ticketing handles your tickets and payments.',

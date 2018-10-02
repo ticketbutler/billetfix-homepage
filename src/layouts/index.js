@@ -29,7 +29,8 @@ export const Layout = ({
   postalCode,
   region,
   fadeHeader,
-  title,
+  title1,
+
   nav = {},
   currentLocal,
   locales,
@@ -87,31 +88,32 @@ export const Layout = ({
         `}
       </script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link
-        rel="icon"
-        href="/static/05fa069f-e321-4561-b432-ea63adbaa78f/img/favicon.png"
-        type="image/png"
-      />
-      <meta
-        property="og:image"
-        content="/static/05fa069f-e321-4561-b432-ea63adbaa78f/img/og_image.png"
-      />
+      <link rel="icon" href="../../img/favicon.png" type="image/png" />
+      <meta property="og:image" content="../../img/logox400.png" />
       <meta property="og:site_name" content="BilletFix" />
 
       <meta name="theme-color" content="#ef4c6f" />
       <meta name="msapplication-navbutton-color" content="#ef4c6f" />
       <meta name="apple-mobile-web-app-status-bar-style" content="#ef4c6f" />
 
-      <title>{title}</title>
-      <meta name="description" content={metadescription} />
-      <meta property="og:title" content={companyName} />
+      <title>
+        Gratis billetsystem - Sælg billetter online på få sekunder | BilletFix
+      </title>
+      <meta
+        name="description"
+        content="Start dit billetsalg idag. Simpelt og hurtigt billetsystem - BilletFix håndterer dine billetter og betalinger."
+      />
+      <meta property="og:title" content="Billetfix" />
       <meta property="og:type" content="business.business" />
       <meta property="og:url" content="Put your own URL to the object here" />
-      <meta property="business:contact_data:street_address" content={address} />
-      <meta property="business:contact_data:locality" content={city} />
-      <meta property="business:contact_data:region" content={region} />
-      <meta property="business:contact_data:postal_code" content={postalCode} />
-      <meta property="business:contact_data:country_name" content={country} />
+      <meta
+        property="business:contact_data:street_address"
+        content="Esplanaden 7, 2.th"
+      />
+      <meta property="business:contact_data:locality" content="København" />
+      <meta property="business:contact_data:region" content="København" />
+      <meta property="business:contact_data:postal_code" content="1263" />
+      <meta property="business:contact_data:country_name" content="Danmark" />
     </Helmet>
     <div>
       <WindowHelper>
