@@ -88,8 +88,8 @@ export const Layout = ({
         `}
       </script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="icon" href="../../img/favicon.png" type="image/png" />
-      <meta property="og:image" content="../../img/logox400.png" />
+      <link rel="icon" href="../img/favicon.png" type="image/png" />
+      <meta property="og:image" content="../img/logox400.png" />
       <meta property="og:site_name" content="BilletFix" />
 
       <meta name="theme-color" content="#ef4c6f" />
@@ -105,7 +105,7 @@ export const Layout = ({
       />
       <meta property="og:title" content="Billetfix" />
       <meta property="og:type" content="business.business" />
-      <meta property="og:url" content="Put your own URL to the object here" />
+      <meta property="og:url" content="https://billetfix.dk/" />
       <meta
         property="business:contact_data:street_address"
         content="Esplanaden 7, 2.th"
