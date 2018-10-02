@@ -498,6 +498,7 @@ module.exports = [
       },
     ],
   },
+
   {
     path_en: '/en/contact',
     path_da: '/da/kontakt',
