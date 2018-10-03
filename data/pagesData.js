@@ -225,6 +225,10 @@ module.exports = [
     path_da: '/da/om-os/',
     title_en: 'About us | BilletFix',
     title_da: 'Om os | BilletFix',
+    metadescription_en:
+      'Are you a student and organises events on your university or high school? BilletFix is an online ticketing platform made for students.',
+    metadescription_da:
+      'Er du studerende og arrangerer events på universitetet eller gymnasiet? BilletFix er et online billetsystem lavet til studerende.',
     sections: [
       {
         type: 'about',
@@ -257,7 +261,10 @@ module.exports = [
     path_da: '/da/faq',
     title: 'FAQ',
     metadescription_en: '',
-    metadescription_da: '',
+    metadescription_en:
+      'Kom i gang med at sælge billetter online gennem et online billetsystem på få minutter.',
+    metadescription_da:
+      'Get started with selling tickets online through an online ticketing system in only a few minutes.',
     sections: [
       {
         type: 'faq',
@@ -466,8 +473,7 @@ module.exports = [
     path_en: '/en/privacy-policy',
     path_da: '/da/privatpolitik',
     title: 'Privacy policy',
-    metadescription_en: '',
-    metadescription_da: '',
+
     sections: [
       {
         type: 'privacy_policy',
@@ -482,8 +488,7 @@ module.exports = [
     path_en: '/en/tandc',
     path_da: '/da/tandc',
     title: 'Terms & Conditions',
-    metadescription_en: '',
-    metadescription_da: '',
+
     sections: [
       {
         type: 'terms_and_c',
@@ -500,8 +505,10 @@ module.exports = [
 
     title_en: 'Contact',
     title_da: 'Kontakt',
-    metadescription_en: '',
-    metadescription_da: '',
+    metadescription_en:
+      'Start your ticket sales today or contact us to get help with your ticket sales',
+    metadescription_da:
+      'Start dit billetsalg i dag eller kontakt os og få hjælp til dit billetsalg.',
     sections: [
       {
         type: 'contact',
