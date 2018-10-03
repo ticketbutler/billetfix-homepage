@@ -52,11 +52,11 @@ export default [
   },
   {
     type: 'rightSection',
-    text: 'Porcelænshaven 26 1.',
+    text: 'Esplanaden 7, 2.th.',
   },
   {
     type: 'rightSection',
-    text: 'Frederiksberg 2000',
+    text: 'København K 1263',
   },
   {
     type: 'rightSection',

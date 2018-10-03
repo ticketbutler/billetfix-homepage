@@ -281,9 +281,9 @@ class Contact extends React.Component {
                         {this.props.headingAddress}{' '}
                       </p>
                       <p style={style.contactText} id="address">
-                        Porcelænshaven 26, 2000
+                        Esplanaden 7, 2.th
                       </p>
-                      <p style={style.contactText}>Frederiksberg 2000</p>
+                      <p style={style.contactText}>1263 København K</p>
                     </div>
                     <div
                       style={{
