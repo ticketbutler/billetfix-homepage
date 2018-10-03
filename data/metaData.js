@@ -1,8 +1,8 @@
 module.exports = {
-  metadescription_en:
-    'Start selling today. Simple and fast ticketing system - BilletFix ticketing handles your tickets and payments.',
-  metadescription_da:
-    'Start dit billetsalg idag. Simpelt og hurtigt billetsystem - BilletFix håndterer dine billetter og betalinger.',
+  // metadescription_en:
+  //   'Start selling today. Simple and fast ticketing system - BilletFix ticketing handles your tickets and payments.',
+  // metadescription_da:
+  //   'Start dit billetsalg idag. Simpelt og hurtigt billetsystem - BilletFix håndterer dine billetter og betalinger.',
   url: 'https://billetfix.dk/',
   companyName: 'Billetfix',
   address: 'Esplanaden 7, 2.th',

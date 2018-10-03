@@ -24,13 +24,14 @@ export const Layout = ({
   metaData,
   fadeHeader,
   title,
+  metadescription,
   nav,
   currentLocal,
   locales,
 }) => (
   <div>
     <Helmet>
-      {console.log(metaData)}
+      {console.log(metadescription)}
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" href="../img/favicon.png" type="image/png" />
       <meta property="og:image" content="../img/logox400.png" />
@@ -41,7 +42,7 @@ export const Layout = ({
       <meta name="apple-mobile-web-app-status-bar-style" content="#ef4c6f" />
 
       <title>{`${title}`}</title>
-      <meta name="description" content={`${metaData.metadescription}`} />
+      <meta name="description" content={`${metadescription}`} />
 
       <meta property="og:type" content="business.business" />
       <meta property="og:url" content={`${metaData.url}`} />

@@ -281,9 +281,9 @@ class Contact extends React.Component {
                         {this.props.headingAddress}{' '}
                       </p>
                       <p style={style.contactText} id="address">
-                        Esplanaden 7, 2.th
+                       {this.props.textAddressStreet}
                       </p>
-                      <p style={style.contactText}>1263 København K</p>
+                      <p style={style.contactText}>{this.props.textAddressCity}</p>
                     </div>
                     <div
                       style={{
@@ -305,7 +305,7 @@ class Contact extends React.Component {
                       <p style={style.contactTitles}>
                         {this.props.headingPhone}
                       </p>
-                      <p style={style.contactText}> +45 89 80 12 80</p>
+                      <p style={style.contactText}>{this.props.textPhone}</p>
                     </div>
                     <div
                       style={{
@@ -328,7 +328,7 @@ class Contact extends React.Component {
                         {this.props.headingEmail}
                       </p>
                       <p style={style.contactText} id="support">
-                        info@billetfix.dk
+                      {this.props.textEmail}
                       </p>
                     </div>
                   </div>

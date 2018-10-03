@@ -44,6 +44,7 @@ exports.createPages = ({ actions }) => {
         // layout: null,
         context: {
           nav,
+          metadescription: localPage.metadescription,
           title: localPage.title,
           metaData: localMetaData,
           sections: localPage.sections,
