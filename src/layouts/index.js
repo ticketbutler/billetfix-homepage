@@ -31,7 +31,7 @@ export const Layout = ({
 }) => (
   <div>
     <Helmet>
-      {console.log(metadescription)}
+      
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" href="../img/favicon.png" type="image/png" />
       <meta property="og:image" content="../img/logox400.png" />
@@ -166,8 +166,6 @@ export const Layout = ({
                 ...(window.width > 980
                   ? { margin: '10px' }
                   : {
-                      // opacity: '0',
-                      // visibility: 'hidden',
                       transform: 'translateX(100%)',
                       position: 'absolute',
                       textAlign: 'center',
@@ -223,7 +221,7 @@ export const Layout = ({
                             marginLeft: '16px',
                             fontSize: '13px',
                             color: '#f7f7f7',
-                            // marginLeft: '8px',
+                           
                             padding: '0 10px',
                           }
                         : {

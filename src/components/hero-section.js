@@ -144,11 +144,11 @@ const Hero = ({
               <Button
                 style={{
                   padding: '15px 10px',
-                  marginTop: '60px',
+                  marginTop: '15px',
                   marginBottom: '40px',
                 }}
               >
-                {button2Text}
+              see video
               </Button>
             </div> */}
 
