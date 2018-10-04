@@ -41,7 +41,7 @@ const RightMockupSecond = ({ heading, strong_text, copyBoxLink }) => {
               style={{
                 color: '#ff4a6e',
                 margin: '.25em 0',
-                fontWeight: '100',
+                fontWeight: '400',
                 letterSpacing: '2px',
                 ...(window.width > 980
                   ? {
@@ -62,16 +62,14 @@ const RightMockupSecond = ({ heading, strong_text, copyBoxLink }) => {
                 fontWeight: '500',
                 padding: '15px 0',
 
-                fontSize: '18px',
-                lineHeight: '17px',
                 ...(window.width > 980
                   ? {
-                      fontSize: '18px',
-                      lineHeight: '17px',
+                      fontSize: '17px',
+                      lineHeight: '25px',
                     }
                   : {
                       fontSize: '16px',
-                      lineHeight: '16px',
+                      lineHeight: '17px',
                     }),
               }}
             >

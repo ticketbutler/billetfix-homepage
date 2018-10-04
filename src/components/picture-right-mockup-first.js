@@ -45,7 +45,7 @@ const RightMockupFirst = ({ heading, strong_text, text, button_text }) => {
               style={{
                 color: '#ff4a6e',
                 margin: '.25em 0',
-                fontWeight: '100',
+                fontWeight: '400',
                 letterSpacing: '2px',
                 ...(window.width > 980
                   ? {
@@ -70,7 +70,7 @@ const RightMockupFirst = ({ heading, strong_text, text, button_text }) => {
                 lineHeight: '17px',
                 ...(window.width > 980
                   ? {
-                      fontSize: '18px',
+                      fontSize: '17px',
                       lineHeight: '17px',
                     }
                   : {
@@ -83,16 +83,13 @@ const RightMockupFirst = ({ heading, strong_text, text, button_text }) => {
             </p>
             <p
               style={{
-                lineHeight: '20px',
-                marginTop: '16px',
-                fontSize: '16px',
                 fontWeight: '100',
                 letterSpacing: '1px',
 
                 ...(window.width > 980
                   ? {
-                      fontSize: '16px',
-                      lineHeight: '17px',
+                      fontSize: '17px',
+                      lineHeight: '25px',
                     }
                   : {
                       fontSize: '16px',

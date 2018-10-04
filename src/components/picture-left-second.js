@@ -30,7 +30,7 @@ const pictureLeftSecond = ({ heading, text }) => {
               style={{
                 color: '#ff4a6e',
                 margin: '.25em 0',
-                fontWeight: '100',
+                fontWeight: '400',
                 letterSpacing: '2px',
                 ...(window.width > 980
                   ? {
@@ -50,17 +50,17 @@ const pictureLeftSecond = ({ heading, text }) => {
 
             <p
               style={{
-                lineHeight: '20px',
                 marginTop: '16px',
-                fontSize: '16px',
+
                 fontWeight: '100',
                 letterSpacing: '1px',
 
                 ...(window.width > 980
                   ? {
-                      fontSize: '16px',
+                      fontSize: '17px',
                       lineHeight: '17px',
-                      textAlign: 'right',
+                      lineHeight: '25px',
+                      textAlign: 'left',
                     }
                   : {
                       fontSize: '16px',

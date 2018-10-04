@@ -12,7 +12,7 @@ const styles = {
   },
 }
 
-const faq = ({ heading, faqs }) => {
+const faq = ({ heading, faqs, organizerTitle, guestTitle }) => {
   return (
     <WindowHelper>
       {window => (
@@ -57,7 +57,7 @@ const faq = ({ heading, faqs }) => {
             >
               {heading}
             </h1>
-            <h3 style={styles.caption}>Organizer</h3>
+            <h3 style={styles.caption}>{organizerTitle}</h3>
             <ul
               style={{
                 margin: '0',
@@ -80,7 +80,7 @@ const faq = ({ heading, faqs }) => {
                 </li>
               ))}
             </ul>
-            <h3 style={styles.caption}>Guest</h3>
+            <h3 style={styles.caption}>{guestTitle}</h3>
             <ul style={{ margin: '0' }}>
               {faqs.filter(({ type }) => type === 'guest').map(faq => {
                 if (window.width > 400) {
@@ -110,7 +110,7 @@ const faq = ({ heading, faqs }) => {
                 }
               })}
             </ul>
-            <h3 style={styles.caption}>Organizer</h3>
+            <h3 style={styles.caption}>{organizerTitle}</h3>
             <ul>
               {faqs.filter(({ type }) => type === 'organiser').map(faq => (
                 <li>
@@ -140,7 +140,7 @@ const faq = ({ heading, faqs }) => {
                 </li>
               ))}
             </ul>
-            <h3 style={styles.caption}> Guest</h3>
+            <h3 style={styles.caption}> {guestTitle}</h3>
 
             <ul>
               {faqs.filter(({ type }) => type === 'guest').map(faq => (

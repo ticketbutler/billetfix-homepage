@@ -42,7 +42,7 @@ const PictureRightSecond = ({ heading, strong_text, text }) => {
                 lineHeight: '1.2em',
                 margin: '.25em 0',
                 color: '#ff4a6e',
-                fontWeight: '100',
+                fontWeight: '400',
 
                 ...(window.width > 980
                   ? {
@@ -68,11 +68,10 @@ const PictureRightSecond = ({ heading, strong_text, text }) => {
                 fontWeight: '500',
                 padding: '15px 0',
 
-                fontSize: '18px',
-                lineHeight: '17px',
                 ...(window.width > 980
                   ? {
                       fontSize: '18px',
+                      lineHeight: '17px',
                       lineHeight: '17px',
                     }
                   : {
@@ -85,16 +84,15 @@ const PictureRightSecond = ({ heading, strong_text, text }) => {
             </p>
             <p
               style={{
-                lineHeight: '20px',
                 marginTop: '16px',
-                fontSize: '16px',
+
                 fontWeight: '100',
                 letterSpacing: '1px',
 
                 ...(window.width > 980
                   ? {
-                      fontSize: '16px',
-                      lineHeight: '17px',
+                      fontSize: '17px',
+                      lineHeight: '25px',
                     }
                   : {
                       fontSize: '16px',

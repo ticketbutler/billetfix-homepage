@@ -28,9 +28,9 @@ module.exports = [
           'Klar til at modtage penge til dit arrangement på få sekunder',
           'Integrér gratis på din egen hjemmeside',
         ],
-        button1Text_en: 'start selling',
-        button1Text_da: 'opret billetsalg',
-        buttonLink: 'https://billetfix.dk/user/login/',
+
+        buttonText_en: 'see video',
+        buttonText_da: 'se video',
       },
 
       {
@@ -178,20 +178,22 @@ module.exports = [
           },
           {
             attendeePrice: '1 - 500',
-            ticketPrice: '3.00',
-            percentage: '+ 2.50 %',
+            ticketPrice: '3,00',
+            percentage: '+ 2,50 %',
           },
           {
             attendeePrice: '500 - 1000',
-            ticketPrice: '3.00',
-            percentage: '+ 2.50 %',
+            ticketPrice: '3,00',
+            percentage: '+ 2,50 %',
           },
           {
             attendeePrice: '10000+',
-            ticketPrice: '3.00',
-            percentage: '+ 2.50 %',
+            ticketPrice: '3,00',
+            percentage: '+ 2,50 %',
           },
         ],
+        vatText_en: 'All prices inlcude VAT',
+        vatText_da: 'Alle priser vises inkl. moms',
       },
       {
         type: 'picture_left_second',
@@ -238,7 +240,7 @@ module.exports = [
         texts_en: [
           'BilletFix offers a ticketing system to students who volunteer a lot of time and energy into organising events for their fellow students. Our stupidly simple ticketing system is designed to provide these volunteering heroes with more time and energy to concentrate on their events awesome - instead of managing the hassle of signups and payments',
 
-          "We know that students don't have a lot of money to spend - so BilletFix is free for organisers. The guests pay the lowest service fee possible of 3 kr per paid ticket (only a bottle deposit) - AND your guests can pay with MobilePay! Too good to be true, right? Well, to keep the servers running and fuel our developers with energy drinks we find advertisers to support the project.",
+          "We know that students don't have a lot of money to spend - so BilletFix is free for organisers. The guests pay the lowest service fee possible AND your guests can pay with MobilePay! ",
 
           'The founders of BilletFix are to brothers who together are eager to make your life as a volunteer organiser easier and your guests happier.',
 
@@ -247,9 +249,9 @@ module.exports = [
         texts_da: [
           'BilletFix er et tilmeldingssystem lavet til at hjælpe studerende, som helt frivilligt bruger en masse tid og energi på at arrangere events for deres medstuderende. Det ultra simple tilmeldingssystem er udviklet for at give de frivillige helte mere tid og overskud til at koncentrere sig om at lave fede arrangementer i stedet for at bøvle med at håndtere bøvlede tilmeldinger og betalinger.',
 
-          'Vi ved, at studerende ikke har mange penge mellem hænderne, så systemet er derfor gratis for arrangøren. Derudover har vi trykket servicegebyret for gæsterne helt i bund, så det kun koster det, der svarer til pant – nemlig fast 3 kr per billet. Og så kan de i øvrigt betale med MobilePay. For godt til at være sandt? For at vi stadig kan holde serverne knurrende og fodre med energidrik til programmørerne finder vi annoncører, der kan give lidt drikkepenge til projektet',
+          'Vi ved, at studerende ikke har mange penge mellem hænderne, så systemet er derfor gratis for arrangøren. Derudover har vi trykket servicegebyret for gæsterne helt i bund.',
 
-          'Grundlæggerne af BilletFix er to brødre, som sammen er ivrige efter at gøre livet som arrangør lettere og dine gæster gladere.',
+          ' Grundlæggerne af BilletFix er to brødre, som sammen er ivrige efter at gøre livet som arrangør lettere og dine gæster gladere.',
 
           'Så glem indviklede regneark og tidskrævende salg i pauserne. Gør det hele online – simpelt og gratis!',
         ],
@@ -260,12 +262,20 @@ module.exports = [
     path_en: '/en/faq',
     path_da: '/da/faq',
     title: 'FAQ',
-    metadescription_en:'Get started with selling tickets online through an online ticketing system in only a few minutes.',
-    metadescription_da:'Kom i gang med at sælge billetter online gennem et online billetsystem på få minutter.',
+
+    metadescription_en:
+      'Get started with selling tickets online through an online ticketing system in only a few minutes.',
+    metadescription_da:
+      'Kom i gang med at sælge billetter online gennem et online billetsystem på få minutter.',
     sections: [
       {
+        organizerTitle_en: 'Organizer',
+        organizerTitle_da: 'Arrangør',
+        guestTitle_en: 'Guest',
+        guestTitle_da: 'Gæst',
         type: 'faq',
         heading: 'FAQ',
+
         faqs: [
           {
             id: 1,
@@ -520,15 +530,15 @@ module.exports = [
         formHeadingMessage_da: 'Besked',
         headingAddress_en: 'Address',
         headingAddress_da: 'Adresse',
-        textAddressStreet:'Esplanaden 7, 2.th',
-        textAddressCity_en:'1263 Copenhagen K',
-        textAddressCity_da:'1263 København K',
+        textAddressStreet: 'Esplanaden 7, 2.th',
+        textAddressCity_en: '1263 Copenhagen K',
+        textAddressCity_da: '1263 København K',
         headingPhone_en: 'Telephone',
         headingPhone_da: 'Telefon',
-        textPhone:'+45 89 80 12 80',
+        textPhone: '+45 89 80 12 80',
         headingEmail_en: 'E-mail',
         headingEmail_da: 'Generelle henvendelser',
-        textEmail:'info@billetfix.dk',
+        textEmail: 'info@billetfix.dk',
       },
     ],
   },

@@ -29,7 +29,6 @@ const About = ({ heading, texts, staticHeader }) => {
               }}
             >
               <h1
-          
                 style={{
                   textAlign: 'center',
                   fontWeight: '300',

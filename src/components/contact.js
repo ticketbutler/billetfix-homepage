@@ -73,7 +73,6 @@ class Contact extends React.Component {
                 }}
               >
                 <h1
-              
                   style={{
                     fontWeight: '200',
                     color: 'black',
@@ -281,9 +280,11 @@ class Contact extends React.Component {
                         {this.props.headingAddress}{' '}
                       </p>
                       <p style={style.contactText} id="address">
-                       {this.props.textAddressStreet}
+                        {this.props.textAddressStreet}
                       </p>
-                      <p style={style.contactText}>{this.props.textAddressCity}</p>
+                      <p style={style.contactText}>
+                        {this.props.textAddressCity}
+                      </p>
                     </div>
                     <div
                       style={{
@@ -328,7 +329,7 @@ class Contact extends React.Component {
                         {this.props.headingEmail}
                       </p>
                       <p style={style.contactText} id="support">
-                      {this.props.textEmail}
+                        {this.props.textEmail}
                       </p>
                     </div>
                   </div>

@@ -36,7 +36,7 @@ const Languages = ({ heading, strong_text }) => {
               style={{
                 color: '#ff4a6e',
                 margin: '.25em 0',
-                fontWeight: '100',
+                fontWeight: '400',
                 letterSpacing: '2px',
                 ...(window.width > 980
                   ? {

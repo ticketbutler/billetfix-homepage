@@ -28,6 +28,7 @@ const Footer = ({ links }) => {
                 letterSpacing: '1px',
                 textAlign: 'left',
                 padding: '25px',
+                marginLeft: '92px',
 
                 ...(window.width > 980
                   ? {}
@@ -101,6 +102,7 @@ const Footer = ({ links }) => {
                       textDecoration: 'none',
                     }}
                     href={data.link}
+                    target="_blank"
                   >
                     {data.caption}
                   </a>
@@ -112,7 +114,7 @@ const Footer = ({ links }) => {
             style={{
               textAlign: 'right',
               listStyleType: 'none',
-              margin: '0',
+              marginRight: '92px',
               padding: '25px',
               minWidth: '300px',
               ...(window.width > 980

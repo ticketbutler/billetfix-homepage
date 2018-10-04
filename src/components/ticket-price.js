@@ -5,6 +5,7 @@ import { WindowHelper } from '../components/helpers'
 const TicketPrice = ({
   heading,
   prices,
+  vatText,
   ticketHeading,
   ticketText1,
   ticketText2,
@@ -23,7 +24,7 @@ const TicketPrice = ({
             textAlign: 'center',
             margin: '0.25em 0px',
             color: 'rgb(255, 74, 110)',
-            fontWeight: '100',
+            fontWeight: '400',
 
             ...(window.width > 980
               ? { fontSize: '30px' }
@@ -120,7 +121,7 @@ const TicketPrice = ({
                     display: 'block',
                     padding: '.5em 0',
                     letterSpacing: '2px',
-                    fontSize: '1.2em',
+                    fontSize: '18px',
                   }}
                   dangerouslySetInnerHTML={{ __html: ticketText1 }}
                 />
@@ -130,7 +131,7 @@ const TicketPrice = ({
                     display: 'block',
                     padding: '.5em 0',
                     letterSpacing: '2px',
-                    fontSize: '1.2em',
+                    fontSize: '16px',
                   }}
                   dangerouslySetInnerHTML={{ __html: ticketText2 }}
                 />
@@ -141,7 +142,7 @@ const TicketPrice = ({
                     padding: '.5em 0',
                     letterSpacing: '2px',
 
-                    fontSize: '1.2em',
+                    fontSize: '16px',
                   }}
                   dangerouslySetInnerHTML={{ __html: ticketText3 }}
                 />
@@ -170,13 +171,15 @@ const TicketPrice = ({
                   <span
                     itemprop="price"
                     style={{
-                      fontSize: '3.5em',
+                      fontSize: '35px',
                       letterSpacing: '2px',
                     }}
                   >
                     {price.ticketPrice}
                   </span>
-                  <sub style={{ fontSize: '16px' }}>{price.percentage}</sub>
+                  <span style={{ fontSize: '29px', marginLeft: '4px' }}>
+                    {price.percentage}
+                  </span>
                   <span
                     style={{
                       display: 'block',
@@ -203,6 +206,17 @@ const TicketPrice = ({
             </div>
           ))}
         </div>
+
+        <h2
+          style={{
+            textAlign: 'center',
+            fontWeight: '300',
+            fontSize: '18px',
+            color: 'grey',
+          }}
+        >
+          {vatText}
+        </h2>
       </section>
     )}
   </WindowHelper>

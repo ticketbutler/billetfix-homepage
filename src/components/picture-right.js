@@ -41,7 +41,7 @@ const PictureRight = ({ heading, texts }) => {
                 lineHeight: '1.2em',
                 margin: '.25em 0',
                 color: '#ff4a6e',
-                fontWeight: '100',
+                fontWeight: '400',
 
                 ...(window.width > 980
                   ? {
@@ -66,10 +66,10 @@ const PictureRight = ({ heading, texts }) => {
             {texts.map(text => (
               <p
                 style={{
-                  lineHeight: '30px',
+                  lineHeight: '25px',
                   letterSpacing: '2px',
-                  marginTop: 16,
-                  fontSize: '16px',
+                  marginTop: '16px',
+                  fontSize: '17px',
                   color: '#333',
                   fontWeight: '100',
                 }}

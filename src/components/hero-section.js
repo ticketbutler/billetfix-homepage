@@ -9,9 +9,8 @@ const Hero = ({
   heading,
   image,
   texts = [],
-  button1Text,
-  button2Text,
-  buttonLink,
+  buttonText,
+
   inputPlaceholder,
 }) => (
   <WindowHelper>
@@ -189,7 +188,7 @@ const Hero = ({
                         marginBottom: '40px',
                       }}
                     >
-                      see video
+                      {buttonText}
                     </Button>
                   </div>
                 </>
