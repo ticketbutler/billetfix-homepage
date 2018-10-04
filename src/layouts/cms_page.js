@@ -14,7 +14,7 @@ import ContactForm from '../components/contact'
 import PictureRightSecond from '../components/picture-right-second'
 import MockupRightFirst from '../components/picture-right-mockup-first'
 import MockupRightSecond from '../components/picture-right-mockup-second'
-// import PricingCards from '../components/ticket-price'
+import PricingCards from '../components/ticket-price'
 import Footer from '../components/footer'
 import AppStore from '../components/app-store'
 // import SMIcons from '../components/soc-med-icons'
@@ -39,7 +39,7 @@ const components = [
   { Component: MockupRightFirst, id: 'mockup_right_first' },
   { Component: MockupRightSecond, id: 'mockup_right_second' },
   { Component: ContactForm, id: 'contact_form' },
-  // { Component: PricingCards, id: 'pricing_cards' },
+  { Component: PricingCards, id: 'pricing_cards' },
   // { Component: SMIcons, id: 'soc_med_icons' },
   { Component: Contact, id: 'contact' },
   { Component: Languages, id: 'languages' },
