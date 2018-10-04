@@ -227,8 +227,18 @@ export const Layout = ({
                                 marginLeft: '16px',
                                 fontSize: '13px',
                                 color: '#f7f7f7',
-
                                 padding: '0 10px',
+                                ...(fadeHeader
+                                  ? window.scrollY >= 10
+                                    ? {
+                                        color: 'black',
+                                      }
+                                    : {
+                                        color: 'white',
+                                      }
+                                  : {
+                                      color: 'black',
+                                    }),
                               }
                             : {
                                 marginLeft: '0',
@@ -237,17 +247,6 @@ export const Layout = ({
                                 fontWeight: '600',
                                 color: '#333',
                                 display: 'block',
-                              }),
-                          ...(fadeHeader
-                            ? window.scrollY >= 10
-                              ? {
-                                  color: 'black',
-                                }
-                              : {
-                                  color: 'white',
-                                }
-                            : {
-                                color: 'black',
                               }),
                         }}
                         href={link}
