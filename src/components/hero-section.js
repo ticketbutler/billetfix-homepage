@@ -1,8 +1,10 @@
 import React from 'react'
 import { WindowHelper } from '../components/helpers'
-
+import { Overlay } from './elements/overlay'
+import { Cross } from './icons/closeCross'
 import { Button } from '../components/elements/elements'
-
+import { Switch } from './elements/elements'
+import { Arrow } from './icons/arrow'
 const Hero = ({
   heading,
   image,
@@ -116,60 +118,104 @@ const Hero = ({
                 {text}
               </span>
             ))}
+            <Switch>
+              {({ on, toggle }) => (
+                <>
+                  <div
+                    style={{
+                      position: 'absolute',
+                      top: '0',
+                      left: '0',
+                      width: '100%',
+                      height: '100vh',
+                      transition: 'all 0.5s',
+                      ...(on
+                        ? {
+                            visibility: 'visible',
+                            opacity: '1',
+                          }
+                        : {
+                            visibility: 'hidden',
+                            opacity: '0',
+                          }),
+                    }}
+                  >
+                    <Overlay
+                      style={{ width: '100%', height: '100%', zIndex: '99' }}
+                    >
+                      <Cross
+                        style={{
+                          position: 'absolute',
+                          ...(window.width > 980
+                            ? {
+                                right: '55px',
+                                marginTop: '-156px',
+                              }
+                            : { marginTop: '-172px', right: '5px' }),
+                        }}
+                        onClick={() => {
+                          toggle()
+                        }}
+                      />
+                      <iframe
+                        style={{
+                          width: '100%',
 
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                marginTop: '57px',
-                marginBottom: '74px',
-              }}
-              className="get-started"
-            >
+                          height: '100vh',
+                          ...(window.width > 980
+                            ? {
+                                maxWidth: ' 70%',
+                                marginTop: '145px',
+                                maxHeight: '70vh',
+                              }
+                            : {
+                                maxWidth: '84%',
+                                marginTop: '132px',
+                                maxHeight: '73vh',
+                              }),
+                        }}
+                        src="https://www.youtube.com/embed/pk7WopW7Ii8"
+                      />
+                    </Overlay>
+                  </div>
+                  <div style={{ paddingTop: '20px' }}>
+                    <Button
+                      onClick={() => {
+                        toggle()
+                      }}
+                      style={{
+                        padding: '15px 10px',
+                        marginTop: '15px',
+                        marginBottom: '40px',
+                      }}
+                    >
+                      see video
+                    </Button>
+                  </div>
+                </>
+              )}
+            </Switch>
+            <div style={{ paddingTop: '25px' }}>
               <a
                 style={{
-                  letterSpacing: '3px',
-                  fontSize: '15px',
                   textTransform: 'uppercase',
                   color: '#fff',
-
                   textDecoration: 'none',
+                  letterSpacing: '2px',
+                  fontWeight: '100',
+
+                  ...(window.width < 660
+                    ? {
+                        display: 'none',
+                      }
+                    : {}),
                 }}
-                href={buttonLink}
+                href="#features"
               >
-                <Button style={{ padding: '18px 17px' }}>{button1Text}</Button>
+                see how easy it is
+                <Arrow style={{ display: 'block', margin: '0 auto' }} />
               </a>
             </div>
-            {/* <div>
-              <Button
-                style={{
-                  padding: '15px 10px',
-                  marginTop: '15px',
-                  marginBottom: '40px',
-                }}
-              >
-              see video
-              </Button>
-            </div> */}
-
-            <a
-              style={{
-                textTransform: 'uppercase',
-                color: '#fff',
-                textDecoration: 'none',
-                letterSpacing: '2px',
-                fontWeight: '100',
-
-                ...(window.width < 660
-                  ? {
-                      display: 'none',
-                    }
-                  : {}),
-              }}
-              href="#features"
-            >
-              see how easy it is
-            </a>
           </div>
         </div>
       </section>

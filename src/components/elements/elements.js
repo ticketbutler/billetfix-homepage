@@ -5,6 +5,7 @@ export class Button extends React.Component {
   state = { hover: false }
 
   render() {
+    let { style, children, ...props } = this.props
     return (
       <button
         style={{
@@ -19,7 +20,7 @@ export class Button extends React.Component {
           outline: 'none',
           textTransform: 'uppercase',
           cursor: 'pointer',
-          ...this.props.style,
+          ...style,
           ...(this.state.hover
             ? {
                 background: 'white',
@@ -36,9 +37,25 @@ export class Button extends React.Component {
         onMouseLeave={() => {
           this.setState({ hover: false })
         }}
+        {...props}
       >
-        {this.props.children}
+        {children}
       </button>
     )
+  }
+}
+
+export class Switch extends React.Component {
+  state = {
+    on: false,
+  }
+  toggle = () => {
+    this.setState(({ on }) => ({ on: !on }))
+  }
+  render() {
+    return this.props.children({
+      ...this.state,
+      toggle: this.toggle,
+    })
   }
 }
