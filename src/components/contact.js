@@ -8,6 +8,7 @@ class Contact extends React.Component {
     name: '',
     email: '',
     message: '',
+    sent: false,
   }
 
   render() {
@@ -90,145 +91,171 @@ class Contact extends React.Component {
                 >
                   {this.props.heading}
                 </h1>
-                <form
-                  onSubmit={e => {
-                    e.preventDefault()
-                    var service_id = 'default_service'
-                    var template_id = 'template_rh9CGeWC'
-                    emailjs.init('user_5iBC1plyOvnbe2sl2azWQ')
-                    emailjs.send(service_id, template_id, {
-                      name: this.state.name,
-                      email: this.state.email,
-                      message: this.state.message,
-                    })
-                  }}
-                >
-                  <label
-                    for="send-address"
-                    style={{
-                      textAlign: 'center',
-                      display: 'block',
-                      marginTop: '25px',
-                      fontWeight: '100',
-                      color: '#333',
+                {this.state.sent ? (
+                  <div style={{ height: '544px', marginTop: '70px' }}>
+                    <h1
+                      style={{
+                        color: 'black',
+                        fontSize: '25px',
+                        fontWeight: '500',
+                      }}
+                    >
+                      {this.props.sentMessage}
+                    </h1>
+                    <h3
+                      style={{
+                        color: 'gray',
+                        fontSize: '18px',
+                        fontWeight: '400',
+                      }}
+                    >
+                      {this.props.sentMessageSpan}
+                    </h3>
+                  </div>
+                ) : (
+                  <form
+                    onSubmit={e => {
+                      e.preventDefault()
+                      var service_id = 'default_service'
+                      var template_id = 'template_rh9CGeWC'
+                      emailjs.init('user_5iBC1plyOvnbe2sl2azWQ')
+                      emailjs.send(service_id, template_id, {
+                        name: this.state.name,
+                        email: this.state.email,
+                        message: this.state.message,
+                      })
+                      this.setState({
+                        sent: true,
+                      })
                     }}
                   >
-                    {this.props.formHeadingName}
-                  </label>
-                  <input
-                    required
-                    id="name"
-                    maxLength="256"
-                    name="name"
-                    type="text"
-                    value={this.state.name}
-                    onChange={e => {
-                      this.setState({ name: e.target.value })
-                    }}
-                    style={{
-                      display: 'block',
-                      margin: '10px auto',
-                      maxWidth: '300px',
-                      width: '300px',
-                      border: '1px solid rgba(255,74,110,.5)',
-                      borderRadius: '3px',
-                      padding: '10px 15px',
-                      outline: '#000',
-                      fontSize: 'inherit',
-                    }}
-                  />
+                    <label
+                      for="send-address"
+                      style={{
+                        textAlign: 'center',
+                        display: 'block',
+                        marginTop: '25px',
+                        fontWeight: '100',
+                        color: '#333',
+                      }}
+                    >
+                      {this.props.formHeadingName}
+                    </label>
+                    <input
+                      required
+                      id="name"
+                      maxLength="256"
+                      name="name"
+                      type="text"
+                      value={this.state.name}
+                      onChange={e => {
+                        this.setState({ name: e.target.value })
+                      }}
+                      style={{
+                        display: 'block',
+                        margin: '10px auto',
+                        maxWidth: '300px',
+                        width: '300px',
+                        border: '1px solid rgba(255,74,110,.5)',
+                        borderRadius: '3px',
+                        padding: '10px 15px',
+                        outline: '#000',
+                        fontSize: 'inherit',
+                      }}
+                    />
 
-                  <label
-                    for="send-address"
-                    style={{
-                      textAlign: 'center',
-                      display: 'block',
-                      marginTop: '25px',
-                      fontWeight: '100',
-                      color: '#333',
-                    }}
-                  >
-                    {this.props.formHeadingEmail}
-                  </label>
-                  <input
-                    required
-                    id="send-address"
-                    maxLength="256"
-                    name="send address"
-                    type="email"
-                    value={this.state.email}
-                    onChange={e => {
-                      this.setState({ email: e.target.value })
-                    }}
-                    style={{
-                      display: 'block',
-                      margin: '10px auto',
-                      maxWidth: '300px',
-                      width: '300px',
-                      border: '1px solid rgba(255,74,110,.5)',
-                      borderRadius: '3px',
-                      padding: '10px 15px',
-                      outline: '#000',
-                      fontSize: 'inherit',
-                    }}
-                  />
-                  <label
-                    for="message"
-                    style={{
-                      fontWeight: '100',
-                      textAlign: 'center',
-                      display: 'block',
-                      marginTop: '25px',
-                      color: '#333',
-                    }}
-                  >
-                    {this.props.formHeadingMessage}
-                  </label>
-                  <textarea
-                    required
-                    id="message"
-                    rows="10"
-                    value={this.state.F}
-                    onChange={e => {
-                      this.setState({ message: e.target.value })
-                    }}
-                    style={{
-                      outline: 'none',
-                      width: '90%',
-                      maxWidth: ' 400px',
-                      fontFamily: 'inherit',
-                      fontSize: 'inherit',
-                      margin: '10px',
-                      lineHeight: 'inherit',
-                      border: '1px solid rgba(255,74,110,.5)',
-                      borderRadius: '3px',
-                      padding: '.5em .75em',
-                    }}
-                  />
-                  <button
-                    type="submit"
-                    style={{
-                      letterSpacing: '2px',
-                      borderColor: '#ff4a6e',
-                      display: 'block',
-                      background: '#ff4a6e',
-                      color: '#fff',
-                      borderRadius: '2px',
-                      margin: ' auto',
-                      cursor: 'pointer',
-                      padding: '10px 25px',
-                      outline: 'none',
-                      textAlign: 'center',
-                      fontWeight: '300',
-                      fontSize: '13px',
-                      border: '1px solid #ff4a6e',
+                    <label
+                      for="send-address"
+                      style={{
+                        textAlign: 'center',
+                        display: 'block',
+                        marginTop: '25px',
+                        fontWeight: '100',
+                        color: '#333',
+                      }}
+                    >
+                      {this.props.formHeadingEmail}
+                    </label>
+                    <input
+                      required
+                      id="send-address"
+                      maxLength="256"
+                      name="send address"
+                      type="email"
+                      value={this.state.email}
+                      onChange={e => {
+                        this.setState({ email: e.target.value })
+                      }}
+                      style={{
+                        display: 'block',
+                        margin: '10px auto',
+                        maxWidth: '300px',
+                        width: '300px',
+                        border: '1px solid rgba(255,74,110,.5)',
+                        borderRadius: '3px',
+                        padding: '10px 15px',
+                        outline: '#000',
+                        fontSize: 'inherit',
+                      }}
+                    />
+                    <label
+                      for="message"
+                      style={{
+                        fontWeight: '100',
+                        textAlign: 'center',
+                        display: 'block',
+                        marginTop: '25px',
+                        color: '#333',
+                      }}
+                    >
+                      {this.props.formHeadingMessage}
+                    </label>
+                    <textarea
+                      required
+                      id="message"
+                      rows="10"
+                      value={this.state.F}
+                      onChange={e => {
+                        this.setState({ message: e.target.value })
+                      }}
+                      style={{
+                        outline: 'none',
+                        width: '90%',
+                        maxWidth: ' 400px',
+                        fontFamily: 'inherit',
+                        fontSize: 'inherit',
+                        margin: '10px',
+                        lineHeight: 'inherit',
+                        border: '1px solid rgba(255,74,110,.5)',
+                        borderRadius: '3px',
+                        padding: '.5em .75em',
+                      }}
+                    />
+                    <button
+                      type="submit"
+                      style={{
+                        letterSpacing: '2px',
+                        borderColor: '#ff4a6e',
+                        display: 'block',
+                        background: '#ff4a6e',
+                        color: '#fff',
+                        borderRadius: '2px',
+                        margin: ' auto',
+                        cursor: 'pointer',
+                        padding: '10px 25px',
+                        outline: 'none',
+                        textAlign: 'center',
+                        fontWeight: '300',
+                        fontSize: '13px',
+                        border: '1px solid #ff4a6e',
 
-                      transition: 'all .15s',
-                    }}
-                  >
-                    SEND!
-                  </button>
-                </form>
+                        transition: 'all .15s',
+                      }}
+                    >
+                      SEND!
+                    </button>
+                  </form>
+                )}
               </div>
               <div
                 style={{
