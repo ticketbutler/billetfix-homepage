@@ -179,83 +179,85 @@ export const Layout = ({
                     }),
               }}
             >
-              {nav.topNav.map(linkData => {
-                if (linkData.type === 'buttonLink') {
-                  return (
-                    <a
-                      itemprop="significantLink"
-                      style={{
-                        ...(window.width < 980
-                          ? {
-                              paddingBottom: '10px',
-                              display: 'block',
-                              marginTop: '30px',
-                            }
-                          : {}),
-                      }}
-                      href="https://billetfix.dk/event/create_event/"
-                    >
-                      <Button
+              {nav.topNav.map(
+                ({ type, link, caption, attributes = {}, buttonText }) => {
+                  if (type === 'buttonLink') {
+                    return (
+                      <a
+                        itemprop="significantLink"
                         style={{
-                          margin: '-11px auto',
-                          padding: '8px 13px',
-
-                          borderRadius: '2px',
-                          cursor: 'pointer',
-                          fontSize: '13px',
-                          textAlign: 'center',
-                          fontWeight: '400',
-                        }}
-                      >
-                        {linkData.buttonText}
-                      </Button>
-                    </a>
-                  )
-                } else {
-                  return (
-                    <a
-                      style={{
-                        textDecoration: 'none',
-
-                        transition: 'all 0.5s',
-
-                        ...(window.width > 980
-                          ? {
-                              fontWeight: '500',
-                              marginLeft: '16px',
-                              fontSize: '13px',
-                              color: '#f7f7f7',
-
-                              padding: '0 10px',
-                            }
-                          : {
-                              marginLeft: '0',
-                              padding: '15px 20px',
-                              fontSize: '15px',
-                              fontWeight: '600',
-                              color: '#333',
-                              display: 'block',
-                            }),
-                        ...(fadeHeader
-                          ? window.scrollY >= 10
+                          ...(window.width < 980
                             ? {
-                                color: 'black',
+                                paddingBottom: '10px',
+                                display: 'block',
+                                marginTop: '30px',
+                              }
+                            : {}),
+                        }}
+                        href="https://billetfix.dk/event/create_event/"
+                      >
+                        <Button
+                          style={{
+                            margin: '-11px auto',
+                            padding: '8px 13px',
+
+                            borderRadius: '2px',
+                            cursor: 'pointer',
+                            fontSize: '13px',
+                            textAlign: 'center',
+                            fontWeight: '400',
+                          }}
+                        >
+                          {buttonText}
+                        </Button>
+                      </a>
+                    )
+                  } else {
+                    return (
+                      <a
+                        style={{
+                          textDecoration: 'none',
+
+                          transition: 'all 0.5s',
+
+                          ...(window.width > 980
+                            ? {
+                                fontWeight: '500',
+                                marginLeft: '16px',
+                                fontSize: '13px',
+                                color: '#f7f7f7',
+
+                                padding: '0 10px',
                               }
                             : {
-                                color: 'white',
-                              }
-                          : {
-                              color: 'black',
-                            }),
-                      }}
-                      href={linkData.link}
-                      target={linkData.target}
-                    >
-                      {linkData.caption}
-                    </a>
-                  )
+                                marginLeft: '0',
+                                padding: '15px 20px',
+                                fontSize: '15px',
+                                fontWeight: '600',
+                                color: '#333',
+                                display: 'block',
+                              }),
+                          ...(fadeHeader
+                            ? window.scrollY >= 10
+                              ? {
+                                  color: 'black',
+                                }
+                              : {
+                                  color: 'white',
+                                }
+                            : {
+                                color: 'black',
+                              }),
+                        }}
+                        href={link}
+                        {...attributes}
+                      >
+                        {caption}
+                      </a>
+                    )
+                  }
                 }
-              })}
+              )}
 
               <LanguageLink
                 fadeHeader={fadeHeader}

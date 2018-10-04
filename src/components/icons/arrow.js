@@ -8,7 +8,6 @@ export const Arrow = ({ style }) => {
         ...style,
       }}
       version="1.1"
-      id="Layer_1"
       x="0px"
       y="0px"
       width="200px"

@@ -193,7 +193,6 @@ class CreateEvent extends React.Component {
                     href=""
                     onClick={() => {
                       this.setState({ tickets: [...this.state.tickets, {}] })
-                 
                     }}
                   >
                     <p
@@ -226,10 +225,12 @@ class CreateEvent extends React.Component {
                 <a
                   href="/en/tandc/#tandc-organiser"
                   target="_blank"
+                  rel="noopener noreferrer"
                   style={{ color: '#ff4a6e', textDecoration: 'none' }}
                 >
                   <span> the T&amp;C's</span>
-                </a>.
+                </a>
+                .
               </p>
               <Button style={{ display: 'block', margin: '0 auto' }}>
                 create event

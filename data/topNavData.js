@@ -10,7 +10,6 @@ exports.topNav = [
     link_da: '/da/om-os',
     caption_en: 'About',
     caption_da: 'Om os',
-    target: '_self',
   },
 
   {
@@ -19,27 +18,27 @@ exports.topNav = [
     link_da: '/da/faq/',
     caption_en: 'FAQ',
     caption_da: 'FAQ',
-    target: '_self',
   },
   {
     type: 'gatsbyLink',
     link: 'https://ticketbutler.io/da/',
     caption_en: 'Enterprise solution',
     caption_da: 'Erhvervsløsning',
-    target: '_blank',
+    attributes: {
+      target: '_blank',
+      rel: 'noopener noreferrer',
+    },
   },
   {
     type: 'gatsbyLink',
     link: 'https://billetfix.dk/user/login/',
     caption_en: 'My tickets',
     caption_da: 'Mine billetter',
-    target: '_self',
   },
   {
     type: 'gatsbyLinkBilletfix',
     link: 'https://billetfix.dk/user/login/',
     caption_en: 'Login',
     caption_da: 'Log ind',
-    target: '_self',
   },
 ]

@@ -103,6 +103,7 @@ const Footer = ({ links }) => {
                     }}
                     href={data.link}
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {data.caption}
                   </a>
