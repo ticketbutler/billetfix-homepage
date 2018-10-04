@@ -117,6 +117,7 @@ export const Layout = ({
         }
         `}
       </script>
+      <script src="https://wchat.freshchat.com/js/widget.js" />
     </Helmet>
     <div>
       <WindowHelper>
@@ -306,5 +307,14 @@ export const Layout = ({
     {children}
 
     <Footer links={nav.footerNav} />
+    <script
+      async
+      dangerouslySetInnerHTML={{
+        __html: `window.fcWidget.init({
+              token: "caada681-1687-44bf-b803-7e061a49883e",
+              host: "https://wchat.freshchat.com",
+            });`,
+      }}
+    />
   </div>
 )
