@@ -8,13 +8,15 @@ const AppStore = ({ heading, text }) => {
       {window => (
         <section
           style={{
-            display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
             overflow: 'hidden',
             background: '#f3f3f3',
             padding: '100px 6%',
             position: 'relative',
+            ...(window.width > 680
+              ? { display: 'flex' }
+              : { display: 'block' }),
           }}
           id="teaser"
         >
@@ -103,12 +105,6 @@ const AppStore = ({ heading, text }) => {
             style={{
               minWidth: '33%',
               padding: '0 10px',
-
-              ...(window.width > 680
-                ? {}
-                : {
-                    display: 'none',
-                  }),
             }}
           >
             <img src="../img/mobile-mockup.png" alt="mobile-mockup " />

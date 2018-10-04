@@ -211,7 +211,7 @@ const TicketPrice = ({
           style={{
             textAlign: 'center',
             fontWeight: '300',
-            fontSize: '18px',
+            fontSize: '16px',
             color: 'grey',
           }}
         >
