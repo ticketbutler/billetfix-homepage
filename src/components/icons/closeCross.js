@@ -9,6 +9,7 @@ export class Cross extends React.Component {
         style={{
           cursor: 'pointer',
           width: '56px',
+          ...style,
         }}
         version="1.1"
         id="Layer_1"

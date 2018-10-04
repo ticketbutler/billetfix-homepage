@@ -145,6 +145,7 @@ const Hero = ({
                       <Cross
                         style={{
                           position: 'absolute',
+                          top: '0',
                           ...(window.width > 980
                             ? {
                                 right: '55px',
