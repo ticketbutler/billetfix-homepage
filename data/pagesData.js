@@ -31,6 +31,8 @@ module.exports = [
 
         buttonText_en: 'see video',
         buttonText_da: 'se video',
+        featuresLink_en: 'see how easy it is',
+        featuresLink_da: 'se hvor nemt det er',
       },
 
       {
@@ -242,8 +244,9 @@ module.exports = [
         headingEmail_en: 'E-mail',
         headingEmail_da: 'Generelle henvendelser',
         textEmail: 'info@billetfix.dk',
-        sentMessage_en: '',
-        sentMessageSpam_en: '',
+        sentMessage_en:
+          'Thanks for your inquey! We will get back to you within 2 working days.',
+        sentMessageSpam_en: 'For urgent matters please call 89 80 12 80',
         sentMessage_da: 'Tak, vi vender tilbage inden 2 arbejds dage!',
         sentMessageSpan_da:
           ' For akutte tilfælde, kontakt telefon: 89 80 12 80',

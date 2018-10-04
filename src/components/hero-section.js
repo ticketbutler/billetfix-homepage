@@ -10,7 +10,7 @@ const Hero = ({
   image,
   texts = [],
   buttonText,
-
+  featuresLink,
   inputPlaceholder,
 }) => (
   <WindowHelper>
@@ -212,7 +212,7 @@ const Hero = ({
                 }}
                 href="#features"
               >
-                see how easy it is
+                {featuresLink}
                 <Arrow style={{ display: 'block', margin: '0 auto' }} />
               </a>
             </div>

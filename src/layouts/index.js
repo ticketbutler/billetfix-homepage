@@ -33,8 +33,10 @@ export const Layout = ({
   <div>
     <Helmet>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
       <link rel="icon" href="../img/favicon.png" type="image/png" />
       <meta property="og:image" content="../img/logox400.png" />
+
       <meta property="og:site_name" content={`${metaData.companyName}`} />
 
       <meta name="theme-color" content="#ef4c6f" />
