@@ -98,6 +98,7 @@ const Footer = ({ links }) => {
                   <FBIcon />
                   <a
                     style={{
+                      fontSize: '16px',
                       color: '#ff4a6e',
                       textDecoration: 'none',
                     }}
