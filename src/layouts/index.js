@@ -135,6 +135,7 @@ export const Layout = ({
               zIndex: '999',
               transition: 'all 0.5s',
               padding: '15px 5%',
+              overflow: 'hidden',
               ...(fadeHeader
                 ? window.scrollY >= 10
                   ? {
@@ -274,7 +275,7 @@ export const Layout = ({
                 padding: '5px 10px',
                 cursor: 'pointer',
                 position: 'fixed',
-                right: '10px',
+                right: '30px',
                 ...(window.width > 980
                   ? {
                       marginTop: '6px',
