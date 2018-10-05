@@ -20,6 +20,7 @@ class Contact extends React.Component {
               display: 'inline',
               float: 'left',
               fontSize: '20px',
+
               marginLeft: '-13px',
             },
             contactTitles: {
@@ -54,7 +55,7 @@ class Contact extends React.Component {
               style={{
                 clear: 'both',
                 textAlign: 'center',
-
+                padding: '50px 0',
                 background: '#fff',
                 color: 'white',
               }}
@@ -64,7 +65,7 @@ class Contact extends React.Component {
                   ...(window.width > 980
                     ? {
                         position: 'absolute',
-                        paddingTop: '90px',
+                        paddingTop: '60px',
                         width: '50%',
                         float: 'left',
                       }
@@ -275,7 +276,7 @@ class Contact extends React.Component {
                     ? {
                         width: '50%',
                         float: 'right',
-                        height: '690px',
+                        height: '660px',
                         padding: '110px',
                       }
                     : {
