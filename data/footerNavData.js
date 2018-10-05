@@ -53,7 +53,7 @@ exports.footerNav = [
   },
   {
     type: 'rightSection',
-    text: 'Esplanaden 7',
+    text: 'Esplanaden 7,',
   },
   {
     type: 'rightSection',

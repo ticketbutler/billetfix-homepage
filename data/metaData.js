@@ -5,7 +5,7 @@ module.exports = {
   //   'Start dit billetsalg idag. Simpelt og hurtigt billetsystem - BilletFix håndterer dine billetter og betalinger.',
   url: 'https://billetfix.dk/',
   companyName: 'Billetfix',
-  address: 'Esplanaden 7',
+  address: 'Esplanaden 7,',
   region_en: 'Copenhagen',
   region_da: 'København',
   locality_en: 'Copenhagen',
