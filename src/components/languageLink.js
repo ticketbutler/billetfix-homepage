@@ -116,7 +116,23 @@ class LanguageLink extends React.Component {
               <div>
                 {this.props.otherLanguages.map(language => {
                   return (
-                    <a href={language.link} style={{ textDecoration: 'none' }}>
+                    <a
+                      href={language.link}
+                      style={{
+                        textDecoration: 'none',
+                        ...(this.props.fadeHeader
+                          ? window.scrollY >= 10
+                            ? {
+                                color: 'black',
+                              }
+                            : {
+                                color: 'white',
+                              }
+                          : {
+                              color: 'black',
+                            }),
+                      }}
+                    >
                       <span
                         style={{
                           whiteSpace: 'nowrap',
