@@ -121,6 +121,15 @@ class Contact extends React.Component {
                       >
                         {this.props.sentMessage2}
                       </h3>
+                      <h3
+                        style={{
+                          color: 'gray',
+                          fontSize: '18px',
+                          fontWeight: '400',
+                        }}
+                      >
+                        {this.props.sentMessage3}
+                      </h3>
                     </div>
                   </div>
                 ) : (
