@@ -27,10 +27,9 @@ const Footer = ({ links }) => {
                 letterSpacing: '1px',
                 textAlign: 'left',
                 padding: '25px',
-                marginLeft: '92px',
 
                 ...(window.width > 980
-                  ? {}
+                  ? { marginLeft: '92px' }
                   : {
                       display: 'block',
                       width: '100%',
@@ -114,11 +113,11 @@ const Footer = ({ links }) => {
             style={{
               textAlign: 'right',
               listStyleType: 'none',
-              marginRight: '92px',
+
               padding: '25px',
               minWidth: '300px',
               ...(window.width > 980
-                ? {}
+                ? { marginRight: '92px' }
                 : {
                     display: 'block',
                     width: '100%',
