@@ -35,7 +35,7 @@ export const Layout = ({
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
       <link rel="icon" href="billetfix.dk/img/favicon.png" type="image/png" />
-      <meta property="og:image" content="billetfix.dk/img/logox400.png" />
+      <meta property="og:image" content="billetfix.dk/img/SEOimg.jpg" />
 
       <meta property="og:site_name" content={`${metaData.companyName}`} />
 
