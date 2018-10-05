@@ -54,7 +54,7 @@ class Contact extends React.Component {
               style={{
                 clear: 'both',
                 textAlign: 'center',
-                padding: '100px 0',
+
                 background: '#fff',
                 color: 'white',
               }}
@@ -63,13 +63,15 @@ class Contact extends React.Component {
                 style={{
                   ...(window.width > 980
                     ? {
+                        position: 'absolute',
+                        paddingTop: '90px',
                         width: '50%',
                         float: 'left',
                       }
                     : {
                         display: 'block',
                         width: '100%',
-                        paddingBottom: '70px',
+                        paddingBottom: '112px',
                       }),
                 }}
               >
@@ -79,6 +81,7 @@ class Contact extends React.Component {
                     color: 'black',
                     lineHeight: '1.5em',
                     letterSpacing: '3px',
+                    marginBottom: '10px',
                     marginTop: '0',
                     ...(window.width > 980
                       ? {
@@ -91,26 +94,33 @@ class Contact extends React.Component {
                 >
                   {this.props.heading}
                 </h1>
-                {this.state.sent ? (
+                {!this.state.sent ? (
                   <div style={{ height: '544px', marginTop: '70px' }}>
-                    <h1
+                    <div
                       style={{
-                        color: 'black',
-                        fontSize: '25px',
-                        fontWeight: '500',
+                        margin: '0 auto',
+                        width: '80%',
                       }}
                     >
-                      {this.props.sentMessage}
-                    </h1>
-                    <h3
-                      style={{
-                        color: 'gray',
-                        fontSize: '18px',
-                        fontWeight: '400',
-                      }}
-                    >
-                      {this.props.sentMessageSpan}
-                    </h3>
+                      <h1
+                        style={{
+                          color: 'black',
+                          fontSize: '23px',
+                          fontWeight: '400',
+                        }}
+                      >
+                        {this.props.sentMessage1}
+                      </h1>
+                      <h3
+                        style={{
+                          color: 'gray',
+                          fontSize: '18px',
+                          fontWeight: '400',
+                        }}
+                      >
+                        {this.props.sentMessage2}
+                      </h3>
+                    </div>
                   </div>
                 ) : (
                   <form
@@ -134,7 +144,7 @@ class Contact extends React.Component {
                       style={{
                         textAlign: 'center',
                         display: 'block',
-                        marginTop: '25px',
+                        marginTop: '17px',
                         fontWeight: '100',
                         color: '#333',
                       }}
@@ -169,7 +179,7 @@ class Contact extends React.Component {
                       style={{
                         textAlign: 'center',
                         display: 'block',
-                        marginTop: '25px',
+                        marginTop: '17px',
                         fontWeight: '100',
                         color: '#333',
                       }}
@@ -204,7 +214,7 @@ class Contact extends React.Component {
                         fontWeight: '100',
                         textAlign: 'center',
                         display: 'block',
-                        marginTop: '25px',
+                        marginTop: '17px',
                         color: '#333',
                       }}
                     >
@@ -265,7 +275,7 @@ class Contact extends React.Component {
                     ? {
                         width: '50%',
                         float: 'right',
-                        height: '660px',
+                        height: '690px',
                         padding: '110px',
                       }
                     : {

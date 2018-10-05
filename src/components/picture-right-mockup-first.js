@@ -41,7 +41,6 @@ const RightMockupFirst = ({ heading, strong_text, text, button_text }) => {
             }}
           >
             <h3
-              itemprop="headline"
               style={{
                 color: '#ff4a6e',
                 margin: '.25em 0',
@@ -114,7 +113,6 @@ const RightMockupFirst = ({ heading, strong_text, text, button_text }) => {
             }}
           >
             <img
-              itemprop="image"
               style={{
                 width: 'auto',
                 height: '600px',

@@ -77,7 +77,7 @@ export const Layout = ({
             "@type": "LocalBusiness",
             "name": "Billetfix",
            
-            "image": "https://placeimg.com/640/480/any",
+            "image": "../img/logox400.png",
             "@id": "",
             "url": "billetfix.dk",
             "telephone": "89 80 12 80",
@@ -125,7 +125,6 @@ export const Layout = ({
       <WindowHelper>
         {window => (
           <nav
-            itemprop="breadcrumb"
             id="nav"
             style={{
               top: '0',
@@ -187,7 +186,6 @@ export const Layout = ({
                   if (type === 'buttonLink') {
                     return (
                       <a
-                        itemprop="significantLink"
                         style={{
                           ...(window.width < 980
                             ? {

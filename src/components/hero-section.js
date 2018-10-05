@@ -40,7 +40,6 @@ const Hero = ({
         <div>
           <div style={{ marginTop: '0' }}>
             <img
-              itemprop="image"
               src={image}
               alt="background"
               style={{
@@ -56,7 +55,6 @@ const Hero = ({
             />
 
             <h1
-              itemprop="headline"
               style={{
                 color: '#ff4a6e',
                 textShadow: '1px 1px 2px rgba(0, 0, 0, 0.3)',

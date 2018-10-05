@@ -32,7 +32,6 @@ const Languages = ({ heading, strong_text }) => {
             }}
           >
             <h3
-              itemprop="headline"
               style={{
                 color: '#ff4a6e',
                 margin: '.25em 0',

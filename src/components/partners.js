@@ -16,7 +16,6 @@ const Partners = ({ images }) => (
       {images.map(img => (
         <a target="_blank" rel="noopener noreferrer" href={img.href}>
           <img
-            itemprop="image"
             alt="partners-logo"
             style={{
               objectFit: 'contain',

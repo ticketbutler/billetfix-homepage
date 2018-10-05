@@ -17,7 +17,6 @@ const TicketPrice = ({
     {window => (
       <section style={{ padding: '7em 0', background: '#f7f7f7' }}>
         <h3
-          itemprop="headline"
           style={{
             letterSpacing: '3px',
             paddingBottom: '15px',
@@ -82,7 +81,6 @@ const TicketPrice = ({
                   {ticketHeading}
                 </span>
                 <h3
-                  itemprop="price"
                   style={{
                     color: '#fff',
                     display: 'inline-block',
@@ -97,7 +95,6 @@ const TicketPrice = ({
                   {price.attendeePrice}
                 </h3>
                 <span
-                  itemprop="priceCurrency"
                   content="DKK"
                   style={{
                     fontWeight: '100',
@@ -157,7 +154,6 @@ const TicketPrice = ({
                   }}
                 >
                   <span
-                    itemprop="priceCurrency"
                     content="DKK"
                     style={{
                       fontWeight: '500',
@@ -169,7 +165,6 @@ const TicketPrice = ({
                     DKK
                   </span>
                   <span
-                    itemprop="price"
                     style={{
                       fontSize: '35px',
                       letterSpacing: '2px',
