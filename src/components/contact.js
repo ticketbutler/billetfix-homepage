@@ -89,7 +89,7 @@ class Contact extends React.Component {
                           fontSize: '50px',
                         }
                       : {
-                          fontSize: '25px',
+                          fontSize: '28px',
                         }),
                   }}
                 >
@@ -106,7 +106,7 @@ class Contact extends React.Component {
                       <h1
                         style={{
                           color: 'black',
-                          fontSize: '20px',
+                          fontSize: '23px',
                           fontWeight: '400',
                         }}
                       >
@@ -115,7 +115,7 @@ class Contact extends React.Component {
                       <h3
                         style={{
                           color: 'gray',
-                          fontSize: '17px',
+                          fontSize: '18px',
                           fontWeight: '400',
                         }}
                       >
@@ -124,7 +124,7 @@ class Contact extends React.Component {
                       <h3
                         style={{
                           color: 'gray',
-                          fontSize: '17px',
+                          fontSize: '18px',
                           fontWeight: '400',
                         }}
                       >

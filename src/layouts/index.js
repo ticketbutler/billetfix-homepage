@@ -274,7 +274,7 @@ export const Layout = ({
                 padding: '5px 10px',
                 cursor: 'pointer',
                 position: 'fixed',
-                right: '15px',
+                right: '10px',
                 ...(window.width > 980
                   ? {
                       marginTop: '6px',
