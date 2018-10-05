@@ -98,6 +98,7 @@ const Footer = ({ links }) => {
                     style={{
                       color: '#ff4a6e',
                       textDecoration: 'none',
+                      fontSize: '16px',
                     }}
                     href={data.link}
                     target="_blank"

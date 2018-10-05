@@ -10,7 +10,8 @@ const Partners = ({ images }) => (
         flexFlow: 'row wrap',
         width: '100%',
         justifyContent: 'space-around',
-        padding: '32px',
+
+        ...(window.width > 980 ? { padding: '32px' } : { padding: '35px' }),
       }}
     >
       {images.map(img => (

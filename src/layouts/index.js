@@ -135,7 +135,7 @@ export const Layout = ({
               zIndex: '999',
               transition: 'all 0.5s',
               padding: '15px 5%',
-              overflow: 'hidden',
+
               ...(fadeHeader
                 ? window.scrollY >= 10
                   ? {
