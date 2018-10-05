@@ -89,13 +89,13 @@ class Contact extends React.Component {
                           fontSize: '50px',
                         }
                       : {
-                          fontSize: '28px',
+                          fontSize: '25px',
                         }),
                   }}
                 >
                   {this.props.heading}
                 </h1>
-                {this.state.sent ? (
+                {!this.state.sent ? (
                   <div style={{ height: '485px', marginTop: '70px' }}>
                     <div
                       style={{
@@ -106,7 +106,7 @@ class Contact extends React.Component {
                       <h1
                         style={{
                           color: 'black',
-                          fontSize: '23px',
+                          fontSize: '20px',
                           fontWeight: '400',
                         }}
                       >
@@ -115,11 +115,20 @@ class Contact extends React.Component {
                       <h3
                         style={{
                           color: 'gray',
-                          fontSize: '18px',
+                          fontSize: '17px',
                           fontWeight: '400',
                         }}
                       >
                         {this.props.sentMessage2}
+                      </h3>
+                      <h3
+                        style={{
+                          color: 'gray',
+                          fontSize: '17px',
+                          fontWeight: '400',
+                        }}
+                      >
+                        {this.props.sentMessage3}
                       </h3>
                     </div>
                   </div>
