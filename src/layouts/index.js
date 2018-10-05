@@ -34,8 +34,8 @@ export const Layout = ({
     <Helmet>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <link rel="icon" href="../img/favicon.png" type="image/png" />
-      <meta property="og:image" content="../img/logox400.png" />
+      <link rel="icon" href="billetfix.dk/img/favicon.png" type="image/png" />
+      <meta property="og:image" content="billetfix.dk/img/logox400.png" />
 
       <meta property="og:site_name" content={`${metaData.companyName}`} />
 
@@ -77,7 +77,7 @@ export const Layout = ({
             "@type": "LocalBusiness",
             "name": "Billetfix",
            
-            "image": "//zealous-lovelace-6c0b7c.netlify.com/img/logox400.png",
+            "image": "//billetfix.dk/img/logox400.png",
             "@id": "",
             "url": "billetfix.dk",
             "telephone": "89 80 12 80",
