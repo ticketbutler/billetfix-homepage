@@ -43,19 +43,19 @@ class LanguageLink extends React.Component {
                   ? {
                       marginLeft: '0',
                       display: 'flex',
+                      ...(this.props.fadeHeader
+                        ? window.scrollY >= 10
+                          ? {
+                              color: 'black',
+                            }
+                          : {
+                              color: 'white',
+                            }
+                        : {
+                            color: 'black',
+                          }),
                     }
                   : { display: 'block', marginLeft: '-33px' }),
-                ...(this.props.fadeHeader
-                  ? window.scrollY >= 10
-                    ? {
-                        color: 'black',
-                      }
-                    : {
-                        color: 'white',
-                      }
-                  : {
-                      color: 'black',
-                    }),
               }}
               onMouseOver={() => {
                 if (this.hoveredTimeout) clearTimeout(this.hoveredTimeout)
@@ -116,23 +116,7 @@ class LanguageLink extends React.Component {
               <div>
                 {this.props.otherLanguages.map(language => {
                   return (
-                    <a
-                      href={language.link}
-                      style={{
-                        textDecoration: 'none',
-                        ...(this.props.fadeHeader
-                          ? window.scrollY >= 10
-                            ? {
-                                color: 'black',
-                              }
-                            : {
-                                color: 'white',
-                              }
-                          : {
-                              color: 'black',
-                            }),
-                      }}
-                    >
+                    <a href={language.link} style={{ textDecoration: 'none' }}>
                       <span
                         style={{
                           whiteSpace: 'nowrap',
