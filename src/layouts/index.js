@@ -77,7 +77,7 @@ export const Layout = ({
             "@type": "LocalBusiness",
             "name": "Billetfix",
            
-            "image": "zealous-lovelace-6c0b7c.netlify.com/img/logox400.png",
+            "image": "//zealous-lovelace-6c0b7c.netlify.com/img/logox400.png",
             "@id": "",
             "url": "billetfix.dk",
             "telephone": "89 80 12 80",
