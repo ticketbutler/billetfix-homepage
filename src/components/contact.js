@@ -94,8 +94,8 @@ class Contact extends React.Component {
                 >
                   {this.props.heading}
                 </h1>
-                {!this.state.sent ? (
-                  <div style={{ height: '544px', marginTop: '70px' }}>
+                {this.state.sent ? (
+                  <div style={{ height: '485px', marginTop: '70px' }}>
                     <div
                       style={{
                         margin: '0 auto',

@@ -244,11 +244,11 @@ module.exports = [
         headingEmail_en: 'E-mail',
         headingEmail_da: 'Generelle henvendelser',
         textEmail: 'info@billetfix.dk',
-        sentMessage_en:
+        sentMessage1_en:
           'Thanks for your inquery! We will get back to you within 2 working days.',
-        sentMessageSpam_en: 'For urgent matters please call 89 80 12 80',
-        sentMessage_da: 'Tak, vi vender tilbage inden 2 arbejds dage!',
-        sentMessageSpan_da: 'For akutte tilfælde, kontakt telefon: 89 80 12 80',
+        sentMessage2_en: 'For urgent matters please call 89 80 12 80',
+        sentMessage1_da: 'Tak, vi vender tilbage inden 2 arbejds dage!',
+        sentMessage2_da: 'For akutte tilfælde, kontakt telefon: 89 80 12 80',
       },
     ],
   },
