@@ -403,9 +403,9 @@ module.exports = [
             question_da: 'Hvad koster det at bruge BilletFix?',
             type: 'organiser',
             answer_en:
-              'It is always free for the organizer to use BilletFix! For free events there is no signup fee. For paid events we’ve set the fee the same as bottle deposit, 3 kr per ticket for the guest regardless of ticket price!',
+              "It is free for the organizer to use BilletFix! For free events there is no signup fee. For paid events there's a ticket fee on 3 kr + 2,5% including VAT, processing fees, and MobilePay fees. And that's all! No signup fees, subscription or alike",
             answer_da:
-              'Det er altid gratis for arrangøren og for gæsten at tilmelde sig, medmindre der er betaling på tilmeldingen – så koster det dét der svarer til pant, nemlig 3 kr per billet for gæsten uanset billetpris.',
+              'Det er altid gratis for arrangøren og for gæsten at tilmelde sig, medmindre der er betaling på tilmeldingen – så koster det 3 kr + 2,5% i billetgebyr inkl. moms, kortgebyr og MobilePay gebyr. Og det er alt! Ingen oprettelsesgebyr, abonnements eller lignende.',
           },
           {
             id: 10,
