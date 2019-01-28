@@ -81,7 +81,7 @@ const pictureLeftSecond = ({ heading, text }) => {
             }}
           >
             {' '}
-            <img src="../img/coupon.svg" alt="payment " />
+            <img src={require('../assets/img/coupon.svg')} alt="payment " />
           </div>
         </section>
       )}

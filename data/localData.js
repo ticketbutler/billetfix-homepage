@@ -2,13 +2,13 @@ module.exports = [
   {
     id: 'en',
     label: 'EN',
-    icon: '/img/englishFlag.svg',
+    icon: 'assets/img/englishFlag.svg',
     link: '/en',
   },
   {
     id: 'da',
     label: 'DA',
-    icon: '/img/danishFlag.svg',
+    icon: 'assets/img/danishFlag.svg',
     link: '/da',
   },
 ]

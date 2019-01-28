@@ -13,7 +13,7 @@ module.exports = [
         type: 'hero_section',
         heading_en: "It's never been easier to manage events",
         heading_da: 'Det har aldrig været lettere at håndtere tilmeldinger',
-        image: '../img/lights.jpg',
+        image: 'assets/img/lights.jpg',
         inputPlaceholder_en: 'Your event title goes here...',
         inputPlaceholder_da: 'Indtast titel på dit event her...',
         texts_en: [
@@ -39,23 +39,23 @@ module.exports = [
         type: 'partners',
         images: [
           {
-            src: '../img/dtu.png',
+            src: 'assets/img/dtu.png',
             href: 'http://dtu.dk/',
           },
           {
-            src: '../img/cse.jpg',
+            src: 'assets/img/cse.jpg',
             href: 'https://cse.cbs.dk/',
           },
           {
-            src: '../img/fonden.png',
+            src: 'assets/img/fonden.png',
             href: 'http://www.ffe-ye.dk/',
           },
           {
-            src: '../img/ticketbutler.png',
+            src: 'assets/img/ticketbutler.png',
             href: 'https://ticketbutler.io/da/',
           },
           {
-            src: '../img/tiny-rhino.png',
+            src: 'assets/img/tiny-rhino.png',
             href: 'https://www.tinyrhino.dk/',
           },
         ],
@@ -78,7 +78,7 @@ module.exports = [
         type: 'features',
         features: [
           {
-            image: '../img/feature1.svg',
+            image: 'assets/img/feature1.svg',
             title_en: '1. Receive payments in 50 seconds',
             title_da: '1. Modtag betalinger om 50 sekunder',
 
@@ -89,7 +89,7 @@ module.exports = [
           },
 
           {
-            image: '../img/feature2.svg',
+            image: 'assets/img/feature2.svg',
             title_en: '2. Spread the word about your event',
             title_da: '2. Spred ordet om dit arrangement',
             text_en:
@@ -98,7 +98,7 @@ module.exports = [
               'Deltagerne tilmelder sig gennem en <strong>unik side for arrangementet</strong> på rekordtid og betaler med <strong>MobilePay</strong> eller kreditkort, hvis der er en deltagerpris. Del linket på dit Facebook event, din <strong>Facebook</strong>  gruppe eller integrér billetsalget på din hjemmeside, og følg med i hvor mange der deltager i arrangementet fra dit personlige dashboard.',
           },
           {
-            image: '../img/feature3.svg',
+            image: 'assets/img/feature3.svg',
             title_en: '3. Maintain overview and receive money',
             title_da: '3. Få overblik og modtag pengene',
             text_en:

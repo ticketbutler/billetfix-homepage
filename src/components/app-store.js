@@ -49,14 +49,14 @@ const AppStore = ({ heading, text }) => {
                       lineHeight: '40px',
                     }
                   : window.widht > 450
-                    ? {
-                        fontSize: '22px',
-                        lineHeight: '27px',
-                      }
-                    : {
-                        fontSize: '20px',
-                        lineHeight: '25px',
-                      }),
+                  ? {
+                      fontSize: '22px',
+                      lineHeight: '27px',
+                    }
+                  : {
+                      fontSize: '20px',
+                      lineHeight: '25px',
+                    }),
               }}
             >
               {heading}
@@ -81,7 +81,7 @@ const AppStore = ({ heading, text }) => {
             >
               <img
                 style={{ height: '60px' }}
-                src="../img/app-store.png"
+                src={require('../assets/img/app-store.png')}
                 alt="app-store-icon"
               />
             </a>
@@ -95,7 +95,7 @@ const AppStore = ({ heading, text }) => {
                   height: '61px',
                   ...(window.width > 980 ? { marginLeft: '5px' } : {}),
                 }}
-                src="../img/google-play.png"
+                src={require('../assets/img/google-play.png')}
                 alt="app-store-icon"
               />
             </a>
@@ -107,7 +107,10 @@ const AppStore = ({ heading, text }) => {
               padding: '0 10px',
             }}
           >
-            <img src="../img/mobile-mockup.png" alt="mobile-mockup " />
+            <img
+              src={require('../assets/img/mobile-mockup.png')}
+              alt="mobile-mockup "
+            />
           </div>
         </section>
       )}

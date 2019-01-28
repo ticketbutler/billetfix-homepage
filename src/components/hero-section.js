@@ -40,7 +40,7 @@ const Hero = ({
         <div>
           <div style={{ marginTop: '0' }}>
             <img
-              src={image}
+              src={require('../' + image)}
               alt="background"
               style={{
                 zIndex: '-1',
@@ -69,19 +69,19 @@ const Hero = ({
                       letterSpacing: '5px',
                     }
                   : window.width > 600
-                    ? {
-                        fontWeight: '500',
-                        fontSize: '25px',
-                        lineHeight: '30px',
-                        letterSpacing: '3px',
-                      }
-                    : {
-                        marginTop: '100px',
-                        fontSize: '26px',
-                        letterSpacing: '2px',
-                        lineHeight: '40px',
-                        fontWeight: '500',
-                      }),
+                  ? {
+                      fontWeight: '500',
+                      fontSize: '25px',
+                      lineHeight: '30px',
+                      letterSpacing: '3px',
+                    }
+                  : {
+                      marginTop: '100px',
+                      fontSize: '26px',
+                      letterSpacing: '2px',
+                      lineHeight: '40px',
+                      fontWeight: '500',
+                    }),
               }}
             >
               {heading}
@@ -102,14 +102,14 @@ const Hero = ({
                         lineHeight: '39px',
                       }
                     : window.width > 600
-                      ? {
-                          fontSize: '15px',
-                          lineHeight: '33px',
-                        }
-                      : {
-                          fontSize: '14px',
-                          lineHeight: '19px',
-                        }),
+                    ? {
+                        fontSize: '15px',
+                        lineHeight: '33px',
+                      }
+                    : {
+                        fontSize: '14px',
+                        lineHeight: '19px',
+                      }),
                 }}
               >
                 {text}

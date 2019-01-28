@@ -42,7 +42,7 @@ const Features = ({ features }) => {
               }}
             >
               <img
-                src={feature.image}
+                src={require('../' + feature.image)}
                 style={{ width: '7.5em' }}
                 alt="features1"
               />
