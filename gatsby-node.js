@@ -41,7 +41,6 @@ exports.createPages = ({ actions }) => {
         path: localPage.path,
         title: localPage.title,
         component: component,
-        // layout: null,
         context: {
           nav,
           metadescription: localPage.metadescription,
