@@ -1,76 +1,75 @@
-import React from "react";
+import React from 'react'
 
-import { WindowHelper } from "../components/helpers";
+import { WindowHelper } from '../components/helpers'
 
 class LanguageLink extends React.Component {
   state = {
-    hovered: false
-  };
-  hoveredTimeout = null;
+    hovered: false,
+  }
+  hoveredTimeout = null
 
   render() {
-    console.log(this.props.currentLanguage.icon);
     return (
       <WindowHelper>
         {window => (
           <li
             style={{
-              textDecoration: "none",
-              transition: "all 0.5s",
-              cursor: "pointer",
-              display: "inline-block",
+              textDecoration: 'none',
+              transition: 'all 0.5s',
+              cursor: 'pointer',
+              display: 'inline-block',
               ...(window.width > 980
                 ? {
-                    marginLeft: "16px",
-                    fontSize: "13px",
-                    color: "#f7f7f7",
+                    marginLeft: '16px',
+                    fontSize: '13px',
+                    color: '#f7f7f7',
                     // marginLeft: '8px',
-                    fontWeight: "500",
-                    padding: "0 10px"
+                    fontWeight: '500',
+                    padding: '0 10px',
                   }
                 : {
-                    marginLeft: "21px",
-                    padding: "15px 20px",
-                    fontSize: "15px",
-                    fontWeight: "600",
-                    color: "#333",
-                    display: "block"
-                  })
+                    marginLeft: '21px',
+                    padding: '15px 20px',
+                    fontSize: '15px',
+                    fontWeight: '600',
+                    color: '#333',
+                    display: 'block',
+                  }),
             }}
           >
             <div
               style={{
                 ...(window.width > 980
                   ? {
-                      marginLeft: "0",
-                      display: "flex",
+                      marginLeft: '0',
+                      display: 'flex',
                       ...(this.props.fadeHeader
                         ? window.scrollY >= 10
                           ? {
-                              color: "black"
+                              color: 'black',
                             }
                           : {
-                              color: "white"
+                              color: 'white',
                             }
                         : {
-                            color: "black"
-                          })
+                            color: 'black',
+                          }),
                     }
-                  : { display: "block", marginLeft: "-33px" })
+                  : { display: 'block', marginLeft: '-33px' }),
               }}
               onMouseOver={() => {
-                if (this.hoveredTimeout) clearTimeout(this.hoveredTimeout);
-                this.setState({ hovered: true });
+                if (this.hoveredTimeout) clearTimeout(this.hoveredTimeout)
+                this.setState({ hovered: true })
               }}
               onMouseLeave={() => {
                 this.hoveredTimeout = setTimeout(() => {
-                  this.setState({ hovered: false });
-                }, 1000);
+                  this.setState({ hovered: false })
+                }, 1000)
               }}
             >
               <span
                 style={{
-                  marginRight: "10px"
+                  marginRight: '10px',
                 }}
               >
                 {this.props.currentLanguage.label}
@@ -78,81 +77,81 @@ class LanguageLink extends React.Component {
               <span>
                 <img
                   alt="current-language-icon"
-                  src={require("../" + this.props.currentLanguage.icon)}
-                  style={{ height: "20px" }}
+                  src={require('../' + this.props.currentLanguage.icon)}
+                  style={{ height: '20px' }}
                 />
               </span>
             </div>
             <li
               id="anotherLanguage"
-              className={this.state.hovered ? "visible" : ""}
+              className={this.state.hovered ? 'visible' : ''}
               style={{
-                cursor: "pointer",
+                cursor: 'pointer',
                 ...(window.width > 980
                   ? {
-                      opacity: "0",
-                      visibility: "hidden",
-                      position: " absolute",
-                      display: "inline-block",
-                      padding: "3px 15px",
-                      transform: "translate(-50%)",
-                      cursor: "pointer",
-                      boxShadow: " 0 1px 7px 2px rgba(0,0,0,.2)",
-                      top: "65px",
-                      right: "2.2%",
-                      background: "#fff",
-                      transition: "all .25s"
+                      opacity: '0',
+                      visibility: 'hidden',
+                      position: ' absolute',
+                      display: 'inline-block',
+                      padding: '3px 15px',
+                      transform: 'translate(-50%)',
+                      cursor: 'pointer',
+                      boxShadow: ' 0 1px 7px 2px rgba(0,0,0,.2)',
+                      top: '65px',
+                      right: '2.2%',
+                      background: '#fff',
+                      transition: 'all .25s',
                     }
                   : {
-                      marginLeft: "-33px",
-                      padding: "15px 20px",
-                      fontSize: "15px",
-                      fontWeight: "600",
-                      color: "#333",
-                      display: "block",
-                      marginTop: "10px"
-                    })
+                      marginLeft: '-33px',
+                      padding: '15px 20px',
+                      fontSize: '15px',
+                      fontWeight: '600',
+                      color: '#333',
+                      display: 'block',
+                      marginTop: '10px',
+                    }),
               }}
             >
               <div>
                 {this.props.otherLanguages.map(language => {
                   return (
-                    <a href={language.link} style={{ textDecoration: "none" }}>
+                    <a href={language.link} style={{ textDecoration: 'none' }}>
                       <span
                         style={{
-                          whiteSpace: "nowrap",
+                          whiteSpace: 'nowrap',
                           ...(window.width > 980
                             ? {
-                                display: "flex"
+                                display: 'flex',
                               }
                             : {}),
 
-                          padding: "9px 0"
+                          padding: '9px 0',
                         }}
                       >
-                        <span style={{ color: "black", marginRight: "6px" }}>
+                        <span style={{ color: 'black', marginRight: '6px' }}>
                           {language.label}
                         </span>
                         <img
                           alt="other-language-icon"
-                          src={require("../" + language.icon)}
+                          src={require('../' + language.icon)}
                           style={{
-                            display: "inline-block",
+                            display: 'inline-block',
 
-                            width: "30px",
-                            height: "20px"
+                            width: '30px',
+                            height: '20px',
                           }}
                         />
                       </span>
                     </a>
-                  );
+                  )
                 })}
               </div>
             </li>
           </li>
         )}
       </WindowHelper>
-    );
+    )
   }
 }
-export default LanguageLink;
+export default LanguageLink
