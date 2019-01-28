@@ -4,16 +4,15 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "date-fns": "^1.30.1",
-    "date-time-picker-react": "^2.0.4",
-    "emailjs-com": "^2.3.2",
+    "date-fns": "^1.29.0",
+    "date-time-picker-react": "^0.2.1",
+    "emailjs-com": "^2.2.4",
     "font-awesome": "^4.7.0",
-    "gatsby": "^2.0.98",
-    "gatsby-cli": "2.4.8",
-    "gatsby-plugin-react-helmet": "^3.0.5",
-    "gatsby-plugin-react-svg": "^2.0.0-beta1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "gatsby": "^2.0.6",
+    "gatsby-cli": "next",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
@@ -22,10 +21,12 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "serve": "gatsby serve",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0"
   },
   "repository": {
     "type": "git",

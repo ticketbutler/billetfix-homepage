@@ -2,5 +2,5 @@ module.exports = {
   siteMetadata: {
     title: 'Billetfix homepage',
   },
-  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-react-svg'],
+  plugins: ['gatsby-plugin-react-helmet'],
 }
