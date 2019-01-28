@@ -1,32 +1,32 @@
-import React from 'react'
+import React from "react";
 
 class CopyBox extends React.Component {
-  inputRef = React.createRef()
+  inputRef = React.createRef();
 
   render() {
     return (
       <div>
         <div
           style={{
-            display: 'flex',
-            boxAlign: 'center',
-            alignItems: 'center',
-            justifyContent: 'flex-start',
+            display: "flex",
+            boxAlign: "center",
+            alignItems: "center",
+            justifyContent: "flex-start"
           }}
         >
           <input
             ref={this.inputRef}
             style={{
-              textAlign: 'left',
-              margin: '15px 0',
-              padding: '7px 10px',
-              maxWidth: '405px',
-              fontSize: '16px',
-              fontFamily: 'inherit',
-              lineHeight: 'inherit',
-              userSelect: 'all',
-              border: '1px solid rgba(255,74,110,.5)',
-              width: '90%',
+              textAlign: "left",
+              margin: "15px 0",
+              padding: "7px 10px",
+              maxWidth: "405px",
+              fontSize: "16px",
+              fontFamily: "inherit",
+              lineHeight: "inherit",
+              userSelect: "all",
+              border: "1px solid rgba(255,74,110,.5)",
+              width: "90%"
             }}
             type="url"
             id="demo-event"
@@ -36,28 +36,28 @@ class CopyBox extends React.Component {
           />
           <div
             onClick={() => {
-              this.inputRef.current.select()
-              document.execCommand('copy')
+              this.inputRef.current.select();
+              document.execCommand("copy");
             }}
             style={{
-              zIndex: '3',
-              display: 'flex',
-              alignItems: 'center',
-              height: '30px',
-              width: '30px',
-              margin: '0',
-              position: 'relative',
-              border: '1px solid hsla(0,0%,97%,.5)',
-              marginLeft: '-1px',
-              backgroundColor: 'rgba(255,74,110,.2)',
+              zIndex: "3",
+              display: "flex",
+              alignItems: "center",
+              height: "30px",
+              width: "30px",
+              margin: "0",
+              position: "relative",
+              border: "1px solid hsla(0,0%,97%,.5)",
+              marginLeft: "-1px",
+              backgroundColor: "rgba(255,74,110,.2)"
             }}
           >
             <svg
               style={{
-                width: '65%',
-                height: '65%',
-                pointerEvents: 'none',
-                marginLeft: '6px',
+                width: "65%",
+                height: "65%",
+                pointerEvents: "none",
+                marginLeft: "6px"
               }}
               version="1.1"
               x="0px"
@@ -80,11 +80,11 @@ class CopyBox extends React.Component {
 
             <span
               style={{
-                position: 'absolute',
-                left: '2.5em',
-                top: '2px',
-                opacity: '0',
-                transition: 'all .25s;',
+                position: "absolute",
+                left: "2.5em",
+                top: "2px",
+                opacity: "0",
+                transition: "all .25s;"
               }}
               class="copied"
             >
@@ -94,7 +94,7 @@ class CopyBox extends React.Component {
         </div>
         {/* <Logos /> */}
       </div>
-    )
+    );
   }
 }
-export default CopyBox
+export default CopyBox;

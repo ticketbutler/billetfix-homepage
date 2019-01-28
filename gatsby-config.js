@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Billetfix homepage',
+    title: "Billetfix homepage"
   },
-  plugins: ['gatsby-plugin-react-helmet'],
-}
+  plugins: ["gatsby-plugin-react-helmet"]
+};
