@@ -1,8 +1,8 @@
+const path = require("path");
 const JSONdata = require("./data/pagesData");
 const { topNav } = require("./data/topNavData");
 const { footerNav } = require("./data/footerNavData");
 const { normalizeTranslatedKeys } = require("./src/utils");
-const path = require("path");
 const metaData = require("./data/metaData");
 const localData = require("./data/localData");
 
@@ -53,4 +53,8 @@ exports.createPages = ({ actions }) => {
       });
     });
   });
+};
+
+exports.onPostBuild = () => {
+  require("./move-static-files");
 };

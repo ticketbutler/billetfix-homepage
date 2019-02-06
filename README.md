@@ -11,3 +11,7 @@
 - Each page is constructed by a set of components defined in the pages' data
 - Many component properties are translatable, so they are translated and seperated into `en/`, `da/` prefixes
 - All pages are wrapped in a common layout component
+
+# Statics location
+
+Statics which can be inlined by Webpack are inlined. Larger statics are put into
