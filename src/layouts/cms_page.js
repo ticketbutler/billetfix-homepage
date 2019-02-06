@@ -21,7 +21,6 @@ import About from "../components/about";
 import Languages from "../components/languages";
 import PrivacyPolicy from "../components/privacyPol";
 import Contact from "../components/contact";
-import FAQ from "../components/faq";
 import TandC from "../components/tandc";
 
 const components = [
@@ -43,7 +42,6 @@ const components = [
   { Component: Languages, id: "languages" },
   { Component: About, id: "about" },
   { Component: PrivacyPolicy, id: "privacy_policy" },
-  { Component: FAQ, id: "faq" },
   { Component: Footer, id: "footer" }
 ];
 const CmsPage = ({ pageContext, location }) => {

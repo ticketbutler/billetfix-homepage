@@ -8,13 +8,11 @@ Disallow: /en/e/
 
 Allow: /da/
 Allow: /da/om-os
-Allow: /da/faq
 Allow: /da/kontakt
 Allow: /da/user/
 
 
 Allow: /en/
 Allow: /en/about
-Allow: /en/faq
 Allow: /en/contact
 Allow: /en/user/

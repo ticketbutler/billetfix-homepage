@@ -14,10 +14,13 @@ exports.topNav = [
 
   {
     type: "gatsbyLink",
-    link_en: "/en/faq/",
-    link_da: "/da/faq/",
-    caption_en: "FAQ",
-    caption_da: "FAQ"
+    link: "https://billetfix.freshdesk.com/",
+    caption_en: "Help Center",
+    caption_da: "Hjælpecenter",
+    attributes: {
+      target: "_blank",
+      rel: "noopener noreferrer"
+    }
   },
   {
     type: "gatsbyLink",
