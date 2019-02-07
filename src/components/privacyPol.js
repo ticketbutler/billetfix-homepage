@@ -1,5 +1,5 @@
-import React from 'react'
-import { WindowHelper } from '../components/helpers'
+import React from "react";
+import { WindowHelper } from "../components/helpers";
 
 const PrivacyPolicy = ({ heading, content }) => {
   return (
@@ -7,17 +7,17 @@ const PrivacyPolicy = ({ heading, content }) => {
       {window => (
         <section
           style={{
-            padding: '100px 6%',
-            overflow: 'hidden',
+            padding: "100px 6%",
+            overflow: "hidden"
           }}
         >
           <h1
             style={{
-              fontWeight: '200',
-              textAlign: 'center',
-              fontSize: '35px',
-              lineHeight: '1.5em',
-              letterSpacing: '1px',
+              fontWeight: "200",
+              textAlign: "center",
+              fontSize: "35px",
+              lineHeight: "1.5em",
+              letterSpacing: "1px"
             }}
           >
             {heading}
@@ -26,7 +26,7 @@ const PrivacyPolicy = ({ heading, content }) => {
         </section>
       )}
     </WindowHelper>
-  )
-}
+  );
+};
 
-export default PrivacyPolicy
+export default PrivacyPolicy;

@@ -1,30 +1,13 @@
-<<<<<<< HEAD
-# gatsby-starter-default
-The default Gatsby starter.
-
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
-
-## Install
-
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
-
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
-
-Then you can run it by:
-```sh
-cd gatsby-example-site
-gatsby develop
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-=======
 # Billetfix homepage
->>>>>>> ff7a234e18f84984ce774b539b4599a241f4c3c1
+
+# Set up
+
+- Install gatsby deps (https://www.gatsbyjs.org/tutorial/part-zero/)
+- Run `yarn`
+
+# How pages are made
+
+- In `gatsby-node.js` we create pages for each page defined in the `data/` folder
+- Each page is constructed by a set of components defined in the pages' data
+- Many component properties are translatable, so they are translated and seperated into `en/`, `da/` prefixes
+- All pages are wrapped in a common layout component

@@ -77,7 +77,7 @@ class LanguageLink extends React.Component {
               <span>
                 <img
                   alt="current-language-icon"
-                  src={this.props.currentLanguage.icon}
+                  src={require('../' + this.props.currentLanguage.icon)}
                   style={{ height: '20px' }}
                 />
               </span>
@@ -134,7 +134,7 @@ class LanguageLink extends React.Component {
                         </span>
                         <img
                           alt="other-language-icon"
-                          src={language.icon}
+                          src={require('../' + language.icon)}
                           style={{
                             display: 'inline-block',
 

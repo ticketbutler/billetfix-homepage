@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-import { WindowHelper } from '../components/helpers'
+import { WindowHelper } from "../components/helpers";
 
 const Features = ({ features }) => {
   return (
@@ -9,73 +9,73 @@ const Features = ({ features }) => {
         <section
           id="features"
           style={{
-            flexFlow: 'row nowrap',
-            justyfy: 'space-between',
-            alignItems: 'flex-start',
-            textAlign: 'center',
-            padding: '100px 2vw',
+            flexFlow: "row nowrap",
+            justyfy: "space-between",
+            alignItems: "flex-start",
+            textAlign: "center",
+            padding: "100px 2vw",
 
             ...(window.width > 980
               ? {
-                  display: 'flex',
+                  display: "flex"
                 }
               : {
-                  display: 'block',
-                }),
+                  display: "block"
+                })
           }}
         >
           {features.map(feature => (
             <div
               style={{
-                margin: '0 auto',
-                padding: '0 1vw',
+                margin: "0 auto",
+                padding: "0 1vw",
 
                 ...(window.width > 980
                   ? {
-                      maxWidth: '30%',
-                      padding: '0 1vw',
+                      maxWidth: "30%",
+                      padding: "0 1vw"
                     }
                   : {
-                      maxWidth: '100%',
-                      padding: '20px 2%',
-                    }),
+                      maxWidth: "100%",
+                      padding: "20px 2%"
+                    })
               }}
             >
               <img
-                src={feature.image}
-                style={{ width: '7.5em' }}
+                src={require("../" + feature.image)}
+                style={{ width: "7.5em" }}
                 alt="features1"
               />
 
               <h4
                 style={{
-                  textTransform: 'uppercase',
+                  textTransform: "uppercase",
 
-                  fontWeight: '500',
-                  letterSpacing: '2px',
-                  marginTop: '19px',
+                  fontWeight: "500",
+                  letterSpacing: "2px",
+                  marginTop: "19px",
 
                   ...(window.width > 980
                     ? {
-                        fontSize: '21px',
-                        lineHeight: '38px',
+                        fontSize: "21px",
+                        lineHeight: "38px"
                       }
                     : {
-                        fontSize: '20px',
-                        lineHeight: '28px',
-                      }),
+                        fontSize: "20px",
+                        lineHeight: "28px"
+                      })
                 }}
               >
                 {feature.title}
               </h4>
               <p
                 style={{
-                  fontSize: '16px',
-                  lineHeight: '24.64px',
-                  fontWeight: '100',
-                  letterSpacing: '2px',
-                  textAlign: 'justify',
-                  margin: '10px',
+                  fontSize: "16px",
+                  lineHeight: "24.64px",
+                  fontWeight: "100",
+                  letterSpacing: "2px",
+                  textAlign: "justify",
+                  margin: "10px"
                 }}
                 dangerouslySetInnerHTML={{ __html: feature.text }}
               />
@@ -84,6 +84,6 @@ const Features = ({ features }) => {
         </section>
       )}
     </WindowHelper>
-  )
-}
-export default Features
+  );
+};
+export default Features;

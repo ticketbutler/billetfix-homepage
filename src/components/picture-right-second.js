@@ -1,7 +1,7 @@
-import React from 'react'
-import { Attendee } from './icons/attendeeIcon'
+import React from "react";
+import { Attendee } from "./icons/attendeeIcon";
 
-import { WindowHelper } from '../components/helpers'
+import { WindowHelper } from "../components/helpers";
 
 const PictureRightSecond = ({ heading, strong_text, text }) => {
   return (
@@ -9,54 +9,54 @@ const PictureRightSecond = ({ heading, strong_text, text }) => {
       {window => (
         <section
           style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            overflow: 'hidden',
-            background: '#fff',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            overflow: "hidden",
+            background: "#fff",
 
-            padding: '100px 6%',
-            position: 'relative',
+            padding: "100px 6%",
+            position: "relative"
           }}
           id="teaser"
         >
           <div
             style={{
-              padding: '0 10px',
+              padding: "0 10px",
               ...(window.width > 980
                 ? {
-                    maxWidth: '50%',
-                    minWidth: '33%',
+                    maxWidth: "50%",
+                    minWidth: "33%"
                   }
                 : {
-                    width: '100%',
-                  }),
+                    width: "100%"
+                  })
             }}
             className="details"
           >
             <h3
               style={{
-                fontSize: '30px',
-                letterSpacing: '3px',
-                lineHeight: '1.2em',
-                margin: '.25em 0',
-                color: '#ff4a6e',
-                fontWeight: '400',
+                fontSize: "30px",
+                letterSpacing: "3px",
+                lineHeight: "1.2em",
+                margin: ".25em 0",
+                color: "#ff4a6e",
+                fontWeight: "400",
 
                 ...(window.width > 980
                   ? {
-                      fontSize: '30px',
-                      lineHeight: '40px',
+                      fontSize: "30px",
+                      lineHeight: "40px"
                     }
                   : window.widht > 450
-                    ? {
-                        fontSize: '22px',
-                        lineHeight: '27px',
-                      }
-                    : {
-                        fontSize: '20px',
-                        lineHeight: '25px',
-                      }),
+                  ? {
+                      fontSize: "22px",
+                      lineHeight: "27px"
+                    }
+                  : {
+                      fontSize: "20px",
+                      lineHeight: "25px"
+                    })
               }}
             >
               {heading}
@@ -64,39 +64,39 @@ const PictureRightSecond = ({ heading, strong_text, text }) => {
 
             <p
               style={{
-                fontWeight: '500',
-                padding: '15px 0',
+                fontWeight: "500",
+                padding: "15px 0",
 
                 ...(window.width > 980
                   ? {
-                      fontSize: '18px',
-                      lineHeight: '17px',
-                      lineHeight: '17px',
+                      fontSize: "18px",
+                      lineHeight: "17px",
+                      lineHeight: "17px"
                     }
                   : {
-                      fontSize: '16px',
-                      lineHeight: '16px',
-                    }),
+                      fontSize: "16px",
+                      lineHeight: "16px"
+                    })
               }}
             >
               {strong_text}
             </p>
             <p
               style={{
-                marginTop: '16px',
+                marginTop: "16px",
 
-                fontWeight: '100',
-                letterSpacing: '1px',
+                fontWeight: "100",
+                letterSpacing: "1px",
 
                 ...(window.width > 980
                   ? {
-                      fontSize: '17px',
-                      lineHeight: '25px',
+                      fontSize: "17px",
+                      lineHeight: "25px"
                     }
                   : {
-                      fontSize: '16px',
-                      lineHeight: '27px',
-                    }),
+                      fontSize: "16px",
+                      lineHeight: "27px"
+                    })
               }}
             >
               {text}
@@ -105,14 +105,14 @@ const PictureRightSecond = ({ heading, strong_text, text }) => {
           <div
             className="icon"
             style={{
-              minWidth: '33%',
-              padding: '0 10px',
+              minWidth: "33%",
+              padding: "0 10px",
 
               ...(window.width > 680
                 ? {}
                 : {
-                    display: 'none',
-                  }),
+                    display: "none"
+                  })
             }}
           >
             <Attendee />
@@ -120,6 +120,6 @@ const PictureRightSecond = ({ heading, strong_text, text }) => {
         </section>
       )}
     </WindowHelper>
-  )
-}
-export default PictureRightSecond
+  );
+};
+export default PictureRightSecond;
