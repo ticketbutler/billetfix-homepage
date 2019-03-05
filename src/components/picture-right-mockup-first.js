@@ -128,7 +128,7 @@ const RightMockupFirst = ({ heading, strong_text, text, button_text }) => {
                       marginRight: "-140px"
                     })
               }}
-              src="../img/madHatter.png"
+              src={require("../img/madHatter.png")}
               alt="madHatter "
             />
           </div>
