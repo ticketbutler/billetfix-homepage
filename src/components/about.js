@@ -35,7 +35,7 @@ const About = ({ heading, texts, staticHeader }) => {
 
                   letterSpacing: "2px",
                   display: "block",
-                  ...(window.width > 980
+                  ...(window.width > 680
                     ? {
                         fontSize: "45px"
                       }
@@ -50,9 +50,16 @@ const About = ({ heading, texts, staticHeader }) => {
                 {texts.map(text => (
                   <p
                     style={{
+                      ...(window.width > 680
+                        ? {
+                            fontSize: "16.5px"
+                          }
+                        : {
+                            fontSize: "14px"
+                          }),
                       lineHeight: "32px",
                       marginTop: "15px",
-                      fontSize: "16.5px",
+
                       letterSpacing: "1px",
                       fontWeight: "100"
                     }}
