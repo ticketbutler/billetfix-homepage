@@ -65,13 +65,12 @@ const PictureRightSecond = ({ heading, strong_text, text }) => {
             <p
               style={{
                 fontWeight: "500",
-                padding: "15px 0",
+                padding: "10px 0",
 
                 ...(window.width > 980
                   ? {
                       fontSize: "18px",
-                      lineHeight: "17px",
-                      lineHeight: "17px"
+                      lineHeight: "28px"
                     }
                   : {
                       fontSize: "16px",
@@ -83,8 +82,7 @@ const PictureRightSecond = ({ heading, strong_text, text }) => {
             </p>
             <p
               style={{
-                marginTop: "16px",
-
+                marginTop: "10px",
                 fontWeight: "100",
                 letterSpacing: "1px",
 

@@ -62,16 +62,16 @@ module.exports = [
       },
       {
         type: "picture_right",
-        heading_en: "Are you organizing an event for your fellow students?",
-        heading_da: "Skal du afholde et arrangement på studiet?",
+        heading_en: "Are you organising an event?",
+        heading_da: "Skal du afholde et arrangement?",
 
         texts_en: [
-          "Regardsless if it's to the christmas lunch, intro trip or end of semester party, we have made it easy for students.",
-          "Forget about complicated spreadsheets and time consuming sale in the breaks. Just do it online - for free!"
+          "Regardless if it's the Christmas lunch, intro trip or the local soccer tournament, we have made it easy for you as an organiser.",
+          "Forget about complicated spreadsheets and time-consuming sale. With BilletFix you can do it all online - and it’s even free!"
         ],
         texts_da: [
-          "Uanset om det er til julefrokosten, rusturen eller semesterstartsfesten har vi gjort det nemt for den studerende.",
-          "Glem indviklede regneark og tidskrævende salg i pauserne. Gør det hele online – helt gratis!"
+          "Uanset om det er julefrokosten, rusturen, det lokale fodboldstævne eller andet, har vi gjort det nemt for dig som arrangør.",
+          "Glem alt om indviklede regneark og tidskrævende salg. Med BilletFix kan du nu gøre det hele online -  endda helt gratis!"
         ]
       },
       {
@@ -147,14 +147,16 @@ module.exports = [
       },
       {
         type: "picture_righ_second",
-        heading_en: "Custom information about the attendee",
-        heading_da: "Ekstra information om dine tilmeldte",
-        strong_text_en: "Do you want to know something during signup?",
-        strong_text_da: "Vil du vide noget specielt om deltageren?",
+        heading_en: "Custom information about your guests",
+        heading_da: "Ekstra information om dine gæster",
+        strong_text_en:
+          "Do you want to know something about your guests during their signup?",
+        strong_text_da:
+          "Vil du vide noget specielt om deltagerne til dit arrangement?",
         text_en:
-          "Get all the information you would like with custom fields. What field of study? What year are you on? Is it the first time you attend? Just contact us here for help!",
+          "Get all the information you would like with custom fields. Does any of your guests have food allergies? What field of study are your guests from? Is it the first time they are attending your event? As an organiser you can get information on all this and more.",
         text_da:
-          "Få alle de informationer du ønsker. Hvilken studieretning går du på? Hvilken årgang er du? Første gang du deltager i arrangementet? Bare kontakt os her for opsætning!"
+          "Få alle de informationer du ønsker. Har nogle af dine deltagere madallergier? Hvilken studieretning går dine deltagere på? Er det første gang de deltager i arrangementet?  Alt dette kan du som arrangør hos BilletFix få information på."
       },
       {
         type: "pricing_cards",
@@ -202,9 +204,9 @@ module.exports = [
         heading_en: "Give discounts to guests with coupons",
         heading_da: "Giv rabatter med rabatkoder",
         text_en:
-          "Do you give discounts to particular members of the student organization, or perhaps give a few free tickets out? As an organizer, you can create coupons that provides a discount in the purchasing process.",
+          "Do you want to give discounts to particular members of your organisation, or perhaps give out a few tickets for free? As an organiser, you can create coupons that provide a discount in the purchasing process.",
         text_da:
-          "Vil du give rabat til bestemte personer, som fx et medlem af studenterorganisationen eller måske give et par gratis billetter ud? Som arrangør kan du oprette rabatkoder, som udløser billigere tilmeldinger i købsforløbet."
+          "Vil du give rabat til bestemte personer, som fx medlemmer af organisationen eller måske bare give et par gratis billetter ud? Som arrangør kan du oprette rabatkoder, som udløser billigere tilmeldinger i købsforløbet."
       },
       {
         type: "app",
@@ -269,22 +271,29 @@ module.exports = [
         heading_da: "Om os",
 
         texts_en: [
-          "BilletFix offers a ticketing system to students who volunteer a lot of time and energy into organising events for their fellow students. Our stupidly simple ticketing system is designed to provide these volunteering heroes with more time and energy to concentrate on their events awesome - instead of managing the hassle of signups and payments",
+          "BilletFix offers a ticketing system for all kinds of organisers. Our very simple ticketing system is designed to provide organisers with more time and energy to concentrate on their awesome events - instead of managing the hassle of signups and payments.",
 
-          "We know that students don't have a lot of money to spend - so BilletFix is free for organisers. The guests pay the lowest service fee possible AND your guests can pay with MobilePay! ",
+          "We know that you as a organiser has lots of other things to focus both your time and money at, which is why our system is very user-friendly and even free for organisers to use. The guests pay the lowest ticket fee possible - AND your guests can pay with MobilePay!",
 
-          "The founders of BilletFix are to brothers who together are eager to make your life as a volunteer organiser easier and your guests happier.",
+          "The founders of BilletFix are two brothers who together are eager to make your life as an organiser easier and your guests happier. Because of this, the core values at BilletFix is that our system is:",
 
-          "So forget complicated spreadsheets and time consuming ticket sales. Do it all online – simple and for free!"
+          "Easy, Cheap and User-friendly",
+
+          "It’s important for us that our users get the best product at the best price, and we aim to provide the best service possible and are happy to help with whatever you may need help for.",
+
+          "So forget about complicated spreadsheets and time-consuming ticket sales. Do it all online with BilletFix – simple and for free!"
         ],
         texts_da: [
-          "BilletFix er et tilmeldingssystem lavet til at hjælpe studerende, som helt frivilligt bruger en masse tid og energi på at arrangere events for deres medstuderende. Det ultra simple tilmeldingssystem er udviklet for at give de frivillige helte mere tid og overskud til at koncentrere sig om at lave fede arrangementer i stedet for at bøvle med at håndtere bøvlede tilmeldinger og betalinger.",
+          "BilletFix er et tilmeldingssystem lavet til at hjælpe alle typer arrangører med håndtering af billetter. Vores ultra simple tilmeldingssystem er udviklet for at give arrangører mere tid og overskud til at koncentrere sig om at lave fede arrangementer, i stedet for at bøvle med håndtering af besværlige tilmeldinger og betalinger.",
 
-          "Vi ved, at studerende ikke har mange penge mellem hænderne, så systemet er derfor gratis for arrangøren. Derudover har vi trykket servicegebyret for gæsterne helt i bund.",
+          "Vi ved, at man som arrangør har en masse andre ting at bruge tid og penge på - Derfor er vores simple system både brugervenligt og gratis for arrangøren. Derudover har vi også trykket billetgebyrer for gæsterne helt i bund, hvilket er et af de laveste billetgebyrer på markedet. Og så kan dine gæster i øvrigt også betale med MobilePay, uden at du som arrangør skal betale gebyr for dette.",
 
-          " Grundlæggerne af BilletFix er to brødre, som sammen er ivrige efter at gøre livet som arrangør lettere og dine gæster gladere.",
+          "Grundlæggerne af BilletFix er to brødre, som sammen er ivrige efter at gøre livet for dig som arrangør lettere og samtidig gøre dine gæster gladere. Kerneværdierne hos BilletFix er derfor at vores billetsystem skal være:",
 
-          "Så glem indviklede regneark og tidskrævende salg i pauserne. Gør det hele online – simpelt og gratis!"
+          "Nemt, Billigt og Brugervenligt",
+
+          "Det er vigtigt for os at du som arrangør får det bedste produkt til den bedste pris, samtidig med at vi bestræber os på at være i øjenhøjde med vores kunder og give jer den bedst mulige service.",
+          "Så glem alt om indviklede regneark og tidskrævende salg. Gør det hele online med BilletFix – simpelt og gratis!"
         ]
       }
     ]
