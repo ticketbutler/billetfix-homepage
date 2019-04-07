@@ -1,7 +1,7 @@
 module.exports = [
   {
-    path_en: "/en",
-    path_da: "/da",
+    path_en: "/en/",
+    path_da: "/da/",
     title: "Billetfix",
     metadescription_en:
       "Billetfix: Free Ticket System - Sell tickets online in seconds | BilletFix",
@@ -256,7 +256,7 @@ module.exports = [
     ]
   },
   {
-    path_en: "/en/about",
+    path_en: "/en/about/",
     path_da: "/da/om-os/",
     title_en: "About us | BilletFix",
     title_da: "Om os | BilletFix",
@@ -299,8 +299,8 @@ module.exports = [
     ]
   },
   {
-    path_en: "/en/privacy-policy",
-    path_da: "/da/privatpolitik",
+    path_en: "/en/privacy-policy/",
+    path_da: "/da/privatpolitik/",
     title: "Privacy policy",
 
     sections: [
@@ -314,8 +314,8 @@ module.exports = [
     ]
   },
   {
-    path_en: "/en/tandc",
-    path_da: "/da/tandc",
+    path_en: "/en/tandc/",
+    path_da: "/da/tandc/",
     title: "Terms & Conditions",
 
     sections: [
@@ -329,8 +329,8 @@ module.exports = [
   },
 
   {
-    path_en: "/en/contact",
-    path_da: "/da/kontakt",
+    path_en: "/en/contact/",
+    path_da: "/da/kontakt/",
 
     title_en: "Contact",
     title_da: "Kontakt",
