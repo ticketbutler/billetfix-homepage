@@ -33,19 +33,14 @@ export const Layout = ({
   <div>
     <Helmet>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-      <link rel="icon" href="billetfix.dk/img/favicon.png" type="image/png" />
+      <link rel="icon" href={require("../img/favicon.png")} type="image/png" />
       <meta property="og:image" content="billetfix.dk/img/SEOimg.jpg" />
-
       <meta property="og:site_name" content={`${metaData.companyName}`} />
-
       <meta name="theme-color" content="#ef4c6f" />
       <meta name="msapplication-navbutton-color" content="#ef4c6f" />
       <meta name="apple-mobile-web-app-status-bar-style" content="#ef4c6f" />
-
       <title>{`${title}`}</title>
       <meta name="description" content={`${metadescription}`} />
-
       <meta property="og:type" content="business.business" />
       <meta property="og:url" content={`${metaData.url}`} />
       <meta
