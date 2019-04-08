@@ -1,4 +1,4 @@
-function normalizeTranslatedKeys(obj, local) {
+export function normalizeTranslatedKeys(obj, local) {
   let normalizedObj = obj;
   Object.keys(obj).forEach(key => {
     let identifier = "_" + local;
@@ -12,7 +12,3 @@ function normalizeTranslatedKeys(obj, local) {
   });
   return normalizedObj;
 }
-
-module.exports = {
-  normalizeTranslatedKeys
-};

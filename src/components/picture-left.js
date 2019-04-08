@@ -104,7 +104,7 @@ const pictureLeft = ({ heading, strong_text, text }) => {
               style={{
                 ...(window.width < 450 ? { width: "85%" } : { width: "65%" })
               }}
-              src={require("../assets/img/payment.svg")}
+              src={"/assets/img/payment.svg"}
               alt="payment "
             />
           </div>

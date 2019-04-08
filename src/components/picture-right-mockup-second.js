@@ -104,7 +104,7 @@ const RightMockupSecond = ({ heading, strong_text, copyBoxLink }) => {
 
                 objectFit: "cover"
               }}
-              src={require("../assets/img/ticketHatter.png")}
+              src={"/assets/img/ticketHatter.png"}
               alt="madHatter "
             />
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { useRouteData } from "react-static";
 
 import "../layouts/styles/layout-overide.css";
 import Partners from "../components/partners";
@@ -44,12 +45,19 @@ const components = [
   { Component: PrivacyPolicy, id: "privacy_policy" },
   { Component: Footer, id: "footer" }
 ];
-const CmsPage = ({ pageContext, location }) => {
+const CmsPage = () => {
+  const pageContext = useRouteData();
+  let fadeHeader = false;
+  if (typeof window !== "undefined") {
+    if (
+      window.location.pathname === "/en/" ||
+      window.location.pathname === "/da/"
+    ) {
+      fadeHeader = true;
+    }
+  }
   return (
-    <Layout
-      {...pageContext}
-      fadeHeader={location.pathname === "/en" || location.pathname === "/da"}
-    >
+    <Layout {...pageContext} fadeHeader={fadeHeader}>
       {pageContext.sections &&
         pageContext.sections.map((section, i) => {
           const c = components.find(({ id }) => id === section.type);

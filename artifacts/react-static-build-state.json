@@ -1,0 +1,61 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/pages"
+      }
+    ],
+    "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/kyle/Projects/ticketbutler/billetfix-homepage"
+  ],
+  "paths": {
+    "ROOT": "/Users/kyle/Projects/ticketbutler/billetfix-homepage",
+    "SRC": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src",
+    "DIST": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/dist",
+    "ASSETS": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/dist",
+    "PLUGINS": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/plugins",
+    "TEMP": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/tmp",
+    "ARTIFACTS": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/artifacts",
+    "PUBLIC": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/public",
+    "NODE_MODULES": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules",
+    "EXCLUDE_MODULES": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules",
+    "PACKAGE": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/package.json",
+    "HTML_TEMPLATE": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/dist/index.html",
+    "STATIC_DATA": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/dist/staticData"
+  },
+  "siteRoot": "",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "http://localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}

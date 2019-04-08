@@ -1,5 +1,6 @@
 {
   "name": "billetfix-homepage",
+  "private": true,
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@reach/router": "^1.2.1",
@@ -7,25 +8,22 @@
     "emailjs-com": "^2.2.4",
     "font-awesome": "^4.7.0",
     "parcel": "1.12.2",
-    "react": "15.x || 16.x || 16.4.0-alpha.0911da3",
-    "react-dom": "15.x || 16.x || 16.4.0-alpha.0911da3",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
     "react-helmet": "^5.2.0",
-    "react-router": "^5.0.0"
+    "react-static": "^7.0.0",
+    "react-static-plugin-reach-router": "^7.0.0",
+    "react-static-plugin-sitemap": "^7.0.0",
+    "react-static-plugin-source-filesystem": "^7.0.0"
   },
-  "license": "MIT",
   "scripts": {
-    "build": "parcel build src/index.html",
-    "start": "parcel src/index.html",
-    "format": "prettier --write 'src/**/*.js'"
+    "start": "react-static start",
+    "stage": "react-static build --staging",
+    "build": "react-static build",
+    "analyze": "react-static build --analyze"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
+    "eslint": "^5.16.0",
     "prettier": "^1.12.0"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  }
 }

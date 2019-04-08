@@ -92,7 +92,7 @@ const Languages = ({ heading, strong_text }) => {
             <a href="/en">
               <img
                 alt="english-icon"
-                src={require("../assets/img/englishFlag.svg")}
+                src={"/assets/img/englishFlag.svg"}
                 style={{
                   height: "auto",
                   ...(window.width > 980
@@ -123,7 +123,7 @@ const Languages = ({ heading, strong_text }) => {
             <a href="/da">
               <img
                 alt="danish-flag"
-                src={require("../assets/img/danishFlag.svg")}
+                src={"/assets/img/danishFlag.svg"}
                 style={{
                   height: "auto",
                   ...(window.width > 980
