@@ -1,7 +1,7 @@
 import React from "react";
-import FbLogo from "../img/facebook.png";
-import TwitterLogo from "../img/twitter.png";
-import GoogleCalLogo from "../img/google.png";
+import FbLogo from "../assets/img/facebook.png";
+import TwitterLogo from "../assets/img/twitter.png";
+import GoogleCalLogo from "../assets/img/google.png";
 
 const styles = {
   logo: {

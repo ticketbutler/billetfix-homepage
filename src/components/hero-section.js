@@ -40,7 +40,7 @@ const Hero = ({
         <div>
           <div style={{ marginTop: "0" }}>
             <img
-              src={require("../" + image)}
+              src={image}
               alt="background"
               style={{
                 zIndex: "-1",

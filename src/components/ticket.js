@@ -1,6 +1,6 @@
 import React from "react";
 
-import Trash from "../img/trash.png";
+import Trash from "../assets/img/trash.png";
 import { WindowHelper } from "../components/helpers";
 
 const NewTicket = ({ ticket, i, onRemove }) => (

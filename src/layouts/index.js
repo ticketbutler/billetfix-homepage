@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 import "../layouts/styles/layout-overide.css";
 import { Helmet } from "react-helmet";
 import { WindowHelper } from "../components/helpers";
-import Logo from "../img/logox400.png";
+import Logo from "../assets/img/logox400.png";
 import LanguageLink from "../components/languageLink";
 
 const styles = {
@@ -33,7 +33,11 @@ export const Layout = ({
   <div>
     <Helmet>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="icon" href={require("../img/favicon.png")} type="image/png" />
+      <link
+        rel="icon"
+        href={require("../assets/img/favicon.png")}
+        type="image/png"
+      />
       <meta property="og:image" content="billetfix.dk/img/SEOimg.jpg" />
       <meta property="og:site_name" content={`${metaData.companyName}`} />
       <meta name="theme-color" content="#ef4c6f" />

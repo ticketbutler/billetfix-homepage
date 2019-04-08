@@ -1,4 +1,5 @@
 import React from "react";
+import { navigate } from "@reach/router";
 
 class Index extends React.Component {
   componentDidMount() {
@@ -8,9 +9,9 @@ class Index extends React.Component {
     if (typeof window !== "undefined") {
       let userLang = window.navigator.language || window.navigator.userLanguage;
       if (userLang === "da-DK") {
-        window.location.href = "/da/";
+        navigate("/da/");
       } else {
-        window.location.href = "/en/";
+        navigate("/en/");
       }
     }
   }

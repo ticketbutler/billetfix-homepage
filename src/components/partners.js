@@ -27,7 +27,7 @@ const Partners = ({ images }) => (
                   padding: "16px",
                   filter: "grayscale(100%)"
                 }}
-                src={require("../" + img.src)}
+                src={img.src}
               />
             </a>
           ))}

@@ -2,13 +2,13 @@ module.exports = [
   {
     id: "en",
     label: "EN",
-    icon: "assets/img/englishFlag.svg",
-    link: "/en"
+    link: "/en",
+    icon: require("../src/assets/img/englishFlag.svg")
   },
   {
     id: "da",
     label: "DA",
-    icon: "assets/img/danishFlag.svg",
-    link: "/da"
+    link: "/da",
+    icon: require("../src/assets/img/danishFlag.svg")
   }
 ];
