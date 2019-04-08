@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 34);
+/******/ 	return __webpack_require__(__webpack_require__.s = 36);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -183,13 +183,13 @@ module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 /* 11 */
 /***/ (function(module, exports) {
 
-module.exports = require("react-static");
+module.exports = require("@reach/router");
 
 /***/ }),
 /* 12 */
 /***/ (function(module, exports) {
 
-module.exports = require("@reach/router");
+module.exports = require("react-static");
 
 /***/ }),
 /* 13 */
@@ -249,7 +249,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(37);
+var _requireUniversalModule = __webpack_require__(39);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -264,7 +264,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(39);
+var _reportChunks = __webpack_require__(41);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -282,17 +282,17 @@ var _propTypes = __webpack_require__(22);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(27);
+var _hoistNonReactStatics = __webpack_require__(29);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _vm = __webpack_require__(40);
+var _vm = __webpack_require__(42);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
 var _utils = __webpack_require__(21);
 
-var _helpers = __webpack_require__(41);
+var _helpers = __webpack_require__(43);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -704,7 +704,7 @@ var _utils = __webpack_require__(21);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(38)("" + id);
+    return __webpack_require__(40)("" + id);
   }
 
   return __webpack_require__('' + id);
@@ -727,10 +727,16 @@ module.exports = require("react-dom");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(17);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(11);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(12);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(12);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(11);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_facebook_pixel__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(23);
+/* harmony import */ var react_facebook_pixel__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_facebook_pixel__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(24);
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_5__);
+
+
 
 
 
@@ -741,7 +747,19 @@ function App() {
     fallback: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("em", null, "Loading...")
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_reach_router__WEBPACK_IMPORTED_MODULE_3__["Router"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_static__WEBPACK_IMPORTED_MODULE_2__["Routes"], {
     path: "*"
-  }))));
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_reach_router__WEBPACK_IMPORTED_MODULE_3__["LocationProvider"], null, function (_ref) {
+    var location = _ref.location;
+
+    if (typeof window !== "undefined") {
+      // Google analytics
+      react_ga__WEBPACK_IMPORTED_MODULE_5___default.a.initialize("UA-70000511-1");
+      react_ga__WEBPACK_IMPORTED_MODULE_5___default.a.pageview(location.pathname); // Facebook pixel
+
+      react_facebook_pixel__WEBPACK_IMPORTED_MODULE_4___default.a.init("21964485180092");
+      react_facebook_pixel__WEBPACK_IMPORTED_MODULE_4___default.a.pageView();
+      return null;
+    }
+  }));
 } // Default expert for static rendering
 
 
@@ -958,15 +976,27 @@ module.exports = require("prop-types");
 /* 23 */
 /***/ (function(module, exports) {
 
-module.exports = require("emailjs-com");
+module.exports = require("react-facebook-pixel");
 
 /***/ }),
 /* 24 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-ga");
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports) {
+
+module.exports = require("emailjs-com");
+
+/***/ }),
+/* 26 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(32);
+/* harmony import */ var _node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(34);
 /* harmony import */ var _node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
@@ -992,13 +1022,13 @@ var plugins = [{
 /* harmony default export */ __webpack_exports__["default"] = (plugins);
 
 /***/ }),
-/* 25 */
+/* 27 */
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/react-static/lib/browser");
 
 /***/ }),
-/* 26 */
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1034,7 +1064,7 @@ var universalOptions = {
 var t_0 = _Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../node_modules/react-static/lib/browser/components/Default404",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.t.bind(null, 28, 7))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.t.bind(null, 30, 7))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1042,7 +1072,7 @@ var t_0 = _Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_reac
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../node_modules/react-static/lib/browser/components/Default404');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(28);
+    return /*require.resolve*/(30);
   },
   chunkName: function chunkName() {
     return "node_modules/react-static/lib/browser/components/Default404";
@@ -1052,7 +1082,7 @@ t_0.template = '../node_modules/react-static/lib/browser/components/Default404';
 var t_1 = _Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/index */).then(__webpack_require__.bind(null, 29))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/index */).then(__webpack_require__.bind(null, 31))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1060,7 +1090,7 @@ var t_1 = _Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_reac
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/index.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(29);
+    return /*require.resolve*/(31);
   },
   chunkName: function chunkName() {
     return "src/pages/index";
@@ -1070,7 +1100,7 @@ t_1.template = '../src/pages/index.js';
 var t_2 = _Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/layouts/cms_page",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/layouts/cms_page */).then(__webpack_require__.bind(null, 31))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/layouts/cms_page */).then(__webpack_require__.bind(null, 33))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1078,7 +1108,7 @@ var t_2 = _Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_reac
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/layouts/cms_page');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(31);
+    return /*require.resolve*/(33);
   },
   chunkName: function chunkName() {
     return "src/layouts/cms_page";
@@ -1096,19 +1126,19 @@ var notFoundTemplate = "../node_modules/react-static/lib/browser/components/Defa
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
-/* 27 */
+/* 29 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 28 */
+/* 30 */
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/react-static/lib/browser/components/Default404");
 
 /***/ }),
-/* 29 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1125,7 +1155,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(12);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(11);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -1177,10 +1207,10 @@ function (_React$Component) {
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
-/* 30 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(48)(false);
+exports = module.exports = __webpack_require__(50)(false);
 // Imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700);", ""]);
 
@@ -1190,7 +1220,7 @@ exports.push([module.i, "* {\n    -webkit-box-sizing: border-box;\n            b
 
 
 /***/ }),
-/* 31 */
+/* 33 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1205,10 +1235,10 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(11);
+var external_react_static_ = __webpack_require__(12);
 
 // EXTERNAL MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/layouts/styles/layout-overide.css
-var layout_overide = __webpack_require__(30);
+var layout_overide = __webpack_require__(32);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/objectSpread"
 var objectSpread_ = __webpack_require__(1);
@@ -1840,7 +1870,7 @@ var footer_Footer = function Footer(_ref) {
 
 /* harmony default export */ var footer = (footer_Footer);
 // EXTERNAL MODULE: external "react-helmet"
-var external_react_helmet_ = __webpack_require__(33);
+var external_react_helmet_ = __webpack_require__(35);
 
 // CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/languageLink.js
 
@@ -2696,10 +2726,10 @@ var picture_left_second_pictureLeftSecond = function pictureLeftSecond(_ref) {
 
 /* harmony default export */ var picture_left_second = (picture_left_second_pictureLeftSecond);
 // EXTERNAL MODULE: external "font-awesome/css/font-awesome.min.css"
-var font_awesome_min_css_ = __webpack_require__(49);
+var font_awesome_min_css_ = __webpack_require__(51);
 
 // EXTERNAL MODULE: external "emailjs-com"
-var external_emailjs_com_ = __webpack_require__(23);
+var external_emailjs_com_ = __webpack_require__(25);
 
 // CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/contact.js
 
@@ -4147,7 +4177,7 @@ var cms_page_CmsPage = function CmsPage() {
 /* harmony default export */ var cms_page = __webpack_exports__["default"] = (cms_page_CmsPage);
 
 /***/ }),
-/* 32 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4160,9 +4190,9 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(0));
 
-var _reactStatic = __webpack_require__(11);
+var _reactStatic = __webpack_require__(12);
 
-var _router = __webpack_require__(12);
+var _router = __webpack_require__(11);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -4273,54 +4303,54 @@ var _default = function _default(_ref) {
 exports["default"] = _default;
 
 /***/ }),
-/* 33 */
+/* 35 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-helmet");
 
 /***/ }),
-/* 34 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(35);
-__webpack_require__(36);
-module.exports = __webpack_require__(42);
+__webpack_require__(37);
+__webpack_require__(38);
+module.exports = __webpack_require__(44);
 
 
 /***/ }),
-/* 35 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 /* eslint-disable import/no-dynamic-require */
 
-var plugins = __webpack_require__(24)["default"];
+var plugins = __webpack_require__(26)["default"];
 
-var _require = __webpack_require__(25),
+var _require = __webpack_require__(27),
     registerPlugins = _require.registerPlugins;
 
 registerPlugins(plugins);
 
 if (typeof document !== 'undefined' && module && module.hot) {
   module.hot.accept("/Users/kyle/Projects/ticketbutler/billetfix-homepage/artifacts/react-static-browser-plugins.js", function () {
-    registerPlugins(__webpack_require__(24)["default"]);
+    registerPlugins(__webpack_require__(26)["default"]);
   });
 }
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(19)(module)))
 
 /***/ }),
-/* 36 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 /* eslint-disable import/no-dynamic-require */
 
-var _require = __webpack_require__(25),
+var _require = __webpack_require__(27),
     registerTemplates = _require.registerTemplates;
 
-var _require2 = __webpack_require__(26),
+var _require2 = __webpack_require__(28),
     templates = _require2["default"],
     notFoundTemplate = _require2.notFoundTemplate;
 
@@ -4328,7 +4358,7 @@ registerTemplates(templates, notFoundTemplate);
 
 if (typeof document !== 'undefined' && module && module.hot) {
   module.hot.accept("/Users/kyle/Projects/ticketbutler/billetfix-homepage/artifacts/react-static-templates.js", function () {
-    var _require3 = __webpack_require__(26),
+    var _require3 = __webpack_require__(28),
         templates = _require3["default"],
         notFoundTemplate = _require3.notFoundTemplate;
 
@@ -4338,7 +4368,7 @@ if (typeof document !== 'undefined' && module && module.hot) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(19)(module)))
 
 /***/ }),
-/* 37 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4549,7 +4579,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 38 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -4577,10 +4607,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 38;
+webpackContext.id = 40;
 
 /***/ }),
-/* 39 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4689,13 +4719,13 @@ ReportChunks.childContextTypes = {
 exports["default"] = ReportChunks;
 
 /***/ }),
-/* 40 */
+/* 42 */
 /***/ (function(module, exports) {
 
 module.exports = require("vm");
 
 /***/ }),
-/* 41 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4706,7 +4736,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.__handleAfter = exports.__update = undefined;
 
-var _hoistNonReactStatics = __webpack_require__(27);
+var _hoistNonReactStatics = __webpack_require__(29);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -4762,15 +4792,15 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 };
 
 /***/ }),
-/* 42 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(43);
+var _interopRequireWildcard = __webpack_require__(45);
 
-var _interopRequireDefault = __webpack_require__(44);
+var _interopRequireDefault = __webpack_require__(46);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -4783,7 +4813,7 @@ var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(10));
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
-var _useStaticInfo = __webpack_require__(45);
+var _useStaticInfo = __webpack_require__(47);
 /* eslint-disable import/no-dynamic-require */
 
 
@@ -4804,7 +4834,7 @@ function Suspense(_ref) {
 React.Suspense = Suspense;
 React["default"].Suspense = Suspense;
 
-var App = __webpack_require__(46)["default"];
+var App = __webpack_require__(48)["default"];
 
 var _default = function _default(staticInfo) {
   return function (props) {
@@ -4817,25 +4847,25 @@ var _default = function _default(staticInfo) {
 exports["default"] = _default;
 
 /***/ }),
-/* 43 */
+/* 45 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
 
 /***/ }),
-/* 44 */
+/* 46 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 
 /***/ }),
-/* 45 */
+/* 47 */
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
-/* 46 */
+/* 48 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4869,10 +4899,10 @@ if (typeof document !== "undefined") {
     });
   }
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(47)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(49)(module)))
 
 /***/ }),
-/* 47 */
+/* 49 */
 /***/ (function(module, exports) {
 
 module.exports = function (originalModule) {
@@ -4902,7 +4932,7 @@ module.exports = function (originalModule) {
 };
 
 /***/ }),
-/* 48 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4993,7 +5023,7 @@ function toComment(sourceMap) {
 }
 
 /***/ }),
-/* 49 */
+/* 51 */
 /***/ (function(module, exports) {
 
 module.exports = require("font-awesome/css/font-awesome.min.css");

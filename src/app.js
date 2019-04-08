@@ -1,7 +1,9 @@
 import React from "react";
 import { render, hydrate } from "react-dom";
 import { Root, Routes, addPrefetchExcludes } from "react-static";
-import { Router, Link } from "@reach/router";
+import { Router, Link, LocationProvider } from "@reach/router";
+import ReactPixel from "react-facebook-pixel";
+import ReactGA from "react-ga";
 
 function App() {
   return (
@@ -11,6 +13,19 @@ function App() {
           <Routes path="*" />
         </Router>
       </React.Suspense>
+      <LocationProvider>
+        {({ location }) => {
+          if (typeof window !== "undefined") {
+            // Google analytics
+            ReactGA.initialize("UA-70000511-1");
+            ReactGA.pageview(location.pathname);
+            // Facebook pixel
+            ReactPixel.init("21964485180092");
+            ReactPixel.pageView();
+            return null;
+          }
+        }}
+      </LocationProvider>
     </Root>
   );
 }

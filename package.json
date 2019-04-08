@@ -10,6 +10,8 @@
     "parcel": "1.12.2",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
+    "react-facebook-pixel": "^0.1.2",
+    "react-ga": "^2.5.7",
     "react-helmet": "^5.2.0",
     "react-static": "^7.0.0",
     "react-static-plugin-reach-router": "^7.0.0",
