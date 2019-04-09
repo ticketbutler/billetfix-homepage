@@ -20,7 +20,7 @@ function App() {
             ReactGA.initialize("UA-70000511-1");
             ReactGA.pageview(location.pathname);
             // Facebook pixel
-            ReactPixel.init("21964485180092");
+            ReactPixel.init("219644851800920");
             ReactPixel.pageView();
             return null;
           }
