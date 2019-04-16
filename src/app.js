@@ -4,12 +4,14 @@ import { Root, Routes, addPrefetchExcludes } from "react-static";
 import { Router, Link, LocationProvider } from "@reach/router";
 import ReactPixel from "react-facebook-pixel";
 import ReactGA from "react-ga";
+import Index from "./pages/index";
 
 function App() {
   return (
     <Root>
       <React.Suspense fallback={<em>Loading...</em>}>
         <Router>
+          <Index default />
           <Routes path="*" />
         </Router>
       </React.Suspense>
