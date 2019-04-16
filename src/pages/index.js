@@ -9,9 +9,9 @@ class Index extends React.Component {
     if (typeof window !== "undefined") {
       let userLang = window.navigator.language || window.navigator.userLanguage;
       if (userLang === "da-DK") {
-        navigate("/da/");
+        window.location.href = "/da/";
       } else {
-        navigate("/en/");
+        window.location.href = "/en/";
       }
     }
   }
