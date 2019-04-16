@@ -4,26 +4,26 @@
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  static/fontawesome-webfont.912ec66d.svg (434 KiB)"
   ],
   "version": "4.29.6",
-  "hash": "cbcd2bf4cdb243c05ee9",
-  "time": 3750,
-  "builtAt": 1554732291184,
+  "hash": "a83ac543741d5c9a6844",
+  "time": 3995,
+  "builtAt": 1555398266931,
   "publicPath": "/",
   "outputPath": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/dist",
   "assetsByChunkName": {
-    "main": "main.cbcd2bf4.js",
+    "main": "main.a83ac543.js",
     "node_modules/react-static/lib/browser/components/Default404": "templates/node_modules/react-static/lib/browser/components/Default404.4dfc827c.js",
     "src/layouts/cms_page": "templates/src/layouts/cms_page.4fb2b16c.js",
     "src/pages/index": "templates/src/pages/index.29b557d1.js",
     "styles": [
-      "styles.01b17fae.css",
-      "templates/styles.01b17fae.js"
+      "styles.15a78b50.css",
+      "templates/styles.15a78b50.js"
     ],
     "vendors~main": "templates/vendors~main.4a3d91aa.js"
   },
   "assets": [
     {
-      "name": "main.cbcd2bf4.js",
-      "size": 6749,
+      "name": "main.a83ac543.js",
+      "size": 6750,
       "chunks": [
         0
       ],
@@ -69,7 +69,7 @@
       "emitted": true
     },
     {
-      "name": "styles.01b17fae.css",
+      "name": "styles.15a78b50.css",
       "size": 31490,
       "chunks": [
         4
@@ -113,7 +113,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.01b17fae.js",
+      "name": "templates/styles.15a78b50.js",
       "size": 104,
       "chunks": [
         4
@@ -144,7 +144,7 @@
       ],
       "assets": [
         "templates/vendors~main.4a3d91aa.js",
-        "main.cbcd2bf4.js"
+        "main.a83ac543.js"
       ],
       "children": {},
       "childAssets": {}
@@ -158,7 +158,7 @@
       ],
       "assets": [
         "templates/vendors~main.4a3d91aa.js",
-        "main.cbcd2bf4.js"
+        "main.a83ac543.js"
       ],
       "children": {},
       "childAssets": {}
@@ -189,8 +189,8 @@
         2
       ],
       "assets": [
-        "styles.01b17fae.css",
-        "templates/styles.01b17fae.js",
+        "styles.15a78b50.css",
+        "templates/styles.15a78b50.js",
         "templates/src/layouts/cms_page.4fb2b16c.js"
       ],
       "children": {},
@@ -203,14 +203,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 4948,
+      "size": 4949,
       "names": [
         "main"
       ],
       "files": [
-        "main.cbcd2bf4.js"
+        "main.a83ac543.js"
       ],
-      "hash": "e794b7965b9ba250a222",
+      "hash": "2f7f3018e3c784f8593c",
       "siblings": [
         5
       ],
@@ -229,7 +229,7 @@
           "name": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/app.js",
           "index": 129,
           "index2": 138,
-          "size": 825,
+          "size": 826,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -307,7 +307,7 @@
           ],
           "optimizationBailout": [],
           "depth": 3,
-          "source": "import React from\"react\";import{render,hydrate}from\"react-dom\";import{Root,Routes,addPrefetchExcludes}from\"react-static\";import{Router,Link,LocationProvider}from\"@reach/router\";import ReactPixel from\"react-facebook-pixel\";import ReactGA from\"react-ga\";function App(){return React.createElement(Root,null,React.createElement(React.Suspense,{fallback:React.createElement(\"em\",null,\"Loading...\")},React.createElement(Router,null,React.createElement(Routes,{path:\"*\"}))),React.createElement(LocationProvider,null,function(_ref){var location=_ref.location;if(typeof window!==\"undefined\"){// Google analytics\nReactGA.initialize(\"UA-70000511-1\");ReactGA.pageview(location.pathname);// Facebook pixel\nReactPixel.init(\"21964485180092\");ReactPixel.pageView();return null;}}));}// Default expert for static rendering\nexport default App;"
+          "source": "import React from\"react\";import{render,hydrate}from\"react-dom\";import{Root,Routes,addPrefetchExcludes}from\"react-static\";import{Router,Link,LocationProvider}from\"@reach/router\";import ReactPixel from\"react-facebook-pixel\";import ReactGA from\"react-ga\";function App(){return React.createElement(Root,null,React.createElement(React.Suspense,{fallback:React.createElement(\"em\",null,\"Loading...\")},React.createElement(Router,null,React.createElement(Routes,{path:\"*\"}))),React.createElement(LocationProvider,null,function(_ref){var location=_ref.location;if(typeof window!==\"undefined\"){// Google analytics\nReactGA.initialize(\"UA-70000511-1\");ReactGA.pageview(location.pathname);// Facebook pixel\nReactPixel.init(\"219644851800920\");ReactPixel.pageView();return null;}}));}// Default expert for static rendering\nexport default App;"
         },
         {
           "id": 29,
@@ -2245,6 +2245,15 @@
                 },
                 {
                   "moduleId": null,
+                  "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/features.js",
+                  "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/features.js",
+                  "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/features.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../components/helpers",
+                  "loc": "1:88-136"
+                },
+                {
+                  "moduleId": null,
                   "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/partners.js",
                   "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/partners.js",
                   "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/partners.js",
@@ -2257,15 +2266,6 @@
                   "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/hero-section.js",
                   "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/hero-section.js",
                   "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/hero-section.js",
-                  "type": "harmony side effect evaluation",
-                  "userRequest": "../components/helpers",
-                  "loc": "1:88-136"
-                },
-                {
-                  "moduleId": null,
-                  "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-left.js",
-                  "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-left.js",
-                  "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-left.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../components/helpers",
                   "loc": "1:88-136"
@@ -2290,18 +2290,18 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/app-store.js",
-                  "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/app-store.js",
-                  "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/app-store.js",
+                  "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/about.js",
+                  "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/about.js",
+                  "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/about.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../components/helpers",
                   "loc": "1:88-136"
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/about.js",
-                  "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/about.js",
-                  "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/about.js",
+                  "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/app-store.js",
+                  "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/app-store.js",
+                  "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/app-store.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../components/helpers",
                   "loc": "1:88-136"
@@ -2317,9 +2317,9 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/features.js",
-                  "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/features.js",
-                  "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/features.js",
+                  "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-left.js",
+                  "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-left.js",
+                  "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-left.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../components/helpers",
                   "loc": "1:88-136"
@@ -3681,10 +3681,10 @@
         "styles"
       ],
       "files": [
-        "styles.01b17fae.css",
-        "templates/styles.01b17fae.js"
+        "styles.15a78b50.css",
+        "templates/styles.15a78b50.js"
       ],
-      "hash": "01b17fae2d1885358eed",
+      "hash": "15a78b50993fbd2b81bf",
       "siblings": [
         2
       ],
@@ -3764,7 +3764,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1554732289380\n      var cssReload = require(\"/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1555398265058\n      var cssReload = require(\"/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": 133,
@@ -3837,7 +3837,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 5,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1554732289864\n      var cssReload = require(\"/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1555398265452\n      var cssReload = require(\"/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -11106,7 +11106,7 @@
               "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/app.js",
               "type": "harmony import specifier",
               "userRequest": "react-facebook-pixel",
-              "loc": "3:34-44"
+              "loc": "3:35-45"
             }
           ],
           "usedExports": [
@@ -27504,7 +27504,7 @@
       "name": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/app.js",
       "index": 129,
       "index2": 138,
-      "size": 825,
+      "size": 826,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -27582,7 +27582,7 @@
       ],
       "optimizationBailout": [],
       "depth": 3,
-      "source": "import React from\"react\";import{render,hydrate}from\"react-dom\";import{Root,Routes,addPrefetchExcludes}from\"react-static\";import{Router,Link,LocationProvider}from\"@reach/router\";import ReactPixel from\"react-facebook-pixel\";import ReactGA from\"react-ga\";function App(){return React.createElement(Root,null,React.createElement(React.Suspense,{fallback:React.createElement(\"em\",null,\"Loading...\")},React.createElement(Router,null,React.createElement(Routes,{path:\"*\"}))),React.createElement(LocationProvider,null,function(_ref){var location=_ref.location;if(typeof window!==\"undefined\"){// Google analytics\nReactGA.initialize(\"UA-70000511-1\");ReactGA.pageview(location.pathname);// Facebook pixel\nReactPixel.init(\"21964485180092\");ReactPixel.pageView();return null;}}));}// Default expert for static rendering\nexport default App;"
+      "source": "import React from\"react\";import{render,hydrate}from\"react-dom\";import{Root,Routes,addPrefetchExcludes}from\"react-static\";import{Router,Link,LocationProvider}from\"@reach/router\";import ReactPixel from\"react-facebook-pixel\";import ReactGA from\"react-ga\";function App(){return React.createElement(Root,null,React.createElement(React.Suspense,{fallback:React.createElement(\"em\",null,\"Loading...\")},React.createElement(Router,null,React.createElement(Routes,{path:\"*\"}))),React.createElement(LocationProvider,null,function(_ref){var location=_ref.location;if(typeof window!==\"undefined\"){// Google analytics\nReactGA.initialize(\"UA-70000511-1\");ReactGA.pageview(location.pathname);// Facebook pixel\nReactPixel.init(\"219644851800920\");ReactPixel.pageView();return null;}}));}// Default expert for static rendering\nexport default App;"
     },
     {
       "id": 21,
@@ -28247,7 +28247,7 @@
           "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/app.js",
           "type": "harmony import specifier",
           "userRequest": "react-facebook-pixel",
-          "loc": "3:34-44"
+          "loc": "3:35-45"
         }
       ],
       "usedExports": [
@@ -35538,6 +35538,15 @@
             },
             {
               "moduleId": null,
+              "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/features.js",
+              "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/features.js",
+              "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/features.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../components/helpers",
+              "loc": "1:88-136"
+            },
+            {
+              "moduleId": null,
               "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/partners.js",
               "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/partners.js",
               "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/partners.js",
@@ -35550,15 +35559,6 @@
               "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/hero-section.js",
               "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/hero-section.js",
               "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/hero-section.js",
-              "type": "harmony side effect evaluation",
-              "userRequest": "../components/helpers",
-              "loc": "1:88-136"
-            },
-            {
-              "moduleId": null,
-              "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-left.js",
-              "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-left.js",
-              "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-left.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../components/helpers",
               "loc": "1:88-136"
@@ -35583,18 +35583,18 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/app-store.js",
-              "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/app-store.js",
-              "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/app-store.js",
+              "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/about.js",
+              "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/about.js",
+              "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/about.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../components/helpers",
               "loc": "1:88-136"
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/about.js",
-              "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/about.js",
-              "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/about.js",
+              "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/app-store.js",
+              "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/app-store.js",
+              "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/app-store.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../components/helpers",
               "loc": "1:88-136"
@@ -35610,9 +35610,9 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/features.js",
-              "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/features.js",
-              "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/features.js",
+              "moduleIdentifier": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-left.js",
+              "module": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-left.js",
+              "moduleName": "/Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-left.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../components/helpers",
               "loc": "1:88-136"
@@ -41329,7 +41329,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1554732289380\n      var cssReload = require(\"/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1555398265058\n      var cssReload = require(\"/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 133,
@@ -41402,7 +41402,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 5,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1554732289864\n      var cssReload = require(\"/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1555398265452\n      var cssReload = require(\"/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 134,

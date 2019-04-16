@@ -755,7 +755,7 @@ function App() {
       react_ga__WEBPACK_IMPORTED_MODULE_5___default.a.initialize("UA-70000511-1");
       react_ga__WEBPACK_IMPORTED_MODULE_5___default.a.pageview(location.pathname); // Facebook pixel
 
-      react_facebook_pixel__WEBPACK_IMPORTED_MODULE_4___default.a.init("21964485180092");
+      react_facebook_pixel__WEBPACK_IMPORTED_MODULE_4___default.a.init("219644851800920");
       react_facebook_pixel__WEBPACK_IMPORTED_MODULE_4___default.a.pageView();
       return null;
     }
