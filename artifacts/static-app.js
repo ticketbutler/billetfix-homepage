@@ -4152,13 +4152,15 @@ var components = [{
 
 var cms_page_CmsPage = function CmsPage() {
   var pageContext = Object(external_react_static_["useRouteData"])();
-  var fadeHeader = false;
-
-  if (typeof window !== "undefined") {
-    if (window.location.pathname === "/en/" || window.location.pathname === "/da/") {
-      fadeHeader = true;
-    }
-  }
+  var fadeHeader = false; // TODO: There is a style bug with this, removing for now
+  // if (typeof window !== "undefined") {
+  //   if (
+  //     window.location.pathname === "/en/" ||
+  //     window.location.pathname === "/da/"
+  //   ) {
+  //     fadeHeader = true;
+  //   }
+  // }
 
   return external_react_default.a.createElement(layouts_Layout, extends_default()({}, pageContext, {
     fadeHeader: fadeHeader

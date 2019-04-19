@@ -48,14 +48,15 @@ const components = [
 const CmsPage = () => {
   const pageContext = useRouteData();
   let fadeHeader = false;
-  if (typeof window !== "undefined") {
-    if (
-      window.location.pathname === "/en/" ||
-      window.location.pathname === "/da/"
-    ) {
-      fadeHeader = true;
-    }
-  }
+  // TODO: There is a style bug with this, removing for now
+  // if (typeof window !== "undefined") {
+  //   if (
+  //     window.location.pathname === "/en/" ||
+  //     window.location.pathname === "/da/"
+  //   ) {
+  //     fadeHeader = true;
+  //   }
+  // }
   return (
     <Layout {...pageContext} fadeHeader={fadeHeader}>
       {pageContext.sections &&
