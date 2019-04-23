@@ -185,7 +185,7 @@ const TicketPrice = ({
                   </span>
                 </div>
                 <a
-                  href="https://billetfix.dk/event/create_event/"
+                  href="https://billetfix.dk/user/login/"
                   style={{ textDecoration: "none" }}
                 >
                   <Button
