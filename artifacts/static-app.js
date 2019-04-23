@@ -1098,7 +1098,7 @@ var plugins = [{
 /* 28 */
 /***/ (function(module, exports) {
 
-module.exports = require("/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/react-static/lib/browser");
+module.exports = require("/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/browser");
 
 /***/ }),
 /* 29 */
@@ -1113,8 +1113,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(14);
-/* harmony import */ var _Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Users_veronikam_Desktop_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(14);
+/* harmony import */ var _Users_veronikam_Desktop_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Users_veronikam_Desktop_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -1123,7 +1123,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-Object(_Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__["setHasBabelPlugin"])();
+Object(_Users_veronikam_Desktop_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__["setHasBabelPlugin"])();
 var universalOptions = {
   loading: function loading() {
     return null;
@@ -1134,7 +1134,7 @@ var universalOptions = {
   },
   ignoreBabelRename: true
 };
-var t_0 = _Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+var t_0 = _Users_veronikam_Desktop_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../node_modules/react-static/lib/browser/components/Default404",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.t.bind(null, 31, 7))]).then(function (proms) {
@@ -1152,7 +1152,7 @@ var t_0 = _Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_reac
   }
 }), universalOptions);
 t_0.template = '../node_modules/react-static/lib/browser/components/Default404';
-var t_1 = _Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+var t_1 = _Users_veronikam_Desktop_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/index.js",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 17))]).then(function (proms) {
@@ -1170,7 +1170,7 @@ var t_1 = _Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_reac
   }
 }), universalOptions);
 t_1.template = '../src/pages/index.js';
-var t_2 = _Users_kyle_Projects_ticketbutler_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+var t_2 = _Users_veronikam_Desktop_billetfix_homepage_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/layouts/cms_page",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() | src/layouts/cms_page */).then(__webpack_require__.bind(null, 33))]).then(function (proms) {
@@ -1208,7 +1208,7 @@ module.exports = require("hoist-non-react-statics");
 /* 31 */
 /***/ (function(module, exports) {
 
-module.exports = require("/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/react-static/lib/browser/components/Default404");
+module.exports = require("/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/browser/components/Default404");
 
 /***/ }),
 /* 32 */
@@ -1241,7 +1241,7 @@ var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_)
 // EXTERNAL MODULE: external "react-static"
 var external_react_static_ = __webpack_require__(11);
 
-// EXTERNAL MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/layouts/styles/layout-overide.css
+// EXTERNAL MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/layouts/styles/layout-overide.css
 var layout_overide = __webpack_require__(32);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/objectSpread"
@@ -1276,7 +1276,7 @@ var inherits_default = /*#__PURE__*/__webpack_require__.n(inherits_);
 var defineProperty_ = __webpack_require__(2);
 var defineProperty_default = /*#__PURE__*/__webpack_require__.n(defineProperty_);
 
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/helpers.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/helpers.js
 
 
 
@@ -1345,7 +1345,7 @@ function (_React$Component) {
 
   return WindowHelper;
 }(external_react_["Component"]);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/partners.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/partners.js
 
 
 
@@ -1387,7 +1387,7 @@ var partners_Partners = function Partners(_ref) {
 };
 
 /* harmony default export */ var partners = (partners_Partners);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/icons/smileyHiIcon.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/icons/smileyHiIcon.js
 
 
 var smileyHiIcon_SmileyHiIcon = function SmileyHiIcon(_ref) {
@@ -1416,7 +1416,7 @@ var smileyHiIcon_SmileyHiIcon = function SmileyHiIcon(_ref) {
     d: "M12.41,6c-5.336,0-9.66,4.324-9.66,9.66c0,2.762,1.164,5.242,3.02,7.004l-0.325,5.379l4.59-3.025 c0.762,0.189,1.555,0.308,2.375,0.308c5.336,0,9.66-4.328,9.66-9.664S17.746,6,12.41,6L12.41,6z M15.664,10.73h1.125l-0.793,3.293 h-0.805L15.664,10.73z M15.461,14.387c0.355,0,0.602,0.254,0.602,0.609c0,0.414-0.305,0.711-0.711,0.711 c-0.354,0-0.59-0.254-0.59-0.594C14.762,14.727,15.055,14.387,15.461,14.387L15.461,14.387z M14.254,10.527 c0.305,0,0.523,0.203,0.523,0.516c0,0.371-0.285,0.59-0.617,0.59c-0.293,0-0.508-0.196-0.508-0.508 C13.656,10.77,13.934,10.527,14.254,10.527L14.254,10.527z M14.551,12.074l-0.676,3.551h-1.047l0.676-3.551H14.551z M8.961,10.73 h1.047l-0.363,1.911h1.781l0.363-1.911h1.047l-0.93,4.899h-1.047l0.383-2.059H9.473l-0.395,2.059H8.031L8.961,10.73z M12.41,22.186c-2.668,0-4.832-2.119-4.832-3.336c0-1.221,2.164,0.049,4.832,0.049s4.832-1.27,4.832-0.049 C17.242,20.066,15.078,22.186,12.41,22.186L12.41,22.186z"
   }))));
 };
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-right.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/picture-right.js
 
 
 
@@ -1490,7 +1490,7 @@ var picture_right_PictureRight = function PictureRight(_ref) {
 };
 
 /* harmony default export */ var picture_right = (picture_right_PictureRight);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/features.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/features.js
 
 
 
@@ -1567,7 +1567,7 @@ var external_prop_types_ = __webpack_require__(23);
 var objectWithoutProperties_ = __webpack_require__(10);
 var objectWithoutProperties_default = /*#__PURE__*/__webpack_require__.n(objectWithoutProperties_);
 
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/elements/elements.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/elements/elements.js
 
 
 
@@ -1700,7 +1700,7 @@ function (_React$Component2) {
 
   return Switch;
 }(external_react_default.a.Component);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/icons/fbIcon.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/icons/fbIcon.js
 
 var fbIcon_FBIcon = function FBIcon(_ref) {
   var style = _ref.style;
@@ -1727,7 +1727,7 @@ var fbIcon_FBIcon = function FBIcon(_ref) {
     d: "M77,17c0-6.305-5.691-12-12-12H17C10.691,5,5,10.695,5,17v48c0,6.307,5.691,12,12,12h24V49.801h-8.801v-12H41v-4.676 c0-8.063,6.055-15.324,13.5-15.324h9.699v12H54.5c-1.062,0-2.301,1.289-2.301,3.219v4.781h12v12h-12V77H65c6.309,0,12-5.693,12-12 V17z"
   }))));
 };
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/footer.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/footer.js
 
 
 
@@ -1876,7 +1876,7 @@ var footer_Footer = function Footer(_ref) {
 // EXTERNAL MODULE: external "react-helmet"
 var external_react_helmet_ = __webpack_require__(35);
 
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/languageLink.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/languageLink.js
 
 
 
@@ -2044,7 +2044,7 @@ function (_React$Component) {
 }(external_react_default.a.Component);
 
 /* harmony default export */ var languageLink = (languageLink_LanguageLink);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/layouts/index.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/layouts/index.js
 
 
 
@@ -2268,7 +2268,7 @@ var layouts_Layout = function Layout(_ref) {
     src: "//js.hs-scripts.com/3835323.js"
   }));
 };
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/elements/overlay.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/elements/overlay.js
 
 
 
@@ -2297,7 +2297,7 @@ var overlay_Overlay = function Overlay(_ref) {
     }
   }, children && children));
 };
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/icons/closeCross.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/icons/closeCross.js
 
 
 
@@ -2356,7 +2356,7 @@ function (_React$Component) {
 
   return Cross;
 }(external_react_default.a.Component);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/icons/arrow.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/icons/arrow.js
 
 
 var arrow_Arrow = function Arrow(_ref) {
@@ -2376,7 +2376,7 @@ var arrow_Arrow = function Arrow(_ref) {
     d: "M100.004,108.5c26.109,0,52.221-61.017,78.326-61.115c6.316-0.026,11.695,1.311,14.298,7.737 c2.47,6.097-0.794,10.472-4.808,14.488c-25.758,25.77-51.5,51.555-77.303,77.281c-7.66,7.637-13.373,7.635-21.032-0.002 c-25.802-25.725-51.548-51.51-77.302-77.283c-4.004-4.01-7.297-8.374-4.807-14.479c2.615-6.411,7.969-7.771,14.297-7.744 C47.786,47.489,73.895,108.5,100.004,108.5z"
   }));
 };
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/hero-section.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/hero-section.js
 
 
 
@@ -2506,9 +2506,10 @@ var hero_section_Hero = function Hero(_ref) {
           right: "5px"
         }),
         onClick: function onClick() {
-          toggle();
+          toggle(false);
         }
-      }), external_react_default.a.createElement("iframe", {
+      }), on && external_react_default.a.createElement("iframe", {
+        className: "video",
         style: objectSpread_default()({
           width: "100%",
           height: "100vh"
@@ -2528,7 +2529,7 @@ var hero_section_Hero = function Hero(_ref) {
         }
       }, external_react_default.a.createElement(elements_Button, {
         onClick: function onClick() {
-          toggle();
+          toggle(false);
         },
         style: {
           padding: "15px 10px",
@@ -2561,7 +2562,7 @@ var hero_section_Hero = function Hero(_ref) {
 };
 
 /* harmony default export */ var hero_section = (hero_section_Hero);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-left.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/picture-left.js
 
 
 
@@ -2654,7 +2655,7 @@ var picture_left_pictureLeft = function pictureLeft(_ref) {
 };
 
 /* harmony default export */ var picture_left = (picture_left_pictureLeft);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-left-second.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/picture-left-second.js
 
 
 
@@ -2735,7 +2736,7 @@ var font_awesome_min_css_ = __webpack_require__(51);
 // EXTERNAL MODULE: external "emailjs-com"
 var external_emailjs_com_ = __webpack_require__(26);
 
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/contact.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/contact.js
 
 
 
@@ -3095,7 +3096,7 @@ function (_React$Component) {
 }(external_react_default.a.Component);
 
 /* harmony default export */ var contact = (contact_Contact);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/icons/attendeeIcon.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/icons/attendeeIcon.js
 
 
 var attendeeIcon_Attendee = function Attendee(_ref) {
@@ -3176,7 +3177,7 @@ var attendeeIcon_Attendee = function Attendee(_ref) {
     d: "M183.09,128.25c3.033,10.027,16.023,17.564,31.592,17.564c15.57,0,28.561-7.538,31.593-17.564H183.09z"
   })));
 };
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-right-second.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/picture-right-second.js
 
 
 
@@ -3262,7 +3263,7 @@ var picture_right_second_PictureRightSecond = function PictureRightSecond(_ref) 
 };
 
 /* harmony default export */ var picture_right_second = (picture_right_second_PictureRightSecond);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-right-mockup-first.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/picture-right-mockup-first.js
 
 
  // import Logos from './soc-med-icons'
@@ -3362,7 +3363,7 @@ var picture_right_mockup_first_RightMockupFirst = function RightMockupFirst(_ref
 };
 
 /* harmony default export */ var picture_right_mockup_first = (picture_right_mockup_first_RightMockupFirst);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/copyBox.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/copyBox.js
 
 
 
@@ -3477,7 +3478,7 @@ function (_React$Component) {
 }(external_react_default.a.Component);
 
 /* harmony default export */ var copyBox = (copyBox_CopyBox);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/picture-right-mockup-second.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/picture-right-mockup-second.js
 
 
 
@@ -3569,7 +3570,7 @@ var picture_right_mockup_second_RightMockupSecond = function RightMockupSecond(_
 };
 
 /* harmony default export */ var picture_right_mockup_second = (picture_right_mockup_second_RightMockupSecond);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/ticket-price.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/ticket-price.js
 
 
 
@@ -3731,7 +3732,7 @@ var ticket_price_TicketPrice = function TicketPrice(_ref) {
           letterSpacing: "2px"
         }
       }, serviceFee)), external_react_default.a.createElement("a", {
-        href: "https://billetfix.dk/event/create_event/",
+        href: "https://billetfix.dk/user/login/",
         style: {
           textDecoration: "none"
         }
@@ -3752,7 +3753,7 @@ var ticket_price_TicketPrice = function TicketPrice(_ref) {
 };
 
 /* harmony default export */ var ticket_price = (ticket_price_TicketPrice);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/app-store.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/app-store.js
 
 
 
@@ -3848,7 +3849,7 @@ var app_store_AppStore = function AppStore(_ref) {
 };
 
 /* harmony default export */ var app_store = (app_store_AppStore);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/about.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/about.js
 
 
 
@@ -3902,7 +3903,7 @@ var about_About = function About(_ref) {
 };
 
 /* harmony default export */ var about = (about_About);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/languages.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/languages.js
 
 
 
@@ -4008,7 +4009,7 @@ var languages_Languages = function Languages(_ref) {
 };
 
 /* harmony default export */ var languages = (languages_Languages);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/privacyPol.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/privacyPol.js
 
 
 
@@ -4038,7 +4039,7 @@ var privacyPol_PrivacyPolicy = function PrivacyPolicy(_ref) {
 };
 
 /* harmony default export */ var privacyPol = (privacyPol_PrivacyPolicy);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/components/tandc.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/components/tandc.js
 
 
 
@@ -4068,7 +4069,7 @@ var tandc_TandC = function TandC(_ref) {
 };
 
 /* harmony default export */ var tandc = (tandc_TandC);
-// CONCATENATED MODULE: /Users/kyle/Projects/ticketbutler/billetfix-homepage/src/layouts/cms_page.js
+// CONCATENATED MODULE: /Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js
 
 
 
@@ -4339,7 +4340,7 @@ var _require = __webpack_require__(28),
 registerPlugins(plugins);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/Users/kyle/Projects/ticketbutler/billetfix-homepage/artifacts/react-static-browser-plugins.js", function () {
+  module.hot.accept("/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js", function () {
     registerPlugins(__webpack_require__(27)["default"]);
   });
 }
@@ -4363,7 +4364,7 @@ var _require2 = __webpack_require__(29),
 registerTemplates(templates, notFoundTemplate);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/Users/kyle/Projects/ticketbutler/billetfix-homepage/artifacts/react-static-templates.js", function () {
+  module.hot.accept("/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js", function () {
     var _require3 = __webpack_require__(29),
         templates = _require3["default"],
         notFoundTemplate = _require3.notFoundTemplate;
@@ -4868,7 +4869,7 @@ module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 /* 47 */
 /***/ (function(module, exports) {
 
-module.exports = require("/Users/kyle/Projects/ticketbutler/billetfix-homepage/node_modules/react-static/lib/browser/hooks/useStaticInfo");
+module.exports = require("/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
 /* 48 */
