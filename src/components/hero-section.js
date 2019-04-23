@@ -152,34 +152,37 @@ const Hero = ({
                             : { marginTop: "-172px", right: "5px" })
                         }}
                         onClick={() => {
-                          toggle();
+                          toggle(false);
                         }}
                       />
-                      <iframe
-                        style={{
-                          width: "100%",
+                      {on && (
+                        <iframe
+                          className="video"
+                          style={{
+                            width: "100%",
 
-                          height: "100vh",
-                          ...(window.width > 980
-                            ? {
-                                maxWidth: " 70%",
-                                marginTop: "145px",
-                                maxHeight: "70vh"
-                              }
-                            : {
-                                maxWidth: "84%",
-                                marginTop: "132px",
-                                maxHeight: "73vh"
-                              })
-                        }}
-                        src="https://www.youtube.com/embed/pk7WopW7Ii8"
-                      />
+                            height: "100vh",
+                            ...(window.width > 980
+                              ? {
+                                  maxWidth: " 70%",
+                                  marginTop: "145px",
+                                  maxHeight: "70vh"
+                                }
+                              : {
+                                  maxWidth: "84%",
+                                  marginTop: "132px",
+                                  maxHeight: "73vh"
+                                })
+                          }}
+                          src="https://www.youtube.com/embed/pk7WopW7Ii8"
+                        />
+                      )}
                     </Overlay>
                   </div>
                   <div style={{ paddingTop: "20px" }}>
                     <Button
                       onClick={() => {
-                        toggle();
+                        toggle(false);
                       }}
                       style={{
                         padding: "15px 10px",
