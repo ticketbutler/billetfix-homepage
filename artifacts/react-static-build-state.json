@@ -1,0 +1,61 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/veronikam/Desktop/billetfix-homepage/src/pages"
+      }
+    ],
+    "/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/veronikam/Desktop/billetfix-homepage"
+  ],
+  "paths": {
+    "ROOT": "/Users/veronikam/Desktop/billetfix-homepage",
+    "SRC": "/Users/veronikam/Desktop/billetfix-homepage/src",
+    "DIST": "/Users/veronikam/Desktop/billetfix-homepage/dist",
+    "ASSETS": "/Users/veronikam/Desktop/billetfix-homepage/dist",
+    "PLUGINS": "/Users/veronikam/Desktop/billetfix-homepage/plugins",
+    "TEMP": "/Users/veronikam/Desktop/billetfix-homepage/tmp",
+    "ARTIFACTS": "/Users/veronikam/Desktop/billetfix-homepage/artifacts",
+    "PUBLIC": "/Users/veronikam/Desktop/billetfix-homepage/public",
+    "NODE_MODULES": "/Users/veronikam/Desktop/billetfix-homepage/node_modules",
+    "EXCLUDE_MODULES": "/Users/veronikam/Desktop/billetfix-homepage/node_modules",
+    "PACKAGE": "/Users/veronikam/Desktop/billetfix-homepage/package.json",
+    "HTML_TEMPLATE": "/Users/veronikam/Desktop/billetfix-homepage/dist/index.html",
+    "STATIC_DATA": "/Users/veronikam/Desktop/billetfix-homepage/dist/staticData"
+  },
+  "siteRoot": "",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "http://localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
