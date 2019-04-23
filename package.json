@@ -24,8 +24,12 @@
     "build": "react-static build",
     "analyze": "react-static build --analyze"
   },
+  
   "devDependencies": {
     "eslint": "^5.16.0",
     "prettier": "^1.12.0"
+  },
+  "resolutions": {
+    "react-static/webpack-dev-server": "3.2.1"
   }
 }
