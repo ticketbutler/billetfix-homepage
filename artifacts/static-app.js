@@ -2186,7 +2186,7 @@ var layouts_Layout = function Layout(_ref) {
             display: "block",
             marginTop: "30px"
           } : {}),
-          href: "https://billetfix.dk/event/create_event/"
+          href: "https://billetfix.dk/user/login/"
         }, external_react_default.a.createElement(elements_Button, {
           style: {
             margin: "-11px auto",
