@@ -8,14 +8,14 @@ import { normalizeTranslatedKeys } from "./utils";
 const metaData = {
   url: "https://billetfix.dk/",
   companyName: "Billetfix",
-  address: "Esplanaden 7,",
+  address: "Raffinaderivej 10,",
   region_en: "Copenhagen",
   region_da: "København",
   locality_en: "Copenhagen",
   locality_da: "København",
   country_en: "Denmark",
   country_da: "Danmark",
-  postalCode: "1263"
+  postalCode: "2300"
 };
 
 function makeLocalePage(page, locale) {

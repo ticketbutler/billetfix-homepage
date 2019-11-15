@@ -77,9 +77,9 @@ export const Layout = ({
             "telephone": "89 80 12 80",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Esplanaden 7, København K",
+                "streetAddress": "Raffinaderivej 10, København S",
                 "addressLocality": "København",
-                "postalCode": "1263",
+                "postalCode": "2300",
                 "addressCountry": "DA"
             },
             "sameAs": [

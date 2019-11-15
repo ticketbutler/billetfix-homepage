@@ -53,12 +53,12 @@ exports.footerNav = [
   },
   {
     type: "rightSection",
-    text: "Esplanaden 7,"
+    text: "Raffinaderivej 10,"
   },
   {
     type: "rightSection",
-    text_da: "København K, 1263",
-    text_en: "Copenhagen K, 1263"
+    text_da: "København S, 2300",
+    text_en: "Copenhagen S, 2300"
   },
   {
     type: "rightSection",
