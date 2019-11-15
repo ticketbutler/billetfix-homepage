@@ -4,24 +4,24 @@
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  static/fontawesome-webfont.912ec66d.svg (434 KiB)"
   ],
   "version": "4.30.0",
-  "hash": "0a66edec2503c3a5d7cc",
-  "time": 4223,
-  "builtAt": 1556030792184,
+  "hash": "f227e182b7fbfb47ba99",
+  "time": 6525,
+  "builtAt": 1573821908448,
   "publicPath": "/",
   "outputPath": "/Users/veronikam/Desktop/billetfix-homepage/dist",
   "assetsByChunkName": {
-    "main": "main.0a66edec.js",
+    "main": "main.f227e182.js",
     "node_modules/react-static/lib/browser/components/Default404": "templates/node_modules/react-static/lib/browser/components/Default404.d1c2db43.js",
-    "src/layouts/cms_page": "templates/src/layouts/cms_page.7eaf9967.js",
+    "src/layouts/cms_page": "templates/src/layouts/cms_page.e3d438fd.js",
     "styles": [
-      "styles.7181034a.css",
-      "templates/styles.7181034a.js"
+      "styles.f08207c8.css",
+      "templates/styles.f08207c8.js"
     ],
     "vendors~main": "templates/vendors~main.9b3480d7.js"
   },
   "assets": [
     {
-      "name": "main.0a66edec.js",
+      "name": "main.f227e182.js",
       "size": 7359,
       "chunks": [
         0
@@ -68,7 +68,7 @@
       "emitted": true
     },
     {
-      "name": "styles.7181034a.css",
+      "name": "styles.f08207c8.css",
       "size": 31490,
       "chunks": [
         3
@@ -90,8 +90,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/layouts/cms_page.7eaf9967.js",
-      "size": 51523,
+      "name": "templates/src/layouts/cms_page.e3d438fd.js",
+      "size": 51528,
       "chunks": [
         2
       ],
@@ -101,7 +101,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.7181034a.js",
+      "name": "templates/styles.f08207c8.js",
       "size": 104,
       "chunks": [
         3
@@ -132,7 +132,7 @@
       ],
       "assets": [
         "templates/vendors~main.9b3480d7.js",
-        "main.0a66edec.js"
+        "main.f227e182.js"
       ],
       "children": {},
       "childAssets": {}
@@ -146,7 +146,7 @@
       ],
       "assets": [
         "templates/vendors~main.9b3480d7.js",
-        "main.0a66edec.js"
+        "main.f227e182.js"
       ],
       "children": {},
       "childAssets": {}
@@ -173,9 +173,9 @@
         2
       ],
       "assets": [
-        "styles.7181034a.css",
-        "templates/styles.7181034a.js",
-        "templates/src/layouts/cms_page.7eaf9967.js"
+        "styles.f08207c8.css",
+        "templates/styles.f08207c8.js",
+        "templates/src/layouts/cms_page.e3d438fd.js"
       ],
       "children": {},
       "childAssets": {}
@@ -192,9 +192,9 @@
         "main"
       ],
       "files": [
-        "main.0a66edec.js"
+        "main.f227e182.js"
       ],
-      "hash": "01ffd915174c12e727a2",
+      "hash": "e3dbe916a10359d8f1f0",
       "siblings": [
         4
       ],
@@ -785,14 +785,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 71044,
+      "size": 71049,
       "names": [
         "src/layouts/cms_page"
       ],
       "files": [
-        "templates/src/layouts/cms_page.7eaf9967.js"
+        "templates/src/layouts/cms_page.e3d438fd.js"
       ],
-      "hash": "7eaf9967aba42502c5cd",
+      "hash": "e3d438fd4a295af0e2fc",
       "siblings": [
         3
       ],
@@ -809,7 +809,7 @@
           "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "index": 144,
           "index2": 180,
-          "size": 66485,
+          "size": 66490,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1213,7 +1213,7 @@
                   "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/footer",
-                  "loc": "1:6603-6609"
+                  "loc": "1:6608-6614"
                 },
                 {
                   "moduleId": null,
@@ -1241,7 +1241,7 @@
               "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/index.js",
               "index": 153,
               "index2": 156,
-              "size": 6749,
+              "size": 6754,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1304,7 +1304,7 @@
               ],
               "optimizationBailout": [],
               "depth": 4,
-              "source": "import _extends from\"@babel/runtime/helpers/extends\";import _objectSpread from\"@babel/runtime/helpers/objectSpread\";import React from\"react\";import PropTypes from\"prop-types\";import{Button}from\"../components/elements/elements\";import Footer from\"../components/footer\";import\"../layouts/styles/layout-overide.css\";import{Helmet}from\"react-helmet\";import{WindowHelper}from\"../components/helpers\";import LanguageLink from\"../components/languageLink\";var styles={hamburger:{backgroundColor:\"#333\",width:\"22px\",height:\"2px\",borderRadius:\"1px\",margin:\"4px 0\"}};export var Layout=function Layout(_ref){var children=_ref.children,data=_ref.data,metaData=_ref.metaData,fadeHeader=_ref.fadeHeader,target=_ref.target,title=_ref.title,metadescription=_ref.metadescription,nav=_ref.nav,currentLocal=_ref.currentLocal,locales=_ref.locales;return React.createElement(\"div\",null,React.createElement(Helmet,null,React.createElement(\"meta\",{name:\"viewport\",content:\"width=device-width, initial-scale=1.0\"}),React.createElement(\"link\",{rel:\"icon\",href:\"/assets/img/favicon.png\",type:\"image/png\"}),React.createElement(\"meta\",{property:\"og:image\",content:\"billetfix.dk/img/SEOimg.jpg\"}),React.createElement(\"meta\",{property:\"og:site_name\",content:\"\".concat(metaData.companyName)}),React.createElement(\"meta\",{name:\"theme-color\",content:\"#ef4c6f\"}),React.createElement(\"meta\",{name:\"msapplication-navbutton-color\",content:\"#ef4c6f\"}),React.createElement(\"meta\",{name:\"apple-mobile-web-app-status-bar-style\",content:\"#ef4c6f\"}),React.createElement(\"title\",null,\"\".concat(title)),React.createElement(\"meta\",{name:\"description\",content:\"\".concat(metadescription)}),React.createElement(\"meta\",{property:\"og:type\",content:\"business.business\"}),React.createElement(\"meta\",{property:\"og:url\",content:\"\".concat(metaData.url)}),React.createElement(\"meta\",{property:\"business:contact_data:street_address\",content:\"\".concat(metaData.address)}),React.createElement(\"meta\",{property:\"business:contact_data:locality\",content:\"\".concat(metaData.locality)}),React.createElement(\"meta\",{property:\"business:contact_data:region\",content:\"\".concat(metaData.region)}),React.createElement(\"meta\",{property:\"business:contact_data:postal_code\",content:\"\".concat(metaData.postalCode)}),React.createElement(\"meta\",{property:\"business:contact_data:country_name\",content:\"\".concat(metaData.country)}),React.createElement(\"script\",{type:\"application/ld+json\"},\"\\n\\n        {\\n            \\\"@context\\\": \\\"http://schema.org\\\",\\n            \\\"@type\\\": \\\"LocalBusiness\\\",\\n            \\\"name\\\": \\\"Billetfix\\\",\\n           \\n            \\\"image\\\": \\\"/assets/img/logox400.png\\\",\\n            \\\"@id\\\": \\\"\\\",\\n            \\\"url\\\": \\\"billetfix.dk\\\",\\n            \\\"telephone\\\": \\\"89 80 12 80\\\",\\n            \\\"address\\\": {\\n                \\\"@type\\\": \\\"PostalAddress\\\",\\n                \\\"streetAddress\\\": \\\"Esplanaden 7, K\\xF8benhavn K\\\",\\n                \\\"addressLocality\\\": \\\"K\\xF8benhavn\\\",\\n                \\\"postalCode\\\": \\\"1263\\\",\\n                \\\"addressCountry\\\": \\\"DA\\\"\\n            },\\n            \\\"sameAs\\\": [\\n                \\\"https://www.facebook.com/BilletFix/\\\",\\n                \\\"https://www.linkedin.com/company/billetfix/\\\"\\n            ], \\n            \\n            \\\"founders\\\": [\\n            {\\n              \\\"@type\\\": \\\"Person\\\",\\n              \\\"name\\\": \\\"Mads Kjer\\\",\\n              \\\"sameAs\\\": \\n              \\\"https://www.linkedin.com/in/madskjer/\\\"\\n          \\n          },\\n          {\\n              \\\"@type\\\": \\\"Person\\\",\\n              \\\"name\\\": \\\"Emil Br\\xF8gger Kjer\\\",\\n              \\\"sameAs\\\": \\n              \\\"https://www.linkedin.com/in/emilkjer/\\\"\\n              \\n          },\\n          {\\n              \\\"@type\\\": \\\"Person\\\",\\n              \\\"name\\\": \\\"Kyle Thomson\\\",\\n              \\\"sameAs\\\":\\n              \\\"https://www.linkedin.com/in/kyle-thomson/\\\"\\n              \\n          }\\n          ]\\n        }\\n        \")),React.createElement(\"div\",null,React.createElement(WindowHelper,null,function(window){return React.createElement(\"nav\",{id:\"nav\",style:_objectSpread({top:\"0\",width:\"100%\",display:\"flex\",position:\"fixed\",justifyContent:\"space-between\",zIndex:\"999\",transition:\"all 0.5s\",padding:\"15px 5%\"},fadeHeader?window.scrollY>=10?{backgroundColor:\"#f5f5f5\"}:{backgroundColor:\"transparent\"}:{backgroundColor:\"#f5f5f5\"})},React.createElement(\"a\",{href:\"/\"+currentLocal.id},React.createElement(\"img\",{src:\"/assets/img/logox400.png\",alt:\"Logo\",style:{margin:\"0\",maxWidth:\"160px\",maxHeight:\"70px\"}})),React.createElement(\"div\",{id:\"navDiv\",style:_objectSpread({padding:\"0\",transition:\"all .25s\"},window.width>980?{margin:\"10px\"}:{transform:\"translateX(100%)\",position:\"absolute\",textAlign:\"center\",top:\"75px\",right:\"-140px\",width:\"80%\",maxWidth:\"250px\",alignItems:\"baseline\",background:\"#f5f5f5\",boxShadow:\"0 3px 5px rgba(60,60,60,.03)\"})},nav.topNav.map(function(_ref2){var type=_ref2.type,link=_ref2.link,caption=_ref2.caption,_ref2$attributes=_ref2.attributes,attributes=_ref2$attributes===void 0?{}:_ref2$attributes,buttonText=_ref2.buttonText;if(type===\"buttonLink\"){return React.createElement(\"a\",{style:_objectSpread({},window.width<980?{paddingBottom:\"10px\",display:\"block\",marginTop:\"30px\"}:{}),href:\"https://billetfix.dk/user/login/\"},React.createElement(Button,{style:{margin:\"-11px auto\",padding:\"8px 13px\",borderRadius:\"2px\",cursor:\"pointer\",fontSize:\"13px\",textAlign:\"center\",fontWeight:\"400\"}},buttonText));}else{return React.createElement(\"a\",_extends({style:_objectSpread({textDecoration:\"none\",transition:\"all 0.5s\"},window.width>980?_objectSpread({fontWeight:\"500\",marginLeft:\"16px\",fontSize:\"13px\",color:\"#f7f7f7\",padding:\"0 10px\"},fadeHeader?window.scrollY>=10?{color:\"black\"}:{color:\"white\"}:{color:\"black\"}):{marginLeft:\"0\",padding:\"15px 20px\",fontSize:\"15px\",fontWeight:\"600\",color:\"#333\",display:\"block\"}),href:link},attributes),caption);}}),React.createElement(LanguageLink,{fadeHeader:fadeHeader,currentLanguage:currentLocal,otherLanguages:locales.filter(function(local){return local.id!==currentLocal.id;})})),React.createElement(\"div\",{style:_objectSpread({backgroundColor:\"#ddd\",borderRadius:\"4px\",padding:\"5px 10px\",cursor:\"pointer\",position:\"fixed\",right:\"30px\"},window.width>980?{marginTop:\"6px\",display:\"none\"}:window.width>450?{marginTop:\"6px\"}:{marginTop:\"5px\",display:\"block\"}),onClick:function onClick(){document.getElementById(\"navDiv\").classList.toggle(\"menuVisible\");}},React.createElement(\"div\",{style:styles.hamburger}),React.createElement(\"div\",{style:styles.hamburger}),React.createElement(\"div\",{style:styles.hamburger})));})),children,React.createElement(Footer,{links:nav.footerNav}),React.createElement(\"script\",{id:\"hs-script-loader\",async:true,defer:true,src:\"//js.hs-scripts.com/3835323.js\"}));};"
+              "source": "import _extends from\"@babel/runtime/helpers/extends\";import _objectSpread from\"@babel/runtime/helpers/objectSpread\";import React from\"react\";import PropTypes from\"prop-types\";import{Button}from\"../components/elements/elements\";import Footer from\"../components/footer\";import\"../layouts/styles/layout-overide.css\";import{Helmet}from\"react-helmet\";import{WindowHelper}from\"../components/helpers\";import LanguageLink from\"../components/languageLink\";var styles={hamburger:{backgroundColor:\"#333\",width:\"22px\",height:\"2px\",borderRadius:\"1px\",margin:\"4px 0\"}};export var Layout=function Layout(_ref){var children=_ref.children,data=_ref.data,metaData=_ref.metaData,fadeHeader=_ref.fadeHeader,target=_ref.target,title=_ref.title,metadescription=_ref.metadescription,nav=_ref.nav,currentLocal=_ref.currentLocal,locales=_ref.locales;return React.createElement(\"div\",null,React.createElement(Helmet,null,React.createElement(\"meta\",{name:\"viewport\",content:\"width=device-width, initial-scale=1.0\"}),React.createElement(\"link\",{rel:\"icon\",href:\"/assets/img/favicon.png\",type:\"image/png\"}),React.createElement(\"meta\",{property:\"og:image\",content:\"billetfix.dk/img/SEOimg.jpg\"}),React.createElement(\"meta\",{property:\"og:site_name\",content:\"\".concat(metaData.companyName)}),React.createElement(\"meta\",{name:\"theme-color\",content:\"#ef4c6f\"}),React.createElement(\"meta\",{name:\"msapplication-navbutton-color\",content:\"#ef4c6f\"}),React.createElement(\"meta\",{name:\"apple-mobile-web-app-status-bar-style\",content:\"#ef4c6f\"}),React.createElement(\"title\",null,\"\".concat(title)),React.createElement(\"meta\",{name:\"description\",content:\"\".concat(metadescription)}),React.createElement(\"meta\",{property:\"og:type\",content:\"business.business\"}),React.createElement(\"meta\",{property:\"og:url\",content:\"\".concat(metaData.url)}),React.createElement(\"meta\",{property:\"business:contact_data:street_address\",content:\"\".concat(metaData.address)}),React.createElement(\"meta\",{property:\"business:contact_data:locality\",content:\"\".concat(metaData.locality)}),React.createElement(\"meta\",{property:\"business:contact_data:region\",content:\"\".concat(metaData.region)}),React.createElement(\"meta\",{property:\"business:contact_data:postal_code\",content:\"\".concat(metaData.postalCode)}),React.createElement(\"meta\",{property:\"business:contact_data:country_name\",content:\"\".concat(metaData.country)}),React.createElement(\"script\",{type:\"application/ld+json\"},\"\\n\\n        {\\n            \\\"@context\\\": \\\"http://schema.org\\\",\\n            \\\"@type\\\": \\\"LocalBusiness\\\",\\n            \\\"name\\\": \\\"Billetfix\\\",\\n           \\n            \\\"image\\\": \\\"/assets/img/logox400.png\\\",\\n            \\\"@id\\\": \\\"\\\",\\n            \\\"url\\\": \\\"billetfix.dk\\\",\\n            \\\"telephone\\\": \\\"89 80 12 80\\\",\\n            \\\"address\\\": {\\n                \\\"@type\\\": \\\"PostalAddress\\\",\\n                \\\"streetAddress\\\": \\\"Raffinaderivej 10, K\\xF8benhavn S\\\",\\n                \\\"addressLocality\\\": \\\"K\\xF8benhavn\\\",\\n                \\\"postalCode\\\": \\\"2300\\\",\\n                \\\"addressCountry\\\": \\\"DA\\\"\\n            },\\n            \\\"sameAs\\\": [\\n                \\\"https://www.facebook.com/BilletFix/\\\",\\n                \\\"https://www.linkedin.com/company/billetfix/\\\"\\n            ], \\n            \\n            \\\"founders\\\": [\\n            {\\n              \\\"@type\\\": \\\"Person\\\",\\n              \\\"name\\\": \\\"Mads Kjer\\\",\\n              \\\"sameAs\\\": \\n              \\\"https://www.linkedin.com/in/madskjer/\\\"\\n          \\n          },\\n          {\\n              \\\"@type\\\": \\\"Person\\\",\\n              \\\"name\\\": \\\"Emil Br\\xF8gger Kjer\\\",\\n              \\\"sameAs\\\": \\n              \\\"https://www.linkedin.com/in/emilkjer/\\\"\\n              \\n          },\\n          {\\n              \\\"@type\\\": \\\"Person\\\",\\n              \\\"name\\\": \\\"Kyle Thomson\\\",\\n              \\\"sameAs\\\":\\n              \\\"https://www.linkedin.com/in/kyle-thomson/\\\"\\n              \\n          }\\n          ]\\n        }\\n        \")),React.createElement(\"div\",null,React.createElement(WindowHelper,null,function(window){return React.createElement(\"nav\",{id:\"nav\",style:_objectSpread({top:\"0\",width:\"100%\",display:\"flex\",position:\"fixed\",justifyContent:\"space-between\",zIndex:\"999\",transition:\"all 0.5s\",padding:\"15px 5%\"},fadeHeader?window.scrollY>=10?{backgroundColor:\"#f5f5f5\"}:{backgroundColor:\"transparent\"}:{backgroundColor:\"#f5f5f5\"})},React.createElement(\"a\",{href:\"/\"+currentLocal.id},React.createElement(\"img\",{src:\"/assets/img/logox400.png\",alt:\"Logo\",style:{margin:\"0\",maxWidth:\"160px\",maxHeight:\"70px\"}})),React.createElement(\"div\",{id:\"navDiv\",style:_objectSpread({padding:\"0\",transition:\"all .25s\"},window.width>980?{margin:\"10px\"}:{transform:\"translateX(100%)\",position:\"absolute\",textAlign:\"center\",top:\"75px\",right:\"-140px\",width:\"80%\",maxWidth:\"250px\",alignItems:\"baseline\",background:\"#f5f5f5\",boxShadow:\"0 3px 5px rgba(60,60,60,.03)\"})},nav.topNav.map(function(_ref2){var type=_ref2.type,link=_ref2.link,caption=_ref2.caption,_ref2$attributes=_ref2.attributes,attributes=_ref2$attributes===void 0?{}:_ref2$attributes,buttonText=_ref2.buttonText;if(type===\"buttonLink\"){return React.createElement(\"a\",{style:_objectSpread({},window.width<980?{paddingBottom:\"10px\",display:\"block\",marginTop:\"30px\"}:{}),href:\"https://billetfix.dk/user/login/\"},React.createElement(Button,{style:{margin:\"-11px auto\",padding:\"8px 13px\",borderRadius:\"2px\",cursor:\"pointer\",fontSize:\"13px\",textAlign:\"center\",fontWeight:\"400\"}},buttonText));}else{return React.createElement(\"a\",_extends({style:_objectSpread({textDecoration:\"none\",transition:\"all 0.5s\"},window.width>980?_objectSpread({fontWeight:\"500\",marginLeft:\"16px\",fontSize:\"13px\",color:\"#f7f7f7\",padding:\"0 10px\"},fadeHeader?window.scrollY>=10?{color:\"black\"}:{color:\"white\"}:{color:\"black\"}):{marginLeft:\"0\",padding:\"15px 20px\",fontSize:\"15px\",fontWeight:\"600\",color:\"#333\",display:\"block\"}),href:link},attributes),caption);}}),React.createElement(LanguageLink,{fadeHeader:fadeHeader,currentLanguage:currentLocal,otherLanguages:locales.filter(function(local){return local.id!==currentLocal.id;})})),React.createElement(\"div\",{style:_objectSpread({backgroundColor:\"#ddd\",borderRadius:\"4px\",padding:\"5px 10px\",cursor:\"pointer\",position:\"fixed\",right:\"30px\"},window.width>980?{marginTop:\"6px\",display:\"none\"}:window.width>450?{marginTop:\"6px\"}:{marginTop:\"5px\",display:\"block\"}),onClick:function onClick(){document.getElementById(\"navDiv\").classList.toggle(\"menuVisible\");}},React.createElement(\"div\",{style:styles.hamburger}),React.createElement(\"div\",{style:styles.hamburger}),React.createElement(\"div\",{style:styles.hamburger})));})),children,React.createElement(Footer,{links:nav.footerNav}),React.createElement(\"script\",{id:\"hs-script-loader\",async:true,defer:true,src:\"//js.hs-scripts.com/3835323.js\"}));};"
             },
             {
               "id": null,
@@ -2296,6 +2296,15 @@
               "reasons": [
                 {
                   "moduleId": null,
+                  "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/tandc.js",
+                  "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/tandc.js",
+                  "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/tandc.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../components/helpers",
+                  "loc": "1:25-73"
+                },
+                {
+                  "moduleId": null,
                   "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/privacyPol.js",
                   "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/privacyPol.js",
                   "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/privacyPol.js",
@@ -2305,12 +2314,57 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/tandc.js",
-                  "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/tandc.js",
-                  "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/tandc.js",
+                  "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/partners.js",
+                  "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/partners.js",
+                  "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/partners.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../components/helpers",
-                  "loc": "1:25-73"
+                  "loc": "1:88-136"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/features.js",
+                  "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/features.js",
+                  "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/features.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../components/helpers",
+                  "loc": "1:88-136"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/hero-section.js",
+                  "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/hero-section.js",
+                  "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/hero-section.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../components/helpers",
+                  "loc": "1:88-136"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-left.js",
+                  "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-left.js",
+                  "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-left.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../components/helpers",
+                  "loc": "1:88-136"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-right-mockup-second.js",
+                  "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-right-mockup-second.js",
+                  "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-right-mockup-second.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../components/helpers",
+                  "loc": "1:88-136"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/footer.js",
+                  "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/footer.js",
+                  "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/footer.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../components/helpers",
+                  "loc": "1:88-136"
                 },
                 {
                   "moduleId": null,
@@ -2332,63 +2386,9 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/partners.js",
-                  "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/partners.js",
-                  "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/partners.js",
-                  "type": "harmony side effect evaluation",
-                  "userRequest": "../components/helpers",
-                  "loc": "1:88-136"
-                },
-                {
-                  "moduleId": null,
-                  "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/hero-section.js",
-                  "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/hero-section.js",
-                  "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/hero-section.js",
-                  "type": "harmony side effect evaluation",
-                  "userRequest": "../components/helpers",
-                  "loc": "1:88-136"
-                },
-                {
-                  "moduleId": null,
                   "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/languages.js",
                   "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/languages.js",
                   "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/languages.js",
-                  "type": "harmony side effect evaluation",
-                  "userRequest": "../components/helpers",
-                  "loc": "1:88-136"
-                },
-                {
-                  "moduleId": null,
-                  "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/footer.js",
-                  "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/footer.js",
-                  "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/footer.js",
-                  "type": "harmony side effect evaluation",
-                  "userRequest": "../components/helpers",
-                  "loc": "1:88-136"
-                },
-                {
-                  "moduleId": null,
-                  "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-right-mockup-second.js",
-                  "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-right-mockup-second.js",
-                  "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-right-mockup-second.js",
-                  "type": "harmony side effect evaluation",
-                  "userRequest": "../components/helpers",
-                  "loc": "1:88-136"
-                },
-                {
-                  "moduleId": null,
-                  "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-left.js",
-                  "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-left.js",
-                  "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-left.js",
-                  "type": "harmony side effect evaluation",
-                  "userRequest": "../components/helpers",
-                  "loc": "1:88-136"
-                },
-                {
-                  "moduleId": null,
-                  "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/features.js",
-                  "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/features.js",
-                  "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/features.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../components/helpers",
                   "loc": "1:88-136"
@@ -2616,7 +2616,7 @@
                   "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/helpers",
-                  "loc": "1:3969-3981"
+                  "loc": "1:3974-3986"
                 },
                 {
                   "moduleId": null,
@@ -2840,7 +2840,7 @@
                   "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/elements/elements",
-                  "loc": "1:5266-5272"
+                  "loc": "1:5271-5277"
                 }
               ],
               "usedExports": [
@@ -2994,7 +2994,7 @@
                   "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/languageLink",
-                  "loc": "1:5888-5900"
+                  "loc": "1:5893-5905"
                 }
               ],
               "usedExports": [
@@ -3647,10 +3647,10 @@
         "styles"
       ],
       "files": [
-        "styles.7181034a.css",
-        "templates/styles.7181034a.js"
+        "styles.f08207c8.css",
+        "templates/styles.f08207c8.js"
       ],
-      "hash": "7181034abf540c7a4074",
+      "hash": "f08207c805fed83b7673",
       "siblings": [
         2
       ],
@@ -3730,7 +3730,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1556030790166\n      var cssReload = require(\"/Users/veronikam/Desktop/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1573821903832\n      var cssReload = require(\"/Users/veronikam/Desktop/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": 133,
@@ -3780,9 +3780,9 @@
           "errors": 0,
           "warnings": 0,
           "assets": [
+            "static/fontawesome-webfont.674f50d2.eot",
             "static/fontawesome-webfont.af7ae505.woff2",
             "static/fontawesome-webfont.fee66e71.woff",
-            "static/fontawesome-webfont.674f50d2.eot",
             "static/fontawesome-webfont.b06871f2.ttf",
             "static/fontawesome-webfont.912ec66d.svg"
           ],
@@ -3803,7 +3803,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 5,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1556030790379\n      var cssReload = require(\"/Users/veronikam/Desktop/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1573821903936\n      var cssReload = require(\"/Users/veronikam/Desktop/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -5174,7 +5174,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:487-512"
+              "loc": "1:487-515"
             },
             {
               "moduleId": 62,
@@ -5183,7 +5183,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:487-515"
+              "loc": "1:487-512"
             },
             {
               "moduleId": 62,
@@ -6848,7 +6848,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3918-3923"
+              "loc": "1:3923-3928"
             },
             {
               "moduleId": 62,
@@ -6875,7 +6875,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3949-3954"
+              "loc": "1:3954-3959"
             },
             {
               "moduleId": 62,
@@ -6884,7 +6884,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4011-4016"
+              "loc": "1:4016-4021"
             },
             {
               "moduleId": 62,
@@ -6893,7 +6893,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4326-4331"
+              "loc": "1:4331-4336"
             },
             {
               "moduleId": 62,
@@ -6911,7 +6911,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4377-4382"
+              "loc": "1:4382-4387"
             },
             {
               "moduleId": 62,
@@ -6920,7 +6920,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4502-4507"
+              "loc": "1:4507-4512"
             },
             {
               "moduleId": 62,
@@ -6947,7 +6947,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5080-5085"
+              "loc": "1:5085-5090"
             },
             {
               "moduleId": 62,
@@ -6965,7 +6965,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5246-5251"
+              "loc": "1:5251-5256"
             },
             {
               "moduleId": 62,
@@ -6974,7 +6974,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5436-5441"
+              "loc": "1:5441-5446"
             },
             {
               "moduleId": 62,
@@ -7028,7 +7028,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5868-5873"
+              "loc": "1:5873-5878"
             },
             {
               "moduleId": 62,
@@ -7055,7 +7055,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6039-6044"
+              "loc": "1:6044-6049"
             },
             {
               "moduleId": 62,
@@ -7091,7 +7091,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6412-6417"
+              "loc": "1:6417-6422"
             },
             {
               "moduleId": 62,
@@ -7109,7 +7109,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6464-6469"
+              "loc": "1:6469-6474"
             },
             {
               "moduleId": 62,
@@ -7127,7 +7127,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6516-6521"
+              "loc": "1:6521-6526"
             },
             {
               "moduleId": 62,
@@ -7136,7 +7136,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6583-6588"
+              "loc": "1:6588-6593"
             },
             {
               "moduleId": 62,
@@ -7145,7 +7145,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6633-6638"
+              "loc": "1:6638-6643"
             },
             {
               "moduleId": 62,
@@ -10202,9 +10202,9 @@
           "chunks": [
             4
           ],
-          "issuer": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-          "issuerId": 54,
-          "issuerName": "..-plugin-reach-router/browser.api.js",
+          "issuer": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+          "issuerId": null,
+          "issuerName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
           "issuerPath": [
             {
               "id": 63,
@@ -10212,19 +10212,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 64,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 35,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+              "id": 52,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-              "name": "..-plugin-reach-router/browser.api.js"
+              "id": null,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
             }
           ],
           "failed": false,
@@ -11479,7 +11479,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/extends",
-              "loc": "1:5460-5468"
+              "loc": "1:5465-5473"
             },
             {
               "moduleId": 62,
@@ -11819,19 +11819,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 64,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 35,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+              "id": 52,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-              "name": "..-plugin-reach-router/browser.api.js"
+              "id": null,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
             },
             {
               "id": 18,
@@ -14548,19 +14548,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 64,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 35,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+              "id": 52,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-              "name": "..-plugin-reach-router/browser.api.js"
+              "id": null,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
             },
             {
               "id": 18,
@@ -14624,19 +14624,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 64,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 35,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+              "id": 52,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-              "name": "..-plugin-reach-router/browser.api.js"
+              "id": null,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
             },
             {
               "id": 18,
@@ -15696,7 +15696,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/objectSpread",
-              "loc": "1:4053-4066"
+              "loc": "1:4058-4071"
             },
             {
               "moduleId": 62,
@@ -15705,7 +15705,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/objectSpread",
-              "loc": "1:4547-4560"
+              "loc": "1:4552-4565"
             },
             {
               "moduleId": 62,
@@ -15714,7 +15714,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/objectSpread",
-              "loc": "1:5111-5124"
+              "loc": "1:5116-5129"
             },
             {
               "moduleId": 62,
@@ -15732,7 +15732,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/objectSpread",
-              "loc": "1:5476-5489"
+              "loc": "1:5481-5494"
             },
             {
               "moduleId": 62,
@@ -15750,7 +15750,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/objectSpread",
-              "loc": "1:5553-5566"
+              "loc": "1:5558-5571"
             },
             {
               "moduleId": 62,
@@ -15768,7 +15768,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/objectSpread",
-              "loc": "1:6072-6085"
+              "loc": "1:6077-6090"
             },
             {
               "moduleId": 62,
@@ -17354,19 +17354,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 64,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 35,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+              "id": 52,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-              "name": "..-plugin-reach-router/browser.api.js"
+              "id": null,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
             },
             {
               "id": 18,
@@ -19370,19 +19370,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 64,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 35,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+              "id": 52,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-              "name": "..-plugin-reach-router/browser.api.js"
+              "id": null,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
             },
             {
               "id": 18,
@@ -19494,19 +19494,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 64,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 35,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+              "id": 52,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-              "name": "..-plugin-reach-router/browser.api.js"
+              "id": null,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
             },
             {
               "id": 18,
@@ -19566,19 +19566,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 64,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 35,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+              "id": 52,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-              "name": "..-plugin-reach-router/browser.api.js"
+              "id": null,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
             },
             {
               "id": 18,
@@ -19633,19 +19633,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 64,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 35,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+              "id": 52,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-              "name": "..-plugin-reach-router/browser.api.js"
+              "id": null,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
             },
             {
               "id": 18,
@@ -19700,19 +19700,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 64,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 35,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+              "id": 52,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-              "name": "..-plugin-reach-router/browser.api.js"
+              "id": null,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
             },
             {
               "id": 18,
@@ -19772,19 +19772,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 64,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 35,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+              "id": 52,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-              "name": "..-plugin-reach-router/browser.api.js"
+              "id": null,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
             },
             {
               "id": 18,
@@ -19839,19 +19839,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 64,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 35,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+              "id": 52,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-              "name": "..-plugin-reach-router/browser.api.js"
+              "id": null,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
             },
             {
               "id": 18,
@@ -19906,19 +19906,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 64,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 118,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 35,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+              "id": 52,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-              "name": "..-plugin-reach-router/browser.api.js"
+              "id": null,
+              "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+              "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
             },
             {
               "id": 18,
@@ -22202,7 +22202,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:487-512"
+          "loc": "1:487-515"
         },
         {
           "moduleId": 62,
@@ -22211,7 +22211,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:487-515"
+          "loc": "1:487-512"
         },
         {
           "moduleId": 62,
@@ -23876,7 +23876,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3918-3923"
+          "loc": "1:3923-3928"
         },
         {
           "moduleId": 62,
@@ -23903,7 +23903,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3949-3954"
+          "loc": "1:3954-3959"
         },
         {
           "moduleId": 62,
@@ -23912,7 +23912,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4011-4016"
+          "loc": "1:4016-4021"
         },
         {
           "moduleId": 62,
@@ -23921,7 +23921,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4326-4331"
+          "loc": "1:4331-4336"
         },
         {
           "moduleId": 62,
@@ -23939,7 +23939,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4377-4382"
+          "loc": "1:4382-4387"
         },
         {
           "moduleId": 62,
@@ -23948,7 +23948,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4502-4507"
+          "loc": "1:4507-4512"
         },
         {
           "moduleId": 62,
@@ -23975,7 +23975,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5080-5085"
+          "loc": "1:5085-5090"
         },
         {
           "moduleId": 62,
@@ -23993,7 +23993,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5246-5251"
+          "loc": "1:5251-5256"
         },
         {
           "moduleId": 62,
@@ -24002,7 +24002,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5436-5441"
+          "loc": "1:5441-5446"
         },
         {
           "moduleId": 62,
@@ -24056,7 +24056,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5868-5873"
+          "loc": "1:5873-5878"
         },
         {
           "moduleId": 62,
@@ -24083,7 +24083,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6039-6044"
+          "loc": "1:6044-6049"
         },
         {
           "moduleId": 62,
@@ -24119,7 +24119,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6412-6417"
+          "loc": "1:6417-6422"
         },
         {
           "moduleId": 62,
@@ -24137,7 +24137,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6464-6469"
+          "loc": "1:6469-6474"
         },
         {
           "moduleId": 62,
@@ -24155,7 +24155,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6516-6521"
+          "loc": "1:6521-6526"
         },
         {
           "moduleId": 62,
@@ -24164,7 +24164,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6583-6588"
+          "loc": "1:6588-6593"
         },
         {
           "moduleId": 62,
@@ -24173,7 +24173,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6633-6638"
+          "loc": "1:6638-6643"
         },
         {
           "moduleId": 62,
@@ -27230,9 +27230,9 @@
       "chunks": [
         4
       ],
-      "issuer": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-      "issuerId": 54,
-      "issuerName": "..-plugin-reach-router/browser.api.js",
+      "issuer": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+      "issuerId": null,
+      "issuerName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
       "issuerPath": [
         {
           "id": 63,
@@ -27240,19 +27240,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 64,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 35,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+          "id": 52,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-          "name": "..-plugin-reach-router/browser.api.js"
+          "id": null,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
         }
       ],
       "failed": false,
@@ -28679,7 +28679,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/extends",
-          "loc": "1:5460-5468"
+          "loc": "1:5465-5473"
         },
         {
           "moduleId": 62,
@@ -29019,19 +29019,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 64,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 35,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+          "id": 52,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-          "name": "..-plugin-reach-router/browser.api.js"
+          "id": null,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
         },
         {
           "id": 18,
@@ -31811,19 +31811,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 64,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 35,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+          "id": 52,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-          "name": "..-plugin-reach-router/browser.api.js"
+          "id": null,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
         },
         {
           "id": 18,
@@ -31887,19 +31887,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 64,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 35,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+          "id": 52,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-          "name": "..-plugin-reach-router/browser.api.js"
+          "id": null,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
         },
         {
           "id": 18,
@@ -33023,7 +33023,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/objectSpread",
-          "loc": "1:4053-4066"
+          "loc": "1:4058-4071"
         },
         {
           "moduleId": 62,
@@ -33032,7 +33032,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/objectSpread",
-          "loc": "1:4547-4560"
+          "loc": "1:4552-4565"
         },
         {
           "moduleId": 62,
@@ -33041,7 +33041,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/objectSpread",
-          "loc": "1:5111-5124"
+          "loc": "1:5116-5129"
         },
         {
           "moduleId": 62,
@@ -33059,7 +33059,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/objectSpread",
-          "loc": "1:5476-5489"
+          "loc": "1:5481-5494"
         },
         {
           "moduleId": 62,
@@ -33077,7 +33077,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/objectSpread",
-          "loc": "1:5553-5566"
+          "loc": "1:5558-5571"
         },
         {
           "moduleId": 62,
@@ -33095,7 +33095,7 @@
           "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/objectSpread",
-          "loc": "1:6072-6085"
+          "loc": "1:6077-6090"
         },
         {
           "moduleId": 62,
@@ -33962,7 +33962,7 @@
       "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js + 28 modules",
       "index": 144,
       "index2": 180,
-      "size": 66485,
+      "size": 66490,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -34366,7 +34366,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/footer",
-              "loc": "1:6603-6609"
+              "loc": "1:6608-6614"
             },
             {
               "moduleId": null,
@@ -34394,7 +34394,7 @@
           "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/index.js",
           "index": 153,
           "index2": 156,
-          "size": 6749,
+          "size": 6754,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -34457,7 +34457,7 @@
           ],
           "optimizationBailout": [],
           "depth": 4,
-          "source": "import _extends from\"@babel/runtime/helpers/extends\";import _objectSpread from\"@babel/runtime/helpers/objectSpread\";import React from\"react\";import PropTypes from\"prop-types\";import{Button}from\"../components/elements/elements\";import Footer from\"../components/footer\";import\"../layouts/styles/layout-overide.css\";import{Helmet}from\"react-helmet\";import{WindowHelper}from\"../components/helpers\";import LanguageLink from\"../components/languageLink\";var styles={hamburger:{backgroundColor:\"#333\",width:\"22px\",height:\"2px\",borderRadius:\"1px\",margin:\"4px 0\"}};export var Layout=function Layout(_ref){var children=_ref.children,data=_ref.data,metaData=_ref.metaData,fadeHeader=_ref.fadeHeader,target=_ref.target,title=_ref.title,metadescription=_ref.metadescription,nav=_ref.nav,currentLocal=_ref.currentLocal,locales=_ref.locales;return React.createElement(\"div\",null,React.createElement(Helmet,null,React.createElement(\"meta\",{name:\"viewport\",content:\"width=device-width, initial-scale=1.0\"}),React.createElement(\"link\",{rel:\"icon\",href:\"/assets/img/favicon.png\",type:\"image/png\"}),React.createElement(\"meta\",{property:\"og:image\",content:\"billetfix.dk/img/SEOimg.jpg\"}),React.createElement(\"meta\",{property:\"og:site_name\",content:\"\".concat(metaData.companyName)}),React.createElement(\"meta\",{name:\"theme-color\",content:\"#ef4c6f\"}),React.createElement(\"meta\",{name:\"msapplication-navbutton-color\",content:\"#ef4c6f\"}),React.createElement(\"meta\",{name:\"apple-mobile-web-app-status-bar-style\",content:\"#ef4c6f\"}),React.createElement(\"title\",null,\"\".concat(title)),React.createElement(\"meta\",{name:\"description\",content:\"\".concat(metadescription)}),React.createElement(\"meta\",{property:\"og:type\",content:\"business.business\"}),React.createElement(\"meta\",{property:\"og:url\",content:\"\".concat(metaData.url)}),React.createElement(\"meta\",{property:\"business:contact_data:street_address\",content:\"\".concat(metaData.address)}),React.createElement(\"meta\",{property:\"business:contact_data:locality\",content:\"\".concat(metaData.locality)}),React.createElement(\"meta\",{property:\"business:contact_data:region\",content:\"\".concat(metaData.region)}),React.createElement(\"meta\",{property:\"business:contact_data:postal_code\",content:\"\".concat(metaData.postalCode)}),React.createElement(\"meta\",{property:\"business:contact_data:country_name\",content:\"\".concat(metaData.country)}),React.createElement(\"script\",{type:\"application/ld+json\"},\"\\n\\n        {\\n            \\\"@context\\\": \\\"http://schema.org\\\",\\n            \\\"@type\\\": \\\"LocalBusiness\\\",\\n            \\\"name\\\": \\\"Billetfix\\\",\\n           \\n            \\\"image\\\": \\\"/assets/img/logox400.png\\\",\\n            \\\"@id\\\": \\\"\\\",\\n            \\\"url\\\": \\\"billetfix.dk\\\",\\n            \\\"telephone\\\": \\\"89 80 12 80\\\",\\n            \\\"address\\\": {\\n                \\\"@type\\\": \\\"PostalAddress\\\",\\n                \\\"streetAddress\\\": \\\"Esplanaden 7, K\\xF8benhavn K\\\",\\n                \\\"addressLocality\\\": \\\"K\\xF8benhavn\\\",\\n                \\\"postalCode\\\": \\\"1263\\\",\\n                \\\"addressCountry\\\": \\\"DA\\\"\\n            },\\n            \\\"sameAs\\\": [\\n                \\\"https://www.facebook.com/BilletFix/\\\",\\n                \\\"https://www.linkedin.com/company/billetfix/\\\"\\n            ], \\n            \\n            \\\"founders\\\": [\\n            {\\n              \\\"@type\\\": \\\"Person\\\",\\n              \\\"name\\\": \\\"Mads Kjer\\\",\\n              \\\"sameAs\\\": \\n              \\\"https://www.linkedin.com/in/madskjer/\\\"\\n          \\n          },\\n          {\\n              \\\"@type\\\": \\\"Person\\\",\\n              \\\"name\\\": \\\"Emil Br\\xF8gger Kjer\\\",\\n              \\\"sameAs\\\": \\n              \\\"https://www.linkedin.com/in/emilkjer/\\\"\\n              \\n          },\\n          {\\n              \\\"@type\\\": \\\"Person\\\",\\n              \\\"name\\\": \\\"Kyle Thomson\\\",\\n              \\\"sameAs\\\":\\n              \\\"https://www.linkedin.com/in/kyle-thomson/\\\"\\n              \\n          }\\n          ]\\n        }\\n        \")),React.createElement(\"div\",null,React.createElement(WindowHelper,null,function(window){return React.createElement(\"nav\",{id:\"nav\",style:_objectSpread({top:\"0\",width:\"100%\",display:\"flex\",position:\"fixed\",justifyContent:\"space-between\",zIndex:\"999\",transition:\"all 0.5s\",padding:\"15px 5%\"},fadeHeader?window.scrollY>=10?{backgroundColor:\"#f5f5f5\"}:{backgroundColor:\"transparent\"}:{backgroundColor:\"#f5f5f5\"})},React.createElement(\"a\",{href:\"/\"+currentLocal.id},React.createElement(\"img\",{src:\"/assets/img/logox400.png\",alt:\"Logo\",style:{margin:\"0\",maxWidth:\"160px\",maxHeight:\"70px\"}})),React.createElement(\"div\",{id:\"navDiv\",style:_objectSpread({padding:\"0\",transition:\"all .25s\"},window.width>980?{margin:\"10px\"}:{transform:\"translateX(100%)\",position:\"absolute\",textAlign:\"center\",top:\"75px\",right:\"-140px\",width:\"80%\",maxWidth:\"250px\",alignItems:\"baseline\",background:\"#f5f5f5\",boxShadow:\"0 3px 5px rgba(60,60,60,.03)\"})},nav.topNav.map(function(_ref2){var type=_ref2.type,link=_ref2.link,caption=_ref2.caption,_ref2$attributes=_ref2.attributes,attributes=_ref2$attributes===void 0?{}:_ref2$attributes,buttonText=_ref2.buttonText;if(type===\"buttonLink\"){return React.createElement(\"a\",{style:_objectSpread({},window.width<980?{paddingBottom:\"10px\",display:\"block\",marginTop:\"30px\"}:{}),href:\"https://billetfix.dk/user/login/\"},React.createElement(Button,{style:{margin:\"-11px auto\",padding:\"8px 13px\",borderRadius:\"2px\",cursor:\"pointer\",fontSize:\"13px\",textAlign:\"center\",fontWeight:\"400\"}},buttonText));}else{return React.createElement(\"a\",_extends({style:_objectSpread({textDecoration:\"none\",transition:\"all 0.5s\"},window.width>980?_objectSpread({fontWeight:\"500\",marginLeft:\"16px\",fontSize:\"13px\",color:\"#f7f7f7\",padding:\"0 10px\"},fadeHeader?window.scrollY>=10?{color:\"black\"}:{color:\"white\"}:{color:\"black\"}):{marginLeft:\"0\",padding:\"15px 20px\",fontSize:\"15px\",fontWeight:\"600\",color:\"#333\",display:\"block\"}),href:link},attributes),caption);}}),React.createElement(LanguageLink,{fadeHeader:fadeHeader,currentLanguage:currentLocal,otherLanguages:locales.filter(function(local){return local.id!==currentLocal.id;})})),React.createElement(\"div\",{style:_objectSpread({backgroundColor:\"#ddd\",borderRadius:\"4px\",padding:\"5px 10px\",cursor:\"pointer\",position:\"fixed\",right:\"30px\"},window.width>980?{marginTop:\"6px\",display:\"none\"}:window.width>450?{marginTop:\"6px\"}:{marginTop:\"5px\",display:\"block\"}),onClick:function onClick(){document.getElementById(\"navDiv\").classList.toggle(\"menuVisible\");}},React.createElement(\"div\",{style:styles.hamburger}),React.createElement(\"div\",{style:styles.hamburger}),React.createElement(\"div\",{style:styles.hamburger})));})),children,React.createElement(Footer,{links:nav.footerNav}),React.createElement(\"script\",{id:\"hs-script-loader\",async:true,defer:true,src:\"//js.hs-scripts.com/3835323.js\"}));};"
+          "source": "import _extends from\"@babel/runtime/helpers/extends\";import _objectSpread from\"@babel/runtime/helpers/objectSpread\";import React from\"react\";import PropTypes from\"prop-types\";import{Button}from\"../components/elements/elements\";import Footer from\"../components/footer\";import\"../layouts/styles/layout-overide.css\";import{Helmet}from\"react-helmet\";import{WindowHelper}from\"../components/helpers\";import LanguageLink from\"../components/languageLink\";var styles={hamburger:{backgroundColor:\"#333\",width:\"22px\",height:\"2px\",borderRadius:\"1px\",margin:\"4px 0\"}};export var Layout=function Layout(_ref){var children=_ref.children,data=_ref.data,metaData=_ref.metaData,fadeHeader=_ref.fadeHeader,target=_ref.target,title=_ref.title,metadescription=_ref.metadescription,nav=_ref.nav,currentLocal=_ref.currentLocal,locales=_ref.locales;return React.createElement(\"div\",null,React.createElement(Helmet,null,React.createElement(\"meta\",{name:\"viewport\",content:\"width=device-width, initial-scale=1.0\"}),React.createElement(\"link\",{rel:\"icon\",href:\"/assets/img/favicon.png\",type:\"image/png\"}),React.createElement(\"meta\",{property:\"og:image\",content:\"billetfix.dk/img/SEOimg.jpg\"}),React.createElement(\"meta\",{property:\"og:site_name\",content:\"\".concat(metaData.companyName)}),React.createElement(\"meta\",{name:\"theme-color\",content:\"#ef4c6f\"}),React.createElement(\"meta\",{name:\"msapplication-navbutton-color\",content:\"#ef4c6f\"}),React.createElement(\"meta\",{name:\"apple-mobile-web-app-status-bar-style\",content:\"#ef4c6f\"}),React.createElement(\"title\",null,\"\".concat(title)),React.createElement(\"meta\",{name:\"description\",content:\"\".concat(metadescription)}),React.createElement(\"meta\",{property:\"og:type\",content:\"business.business\"}),React.createElement(\"meta\",{property:\"og:url\",content:\"\".concat(metaData.url)}),React.createElement(\"meta\",{property:\"business:contact_data:street_address\",content:\"\".concat(metaData.address)}),React.createElement(\"meta\",{property:\"business:contact_data:locality\",content:\"\".concat(metaData.locality)}),React.createElement(\"meta\",{property:\"business:contact_data:region\",content:\"\".concat(metaData.region)}),React.createElement(\"meta\",{property:\"business:contact_data:postal_code\",content:\"\".concat(metaData.postalCode)}),React.createElement(\"meta\",{property:\"business:contact_data:country_name\",content:\"\".concat(metaData.country)}),React.createElement(\"script\",{type:\"application/ld+json\"},\"\\n\\n        {\\n            \\\"@context\\\": \\\"http://schema.org\\\",\\n            \\\"@type\\\": \\\"LocalBusiness\\\",\\n            \\\"name\\\": \\\"Billetfix\\\",\\n           \\n            \\\"image\\\": \\\"/assets/img/logox400.png\\\",\\n            \\\"@id\\\": \\\"\\\",\\n            \\\"url\\\": \\\"billetfix.dk\\\",\\n            \\\"telephone\\\": \\\"89 80 12 80\\\",\\n            \\\"address\\\": {\\n                \\\"@type\\\": \\\"PostalAddress\\\",\\n                \\\"streetAddress\\\": \\\"Raffinaderivej 10, K\\xF8benhavn S\\\",\\n                \\\"addressLocality\\\": \\\"K\\xF8benhavn\\\",\\n                \\\"postalCode\\\": \\\"2300\\\",\\n                \\\"addressCountry\\\": \\\"DA\\\"\\n            },\\n            \\\"sameAs\\\": [\\n                \\\"https://www.facebook.com/BilletFix/\\\",\\n                \\\"https://www.linkedin.com/company/billetfix/\\\"\\n            ], \\n            \\n            \\\"founders\\\": [\\n            {\\n              \\\"@type\\\": \\\"Person\\\",\\n              \\\"name\\\": \\\"Mads Kjer\\\",\\n              \\\"sameAs\\\": \\n              \\\"https://www.linkedin.com/in/madskjer/\\\"\\n          \\n          },\\n          {\\n              \\\"@type\\\": \\\"Person\\\",\\n              \\\"name\\\": \\\"Emil Br\\xF8gger Kjer\\\",\\n              \\\"sameAs\\\": \\n              \\\"https://www.linkedin.com/in/emilkjer/\\\"\\n              \\n          },\\n          {\\n              \\\"@type\\\": \\\"Person\\\",\\n              \\\"name\\\": \\\"Kyle Thomson\\\",\\n              \\\"sameAs\\\":\\n              \\\"https://www.linkedin.com/in/kyle-thomson/\\\"\\n              \\n          }\\n          ]\\n        }\\n        \")),React.createElement(\"div\",null,React.createElement(WindowHelper,null,function(window){return React.createElement(\"nav\",{id:\"nav\",style:_objectSpread({top:\"0\",width:\"100%\",display:\"flex\",position:\"fixed\",justifyContent:\"space-between\",zIndex:\"999\",transition:\"all 0.5s\",padding:\"15px 5%\"},fadeHeader?window.scrollY>=10?{backgroundColor:\"#f5f5f5\"}:{backgroundColor:\"transparent\"}:{backgroundColor:\"#f5f5f5\"})},React.createElement(\"a\",{href:\"/\"+currentLocal.id},React.createElement(\"img\",{src:\"/assets/img/logox400.png\",alt:\"Logo\",style:{margin:\"0\",maxWidth:\"160px\",maxHeight:\"70px\"}})),React.createElement(\"div\",{id:\"navDiv\",style:_objectSpread({padding:\"0\",transition:\"all .25s\"},window.width>980?{margin:\"10px\"}:{transform:\"translateX(100%)\",position:\"absolute\",textAlign:\"center\",top:\"75px\",right:\"-140px\",width:\"80%\",maxWidth:\"250px\",alignItems:\"baseline\",background:\"#f5f5f5\",boxShadow:\"0 3px 5px rgba(60,60,60,.03)\"})},nav.topNav.map(function(_ref2){var type=_ref2.type,link=_ref2.link,caption=_ref2.caption,_ref2$attributes=_ref2.attributes,attributes=_ref2$attributes===void 0?{}:_ref2$attributes,buttonText=_ref2.buttonText;if(type===\"buttonLink\"){return React.createElement(\"a\",{style:_objectSpread({},window.width<980?{paddingBottom:\"10px\",display:\"block\",marginTop:\"30px\"}:{}),href:\"https://billetfix.dk/user/login/\"},React.createElement(Button,{style:{margin:\"-11px auto\",padding:\"8px 13px\",borderRadius:\"2px\",cursor:\"pointer\",fontSize:\"13px\",textAlign:\"center\",fontWeight:\"400\"}},buttonText));}else{return React.createElement(\"a\",_extends({style:_objectSpread({textDecoration:\"none\",transition:\"all 0.5s\"},window.width>980?_objectSpread({fontWeight:\"500\",marginLeft:\"16px\",fontSize:\"13px\",color:\"#f7f7f7\",padding:\"0 10px\"},fadeHeader?window.scrollY>=10?{color:\"black\"}:{color:\"white\"}:{color:\"black\"}):{marginLeft:\"0\",padding:\"15px 20px\",fontSize:\"15px\",fontWeight:\"600\",color:\"#333\",display:\"block\"}),href:link},attributes),caption);}}),React.createElement(LanguageLink,{fadeHeader:fadeHeader,currentLanguage:currentLocal,otherLanguages:locales.filter(function(local){return local.id!==currentLocal.id;})})),React.createElement(\"div\",{style:_objectSpread({backgroundColor:\"#ddd\",borderRadius:\"4px\",padding:\"5px 10px\",cursor:\"pointer\",position:\"fixed\",right:\"30px\"},window.width>980?{marginTop:\"6px\",display:\"none\"}:window.width>450?{marginTop:\"6px\"}:{marginTop:\"5px\",display:\"block\"}),onClick:function onClick(){document.getElementById(\"navDiv\").classList.toggle(\"menuVisible\");}},React.createElement(\"div\",{style:styles.hamburger}),React.createElement(\"div\",{style:styles.hamburger}),React.createElement(\"div\",{style:styles.hamburger})));})),children,React.createElement(Footer,{links:nav.footerNav}),React.createElement(\"script\",{id:\"hs-script-loader\",async:true,defer:true,src:\"//js.hs-scripts.com/3835323.js\"}));};"
         },
         {
           "id": null,
@@ -35449,15 +35449,6 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/privacyPol.js",
-              "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/privacyPol.js",
-              "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/privacyPol.js",
-              "type": "harmony side effect evaluation",
-              "userRequest": "../components/helpers",
-              "loc": "1:25-73"
-            },
-            {
-              "moduleId": null,
               "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/tandc.js",
               "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/tandc.js",
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/tandc.js",
@@ -35467,9 +35458,18 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/about.js",
-              "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/about.js",
-              "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/about.js",
+              "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/privacyPol.js",
+              "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/privacyPol.js",
+              "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/privacyPol.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../components/helpers",
+              "loc": "1:25-73"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/partners.js",
+              "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/partners.js",
+              "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/partners.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../components/helpers",
               "loc": "1:88-136"
@@ -35494,18 +35494,9 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/languages.js",
-              "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/languages.js",
-              "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/languages.js",
-              "type": "harmony side effect evaluation",
-              "userRequest": "../components/helpers",
-              "loc": "1:88-136"
-            },
-            {
-              "moduleId": null,
-              "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/footer.js",
-              "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/footer.js",
-              "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/footer.js",
+              "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-left.js",
+              "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-left.js",
+              "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-left.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../components/helpers",
               "loc": "1:88-136"
@@ -35521,9 +35512,9 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-left.js",
-              "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-left.js",
-              "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/picture-left.js",
+              "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/footer.js",
+              "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/footer.js",
+              "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/footer.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../components/helpers",
               "loc": "1:88-136"
@@ -35539,9 +35530,18 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/partners.js",
-              "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/partners.js",
-              "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/partners.js",
+              "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/about.js",
+              "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/about.js",
+              "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/about.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../components/helpers",
+              "loc": "1:88-136"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/components/languages.js",
+              "module": "/Users/veronikam/Desktop/billetfix-homepage/src/components/languages.js",
+              "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/components/languages.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../components/helpers",
               "loc": "1:88-136"
@@ -35769,7 +35769,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/helpers",
-              "loc": "1:3969-3981"
+              "loc": "1:3974-3986"
             },
             {
               "moduleId": null,
@@ -35993,7 +35993,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/elements/elements",
-              "loc": "1:5266-5272"
+              "loc": "1:5271-5277"
             }
           ],
           "usedExports": [
@@ -36147,7 +36147,7 @@
               "moduleName": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/languageLink",
-              "loc": "1:5888-5900"
+              "loc": "1:5893-5905"
             }
           ],
           "usedExports": [
@@ -37371,19 +37371,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 64,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 35,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+          "id": 52,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-          "name": "..-plugin-reach-router/browser.api.js"
+          "id": null,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
         },
         {
           "id": 18,
@@ -39387,19 +39387,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 64,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 35,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+          "id": 52,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-          "name": "..-plugin-reach-router/browser.api.js"
+          "id": null,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
         },
         {
           "id": 18,
@@ -39511,19 +39511,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 64,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 35,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+          "id": 52,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-          "name": "..-plugin-reach-router/browser.api.js"
+          "id": null,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
         },
         {
           "id": 18,
@@ -39583,19 +39583,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 64,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 35,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+          "id": 52,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-          "name": "..-plugin-reach-router/browser.api.js"
+          "id": null,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
         },
         {
           "id": 18,
@@ -39650,19 +39650,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 64,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 35,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+          "id": 52,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-          "name": "..-plugin-reach-router/browser.api.js"
+          "id": null,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
         },
         {
           "id": 18,
@@ -39717,19 +39717,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 64,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 35,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+          "id": 52,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-          "name": "..-plugin-reach-router/browser.api.js"
+          "id": null,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
         },
         {
           "id": 18,
@@ -39789,19 +39789,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 64,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 35,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+          "id": 52,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-          "name": "..-plugin-reach-router/browser.api.js"
+          "id": null,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
         },
         {
           "id": 18,
@@ -39856,19 +39856,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 64,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 35,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+          "id": 52,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-          "name": "..-plugin-reach-router/browser.api.js"
+          "id": null,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
         },
         {
           "id": 18,
@@ -39923,19 +39923,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 64,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 118,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 35,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js",
-          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-browser-plugins.js"
+          "id": 52,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/veronikam/Desktop/billetfix-homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
-          "name": "..-plugin-reach-router/browser.api.js"
+          "id": null,
+          "identifier": "/Users/veronikam/Desktop/billetfix-homepage/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js",
+          "name": "/Users/veronikam/Desktop/billetfix-homepage/src/layouts/cms_page.js"
         },
         {
           "id": 18,
@@ -41258,7 +41258,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1556030790166\n      var cssReload = require(\"/Users/veronikam/Desktop/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1573821903832\n      var cssReload = require(\"/Users/veronikam/Desktop/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 133,
@@ -41308,9 +41308,9 @@
       "errors": 0,
       "warnings": 0,
       "assets": [
+        "static/fontawesome-webfont.674f50d2.eot",
         "static/fontawesome-webfont.af7ae505.woff2",
         "static/fontawesome-webfont.fee66e71.woff",
-        "static/fontawesome-webfont.674f50d2.eot",
         "static/fontawesome-webfont.b06871f2.ttf",
         "static/fontawesome-webfont.912ec66d.svg"
       ],
@@ -41331,7 +41331,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 5,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1556030790379\n      var cssReload = require(\"/Users/veronikam/Desktop/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1573821903936\n      var cssReload = require(\"/Users/veronikam/Desktop/billetfix-homepage/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 134,
