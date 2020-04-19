@@ -34,10 +34,17 @@ exports.topNav = [
   },
   {
     type: "gatsbyLink",
+    link: "https://billetfix.dk/blog/",
+    caption_en: "Blog",
+    caption_da: "Blog"
+  },
+  {
+    type: "gatsbyLink",
     link: "https://billetfix.dk/user/login/",
     caption_en: "My tickets",
     caption_da: "Mine billetter"
   },
+
   {
     type: "gatsbyLinkBilletfix",
     link: "https://billetfix.dk/user/login/",
